@@ -44,15 +44,14 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Official Legal Database',
-          authority: 'Government (State Chancellery of Cypriot)',
-          url: 'http://www.[REDACTED]',
-          license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+          name: '[REDACTED] (Cyprus Consolidated Legislation Portal)',
+          authority: 'Cyprus Bar Association (portal operator)',
+          url: 'https://www.[REDACTED]',
+          license: 'Portal terms: https://www.[REDACTED]/terms.html',
           coverage:
-            'All Commonwealth (federal) Acts and legislative instruments, ' +
-            'including privacy, cybersecurity, critical infrastructure, ' +
-            'corporations, consumer, telecommunications, and criminal law',
-          languages: ['en'],
+            'Consolidated Cyprus statutes published in HTML on [REDACTED], ' +
+            'including data protection, cybersecurity, e-commerce, communications, and open-data laws',
+          languages: ['el', 'en'],
         },
       ],
       database: {
