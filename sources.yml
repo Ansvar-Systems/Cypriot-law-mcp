@@ -1,0 +1,25 @@
+schema_version: "1.0"
+mcp_name: "Cypriot Law MCP"
+jurisdiction: "CY"
+
+sources:
+  - name: "Cyprus Legislation Portal"
+    authority: "Cyprus Legislation Portal"
+    official_portal: "http://www.cylaw.org"
+    retrieval_method: "HTML_SCRAPE"
+    update_frequency: "weekly"
+    last_ingested: "2026-02-21"
+    license_or_terms:
+      type: "Government Open Data"
+      url: "http://www.cylaw.org"
+      summary: "Official legislative texts are public domain"
+    coverage:
+      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
+      limitations: "AI-generated seed data; full official ingestion pending"
+    languages:
+      - "el"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "2026-02-21"

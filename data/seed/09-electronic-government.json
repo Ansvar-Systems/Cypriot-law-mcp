@@ -1,0 +1,132 @@
+{
+  "id": "cy-electronic-government",
+  "type": "statute",
+  "title": "Ο περί Ηλεκτρονικής Διακυβέρνησης Νόμος",
+  "title_en": "Electronic Government Law",
+  "short_name": "EGL",
+  "status": "in_force",
+  "issued_date": "2019-07-26",
+  "in_force_date": "2019-08-09",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/2019_1_55/full.html",
+  "description": "This Law establishes the legal framework for electronic governance in the Republic of Cyprus, including the provision of public services through electronic means, the use of electronic documents and signatures by public authorities, and the management of government information systems. It designates the Department of Information Technology Services as the central body responsible for coordinating e-government initiatives and establishes principles of digital-by-default, interoperability, and data reuse that govern the digitisation of public services.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Scope and Purpose",
+      "content": "This Law establishes the legal framework governing the provision of public services through electronic means, the electronic exchange of information and documents between public authorities and with citizens and businesses, and the management of government information systems in the Republic of Cyprus. The Law aims to improve the quality, accessibility, and efficiency of public services by enabling their delivery through digital channels, to reduce administrative burdens for citizens and businesses, and to facilitate cross-border provision of public services in accordance with applicable Union law. The Law applies to all public authorities as defined herein and to any natural or legal person interacting with public authorities through electronic means."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Definitions",
+      "content": "For the purposes of this Law: 'public authority' means any ministry, department, service, or other body of the government or public administration of the Republic of Cyprus, including local authorities and bodies established by law to exercise public functions; 'electronic public service' means any service provided by a public authority to citizens, businesses, or other public authorities through electronic means; 'digital-by-default' means the principle that public services are made available electronically as the preferred channel of access, while ensuring that those unable to access digital services can still access equivalent services through other means; 'interoperability' means the ability of disparate and diverse systems, organisations, and individuals to interact towards mutually beneficial and agreed common goals; 'base registry' means an authoritative source of basic information on key entities such as persons, businesses, vehicles, licences, or buildings, which is managed by a public authority."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Central Coordination Body",
+      "content": "The Department of Information Technology Services (DITS), operating under the supervision of the Ministry of Finance, is designated as the central coordination body for electronic governance in the Republic of Cyprus. DITS shall develop and maintain the national e-government strategy, establish technical standards and guidelines for government information systems, coordinate the development and operation of shared digital infrastructure, and promote interoperability between government information systems. DITS shall cooperate with the European Commission and with e-government authorities of other Member States in the development and implementation of cross-border digital public services and shall coordinate the Republic of Cyprus's participation in relevant Union programmes and initiatives."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Digital-by-Default Principle",
+      "content": "Public authorities shall design and deliver electronic public services as the preferred channel for accessing public services, ensuring that digital channels are user-friendly, accessible to persons with disabilities, and available through multiple devices including mobile devices. The digital-by-default principle does not preclude the provision of equivalent services through non-digital channels for those citizens who cannot or do not wish to use digital services. Public authorities shall progressively transform existing analogue services into electronic services and shall prioritise the digitisation of high-volume, high-impact services in accordance with a national digital transformation plan. New public services shall be designed as electronic services from inception unless there are compelling reasons for a different approach."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Electronic Authentication and Identification",
+      "content": "Public authorities shall accept electronic identification means notified under Regulation (EU) No 910/2014 for the authentication of citizens and businesses accessing electronic public services, at the assurance level appropriate to the risk associated with the service concerned. DITS shall establish a national electronic identification framework specifying the assurance levels required for different categories of electronic public services and shall ensure the availability of electronic identification means at all required assurance levels for citizens and businesses in the Republic of Cyprus. Public authorities shall accept qualified electronic signatures and seals in accordance with Regulation (EU) No 910/2014 for the submission of documents and applications in electronic form."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Electronic Documents and Records",
+      "content": "Electronic documents shall have equivalent legal standing to paper documents for the purposes of interactions between citizens or businesses and public authorities, provided that the integrity and authenticity of the electronic documents can be verified. Public authorities shall accept applications, forms, and supporting documents submitted in electronic form where equivalent paper documents would be accepted, and shall not require the submission of original paper documents where acceptable electronic equivalents are available. The management of electronic records by public authorities shall comply with applicable legislation on the management of public archives and records, and shall ensure the long-term preservation and accessibility of records required to be kept under applicable retention schedules."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Once-Only Principle",
+      "content": "Public authorities shall implement the once-only principle to the extent feasible, under which citizens and businesses are required to submit data and documents to public authorities only once. Where data or documents already held by a public authority are required for the processing of an application or transaction, the public authority receiving the application or transaction shall obtain the relevant data or documents from the holding authority through secure electronic exchange mechanisms, subject to the consent of the citizen or business concerned and in compliance with applicable personal data protection law. DITS shall establish and maintain the technical infrastructure required to support cross-authority data exchange in accordance with this principle."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Interoperability Framework",
+      "content": "DITS shall develop and maintain a national interoperability framework specifying technical, semantic, and organisational standards required for the interoperability of government information systems and the exchange of data between public authorities. The national interoperability framework shall be aligned with the European Interoperability Framework developed under the ISA2 programme and its successor programmes. Public authorities procuring or developing new information systems shall ensure compliance with the standards specified in the national interoperability framework and shall consult with DITS in the design phase of significant new systems. DITS shall operate a repository of reusable solutions, shared components, and reference data available to public authorities for use in their electronic services."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Government Cloud and Shared Infrastructure",
+      "content": "DITS shall develop and operate government cloud infrastructure providing compute, storage, and platform services to public authorities, and shall promote the use of shared government cloud services in preference to the development of duplicative infrastructure by individual public authorities. Public authorities shall assess the suitability of government cloud services before procuring or developing alternative solutions and shall obtain approval from DITS for significant investments in information technology infrastructure. Government cloud services shall comply with applicable security, resilience, and data protection requirements, and data held in government cloud services shall not leave the jurisdiction of the Republic of Cyprus or approved jurisdictions without appropriate authorisation."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Open Data and Data Reuse",
+      "content": "Public authorities shall make data held in their information systems available for reuse by citizens, businesses, and other public authorities to the extent permitted by applicable law, including data protection law and rules on the protection of sensitive government information. DITS shall maintain a national open data portal providing access to government datasets made available for reuse and shall establish policies and procedures for the publication of open government data. Data made available for reuse shall be published in machine-readable, open formats and with open licences where possible, and shall be accompanied by metadata describing the content, quality, and conditions of use of the data."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Accessibility Requirements",
+      "content": "Electronic public services shall be designed and implemented in accordance with accessibility requirements ensuring that persons with disabilities can access and use them on an equal basis with others, in compliance with Directive (EU) 2016/2102 on the accessibility of websites and mobile applications of public sector bodies. DITS shall specify technical standards for accessibility applicable to government websites and mobile applications, shall monitor compliance with these standards, and shall publish regular reports on the accessibility of government digital services. Public authorities shall make available accessible alternative formats of information published through their websites and shall provide accessible alternatives to electronic public services for citizens who cannot use standard digital channels."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Information Security of Government Systems",
+      "content": "Public authorities shall implement information security measures for their information systems in accordance with standards and guidelines established by DITS in coordination with the national cybersecurity authority. Information security management in public authorities shall be based on a risk management approach, addressing the identification, assessment, and treatment of risks to the confidentiality, integrity, and availability of government information and systems. DITS shall conduct periodic assessments of the information security maturity of public authorities, shall provide technical guidance and support, and shall coordinate the government's response to significant cybersecurity incidents affecting public authority systems."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Cross-Border Electronic Services",
+      "content": "The Republic of Cyprus shall participate in European initiatives enabling the cross-border provision of public services, including the Single Digital Gateway established under Regulation (EU) 2018/1724 and the mutual recognition of electronic identification and trust services under Regulation (EU) No 910/2014. DITS shall coordinate the implementation of obligations arising from Union law relating to the cross-border provision of electronic public services and shall ensure that Cypriot public authorities are able to verify electronic identities and documents from other Member States. Public authorities providing electronic services to citizens and businesses from other Member States shall not impose additional requirements relating to authentication or documentation beyond those applicable to Cypriot users."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Digital Skills and Capacity",
+      "content": "DITS shall develop and maintain a digital skills framework for public sector employees specifying the digital competences required for different roles and functions within public authorities. Training programmes shall be provided to ensure that public sector employees have the skills needed to design, deliver, and manage electronic public services. DITS shall cooperate with educational institutions, professional associations, and other relevant bodies to promote digital literacy among citizens and to ensure that citizens of all ages and backgrounds can benefit from electronic public services. The Republic of Cyprus shall participate in relevant Union programmes promoting digital skills and digital transformation in the public sector."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Monitoring and Reporting",
+      "content": "DITS shall establish a monitoring framework for electronic governance, including indicators measuring the availability, uptake, and quality of electronic public services, and shall publish regular reports on the state of e-government in the Republic of Cyprus. Public authorities shall provide information to DITS on their digital services and systems as required for monitoring purposes. Reports prepared under this article shall be made publicly available and shall include information on progress towards targets established in the national e-government strategy. The Republic of Cyprus shall cooperate with the European Commission in the collection and reporting of data relevant to benchmarking e-government performance across Member States."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16. Consultation and User Involvement",
+      "content": "Public authorities shall involve citizens, businesses, and relevant stakeholders in the design and improvement of electronic public services, through mechanisms such as user testing, consultation processes, and feedback mechanisms. DITS shall coordinate a national stakeholder forum for electronic governance, bringing together representatives of public authorities, the private sector, civil society, and academia to discuss priorities, standards, and developments in e-government. Public authorities shall publish service standards for their electronic public services, including commitments regarding availability, performance, and response times for user enquiries and complaints."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "public authority",
+      "definition": "Any ministry, department, service, or other body of the government or public administration of the Republic of Cyprus, including local authorities and bodies established by law to exercise public functions.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "digital-by-default",
+      "definition": "The principle that public services are made available electronically as the preferred channel of access, while ensuring that those unable to access digital services can still access equivalent services through other means.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "interoperability",
+      "definition": "The ability of disparate and diverse systems, organisations, and individuals to interact towards mutually beneficial and agreed common goals, encompassing technical, semantic, and organisational dimensions.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "once-only principle",
+      "definition": "The principle under which citizens and businesses are required to submit data and documents to public authorities only once, with public authorities obtaining already-held information through secure inter-agency exchange.",
+      "source_provision": "art7"
+    }
+  ]
+}

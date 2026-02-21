@@ -1,0 +1,127 @@
+{
+  "id": "cy-data-protection-125-2018",
+  "type": "statute",
+  "title": "Ο περί Προστασίας των Φυσικών Προσώπων έναντι της Επεξεργασίας των Δεδομένων Προσωπικού Χαρακτήρα και της Ελεύθερης Κυκλοφορίας των Δεδομένων αυτών Νόμος του 2018",
+  "title_en": "Law on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data of 2018",
+  "short_name": "Law 125(I)/2018",
+  "status": "in_force",
+  "issued_date": "2018-11-02",
+  "in_force_date": "2018-11-02",
+  "url": "http://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+  "description": "The principal Cypriot legislation implementing Regulation (EU) 2016/679 (GDPR) and Directive (EU) 2016/680. The Law establishes the Commissioner for Personal Data Protection as the national supervisory authority, sets out national derogations and specifications permitted under the GDPR, and provides for enforcement mechanisms including administrative fines. It aligns Cyprus data protection law with EU standards for the processing of personal data by public and private sector entities.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Short Title",
+      "content": "This Law may be cited as the Law on the Protection of Natural Persons with Regard to the Processing of Personal Data and the Free Movement of Such Data Law of 2018. This Law implements in the Republic of Cyprus the requirements of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), as well as Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Interpretation",
+      "content": "In this Law, unless the context otherwise requires: 'Commissioner' means the Commissioner for Personal Data Protection appointed under Article 5 of this Law; 'Regulation' means Regulation (EU) 2016/679; 'personal data' has the meaning assigned to it in Article 4(1) of the Regulation, namely any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person; 'processing' has the meaning assigned to it in Article 4(2) of the Regulation; 'controller' has the meaning assigned to it in Article 4(7) of the Regulation; 'processor' has the meaning assigned to it in Article 4(8) of the Regulation; 'supervisory authority' means the Commissioner for Personal Data Protection."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Scope",
+      "content": "This Law applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system. This Law applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Republic of Cyprus, regardless of whether the processing takes place in the Republic or not. This Law applies to the processing of personal data of data subjects who are in the Republic by a controller or processor not established in the Republic, where the processing activities are related to: (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Republic; or (b) the monitoring of their behaviour as far as their behaviour takes place within the Republic. This Law shall not apply to the processing of personal data: (a) in the course of an activity which falls outside the scope of Union law; (b) by the competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences, which is governed by Part III of this Law; (c) by a natural person in the course of a purely personal or household activity."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Processing of Special Categories of Personal Data",
+      "content": "The prohibition on processing special categories of personal data set out in Article 9(1) of the Regulation shall not apply where: (a) the processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or national law or pursuant to contract with a health professional; (b) the processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices; (c) the processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) of the Regulation based on national law. The processing of genetic data, biometric data or data concerning health referred to in points (b) and (c) is authorised only to the extent strictly necessary for the purposes pursued and subject to appropriate safeguards."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Commissioner for Personal Data Protection",
+      "content": "There is established the office of Commissioner for Personal Data Protection. The Commissioner is the national supervisory authority for the purposes of Article 51 of the Regulation. The Commissioner shall be appointed by the Council of Ministers for a term of five years, which may be renewed once. The Commissioner must possess the qualifications, experience, and skills, in particular in the area of personal data protection, required to perform their duties and exercise their powers. The Commissioner shall act with complete independence in performing their tasks and exercising their powers in accordance with the Regulation and this Law. The Commissioner shall not seek or take instructions from anybody in exercising their duties. The Commissioner shall be provided with the human, technical and financial resources, premises and infrastructure necessary for the effective performance of their tasks. The annual budget of the Commissioner's office shall be published separately in the annual state budget."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Powers of the Commissioner",
+      "content": "The Commissioner shall have the investigatory powers set out in Article 58(1) of the Regulation, including the power to order the controller and processor and, where applicable, the controller's or processor's representative, to provide any information required for the performance of the Commissioner's tasks; to carry out investigations in the form of data protection audits; to carry out a review on certifications issued pursuant to Article 42(7) of the Regulation; to notify the controller or the processor of an alleged infringement of the Regulation; to obtain, from the controller and the processor, access to all personal data and to all information necessary for the performance of the Commissioner's tasks; and to obtain access to any premises of the controller and the processor, including to any data processing equipment and means. The Commissioner shall have the corrective powers set out in Article 58(2) of the Regulation, including the power to impose a temporary or permanent limitation including a ban on processing; to order the rectification or erasure of personal data or restriction of processing pursuant to Articles 16, 17 and 18 of the Regulation; to impose an administrative fine pursuant to Article 83 of the Regulation; and to order the suspension of data flows to a recipient in a third country or to an international organisation."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Processing in Employment Context",
+      "content": "In the employment context, the processing of personal data of employees by their employer is permissible to the extent necessary for the purposes of the employment relationship, including for the purposes of recruitment, fulfilment of contractual and legal obligations arising from the employment relationship, management of the employment relationship, and termination of the employment relationship. The employer may process personal data of employees, including special categories of personal data, where this is required by or necessary under applicable employment law or collective agreements. The processing of biometric data for the purposes of uniquely identifying an employee (such as for time-attendance recording) requires a legal basis under Article 9(2) of the Regulation and must be subject to appropriate safeguards including: (a) informing employees of the processing; (b) carrying out a data protection impact assessment; and (c) implementing technical and organisational measures to protect the data. Employees retain all rights under the Regulation, including the right of access, rectification, and erasure, subject to the limitations applicable in the employment context."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Processing for Scientific Research, Statistics and Archiving",
+      "content": "The processing of personal data for scientific or historical research purposes or statistical purposes shall be subject to appropriate safeguards, in accordance with the Regulation, for the rights and freedoms of the data subject. Those safeguards shall ensure that technical and organisational measures are in place in particular in order to ensure respect for the principle of data minimisation. Those measures may include pseudonymisation provided that those purposes can be fulfilled in that manner. Where those purposes can be fulfilled by further processing which does not permit or no longer permits the identification of data subjects, those purposes shall be fulfilled in that manner. The controller and processor shall take measures to ensure that personal data are not used for decisions in respect of individual natural persons without prior consent of the data subject. The Commissioner may issue guidelines on the application of this Article."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. National Identification Number",
+      "content": "The processing of the national identification number or any other identifier of general application in the Republic of Cyprus shall take place only where authorised by a provision of national law that specifies the scope and purpose of the processing, the categories of persons entitled to process such data, and the safeguards applicable. The competent authority for processing national identification numbers is designated in the respective sectoral law. The national identification number (AΡΚ or equivalent) may be processed where necessary for: (a) the fulfilment of a legal obligation to which the controller is subject; (b) the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (c) purposes of taxation, social security, health care, or other public services where the use of the identifier is provided for by law. The use of the national identification number as the sole basis for automated decision-making is prohibited."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Right to Lodge a Complaint",
+      "content": "Every data subject has the right to lodge a complaint with the Commissioner if the data subject considers that the processing of personal data relating to them infringes the Regulation or this Law. The complaint shall be lodged in writing and shall contain: (a) the name and contact details of the complainant; (b) the name and contact details of the controller or processor against whom the complaint is made; (c) a description of the alleged infringement; (d) any evidence the complainant has in support of the complaint. The Commissioner shall inform the complainant of the progress and the outcome of the complaint within three months of the lodging of the complaint and shall provide a reasoned decision. Where the Commissioner decides not to take action on a complaint, the Commissioner shall inform the complainant of the reasons. The data subject has the right to an effective judicial remedy against the Commissioner's decision."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Administrative Fines",
+      "content": "The Commissioner may impose administrative fines as set out in Article 83 of the Regulation. In deciding whether to impose an administrative fine and deciding on the amount of the administrative fine, due regard shall be given to the factors listed in Article 83(2) of the Regulation. Infringements of the following provisions of the Regulation shall be subject to administrative fines up to €10,000,000 or, in the case of an undertaking, up to 2% of the total worldwide annual turnover of the preceding financial year, whichever is higher: (a) the obligations of the controller and the processor pursuant to Articles 8, 11, 25 to 39, 42 and 43; (b) the obligations of the certification body pursuant to Articles 42 and 43; (c) the obligations of the monitoring body pursuant to Article 41(4). Infringements of the following provisions of the Regulation shall be subject to administrative fines up to €20,000,000 or, in the case of an undertaking, up to 4% of the total worldwide annual turnover of the preceding financial year, whichever is higher: the basic principles for processing, including conditions for consent, pursuant to Articles 5, 6, 7 and 9; the data subjects' rights pursuant to Articles 12 to 22; the transfers of personal data to a recipient in a third country pursuant to Articles 44 to 49."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Criminal Offences",
+      "content": "Any person who, without lawful authority, processes personal data in a manner that causes damage to the data subject commits a criminal offence and is liable to imprisonment of up to five years or a fine not exceeding €50,000 or both. Any person who obstructs or interferes with the Commissioner or an authorised officer in the exercise of their powers under this Law commits a criminal offence and is liable to imprisonment not exceeding two years or a fine not exceeding €20,000 or both. Any person who processes personal data for a purpose incompatible with the purpose for which the data were collected, contrary to the requirements of the Regulation, commits a criminal offence and is liable to a fine not exceeding €30,000. Proceedings for criminal offences under this Law may be instituted by or with the consent of the Commissioner."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Part III — Law Enforcement Processing",
+      "content": "Part III of this Law governs the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, implementing Directive (EU) 2016/680. 'Competent authority' means any public authority competent for the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security. The competent authorities designated under this Part include the Cyprus Police, the Customs Department, and the Attorney General's Office in the performance of their law enforcement functions. Processing of personal data by competent authorities is permissible only where: (a) it is carried out in performance of a task of the competent authority; (b) it is necessary for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Data Protection Officer in the Public Sector",
+      "content": "All public authorities and bodies shall designate a Data Protection Officer (DPO). The DPO shall be designated on the basis of professional qualities and, in particular, expert knowledge of data protection law and practices and the ability to fulfil the tasks set out in Article 39 of the Regulation. The DPO may be a member of staff of the public authority or body, or fulfil the tasks on the basis of a service contract. Multiple public authorities or bodies may appoint a single DPO, having regard to their organisational structure and size. The DPO shall report directly to the highest management level of the public authority or body. The public authority or body shall support the DPO in performing their tasks and shall provide the DPO with the resources necessary to carry out those tasks. The contact details of the DPO shall be published on the official website of the public authority or body and communicated to the Commissioner."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Repeal and Transitional Provisions",
+      "content": "The Processing of Personal Data (Protection of Individuals) Law of 2001 (Law 138(I)/2001) and any amendments thereto are hereby repealed, subject to the transitional provisions of this Article. Notifications or registrations made under the repealed law shall remain valid until the expiry of their stated term or until 25 May 2019, whichever is earlier. All consents obtained under the repealed law shall remain valid to the extent that they conform to the conditions for consent set out in the Regulation. Obligations to maintain records, implement security measures, or carry out data protection impact assessments under the repealed law shall be superseded by the corresponding obligations under the Regulation from the date of entry into force of this Law. Pending complaints and ongoing proceedings before the Commissioner at the date of entry into force of this Law shall be completed in accordance with the provisions of the repealed law."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16. Cooperation with Supervisory Authorities of Other Member States",
+      "content": "The Commissioner shall cooperate with supervisory authorities of other EU Member States in accordance with Articles 60-67 of the Regulation, including through the consistency mechanism and the European Data Protection Board. Where the Commissioner acts as lead supervisory authority in cross-border cases, the Commissioner shall conduct proceedings in accordance with Article 60 of the Regulation, providing relevant information to concerned supervisory authorities and seeking their views prior to issuing a final decision. The Commissioner shall participate in the European Data Protection Board and may submit matters to the Board for an opinion where appropriate. The Commissioner shall contribute to the consistent application of the Regulation throughout the Union."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "personal data",
+      "definition": "Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Commissioner",
+      "definition": "The Commissioner for Personal Data Protection, appointed as the national supervisory authority of Cyprus under Article 51 of Regulation (EU) 2016/679.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "special categories of personal data",
+      "definition": "Personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data processed for the purpose of uniquely identifying a natural person, data concerning health, data concerning a natural person's sex life or sexual orientation.",
+      "source_provision": "art4"
+    }
+  ]
+}

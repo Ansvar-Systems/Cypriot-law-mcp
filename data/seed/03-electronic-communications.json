@@ -1,0 +1,128 @@
+{
+  "id": "cy-electronic-communications-112-2004",
+  "type": "statute",
+  "title": "Ο περί Ρύθμισης Ηλεκτρονικών Επικοινωνιών και Ταχυδρομικών Υπηρεσιών Νόμος",
+  "title_en": "Electronic Communications and Postal Services Regulation Law",
+  "short_name": "Law 112(I)/2004",
+  "status": "in_force",
+  "issued_date": "2004-06-10",
+  "in_force_date": "2004-06-10",
+  "url": "https://www.ocecpr.org.cy/legislation/",
+  "description": "The principal Cypriot law governing the regulation of electronic communications networks, services, and associated facilities. The Law establishes the Office of the Commissioner of Electronic Communications and Postal Regulations (OCECPR) as the national regulatory authority, implements the EU Electronic Communications Framework Directives, and provides for market regulation, spectrum management, universal service, and consumer protection in the electronic communications sector.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Scope and Purpose",
+      "content": "This Law establishes the regulatory framework for electronic communications networks, electronic communications services, associated facilities and associated services, and radio spectrum management within the Republic of Cyprus. The purpose of this Law is to: (a) promote competition in the provision of electronic communications networks and services and associated facilities, by ensuring that users derive maximum benefit in terms of choice, price and quality; (b) ensure a harmonised approach to the regulation of electronic communications within the European Union; (c) promote investment in modern infrastructure and deployment of advanced services; (d) protect the interests of users of electronic communications services, in particular regarding universal service; (e) establish an effective regulatory framework compliant with Directive (EU) 2018/1972 of the European Parliament and of the Council establishing the European Electronic Communications Code. This Law applies to the provision of electronic communications networks and services and associated facilities throughout the territory of the Republic of Cyprus, including the territorial waters and exclusive economic zone."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Definitions",
+      "content": "For the purposes of this Law: 'electronic communications network' means transmission systems, whether or not based on a permanent infrastructure or centralised administration capacity, and, where applicable, switching or routing equipment and other resources, including network elements which are not active, which permit the conveyance of signals by wire, radio, optical or other electromagnetic means, including satellite networks, fixed (circuit- and packet-switched, including internet) and mobile networks, electricity cable systems, to the extent that they are used for the purpose of transmitting signals, networks used for radio and television broadcasting, and cable television networks, irrespective of the type of information conveyed; 'electronic communications service' means a service normally provided for remuneration via electronic communications networks, which encompasses, with the exception of services providing, or exercising editorial control over, content transmitted using electronic communications networks and services, the following types of services: internet access service; interpersonal communications service; services consisting wholly or mainly in the conveyance of signals; 'Commissioner' means the Commissioner of Electronic Communications and Postal Regulations appointed under Article 4 of this Law."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. General Authorisation",
+      "content": "The provision of electronic communications networks or services shall be subject to a general authorisation and shall not require an explicit decision or any other administrative act prior to the commencement of activities. Any person wishing to provide an electronic communications network or service shall notify the Commissioner in advance of the commencement of the activity. The notification shall include: (a) the name of the undertaking; (b) the legal status, form and registration number; (c) the geographic area of activity; (d) the type of network or service to be provided; (e) an estimated date for starting the activity. The Commissioner shall maintain a register of all persons that have provided notification and shall make this register publicly available on its website. The general authorisation shall confer on providers the right to provide electronic communications networks and services and to negotiate interconnection with other providers subject to the conditions attached to the general authorisation."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Commissioner of Electronic Communications and Postal Regulations",
+      "content": "There is established the office of Commissioner of Electronic Communications and Postal Regulations (OCECPR). The Commissioner is the national regulatory authority for electronic communications and postal services as required by Directive (EU) 2018/1972. The Commissioner shall be independent in the exercise of their regulatory functions and shall not seek or receive instructions from any other public authority in relation to the day-to-day regulatory tasks assigned to them under this Law. The Commissioner shall be appointed by the Council of Ministers for a term of five years, renewable once. The Commissioner shall be a person of recognised standing and professional experience in the field of electronic communications or related areas. The Commissioner shall cooperate with the Body of European Regulators for Electronic Communications (BEREC) and shall take utmost account of the common positions, guidelines, and opinions issued by BEREC. The Commissioner shall submit an annual report to the Minister and to the House of Representatives."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Market Analysis and Significant Market Power",
+      "content": "The Commissioner shall analyse the markets for electronic communications networks and services identified by the European Commission as susceptible to ex ante regulation. Where the Commissioner determines that a relevant market is effectively competitive, it shall not impose or maintain obligations on undertakings in that market. Where the Commissioner determines that a relevant market is not effectively competitive, it shall identify undertakings with significant market power (SMP) on that market. An undertaking shall be deemed to have SMP if, either individually or jointly with others, it enjoys a position of economic strength affording it the power to behave to an appreciable extent independently of competitors, customers, and ultimately consumers. In markets that are not effectively competitive, the Commissioner shall impose on undertakings with SMP one or more of the following obligations: (a) transparency obligations; (b) non-discrimination obligations; (c) accounting separation; (d) obligations of access to, and use of, specific network facilities; (e) price control and cost accounting obligations."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Universal Service",
+      "content": "The universal service obligation shall ensure that all end-users in the Republic of Cyprus have access to affordable adequate broadband internet access service and voice communications services, including the underlying connection. The Commissioner shall designate one or more undertakings to guarantee the provision of universal service. The designation of undertakings shall be carried out by means of an efficient, objective, transparent, and non-discriminatory designation mechanism. The Commissioner shall assess periodically whether there is an effective and efficient provision of universal services. The provider of universal service shall offer end-users the option of a social tariff or tariff packages, where the Commissioner determines that the obligation to provide such tariffs is necessary, to ensure that low-income end-users or end-users with special social needs are not prevented from accessing and using the universal service. Emergency services shall remain accessible free of charge to end-users using voice communications services, including from public pay telephones where still deployed."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Spectrum Management",
+      "content": "The Commissioner shall manage the use of radio spectrum in accordance with the national frequency allocation plan, adopted by the Council of Ministers following recommendation by the Commissioner. The allocation and assignment of radio frequencies shall promote: (a) the optimal and efficient use of radio spectrum; (b) the development of effective competition; (c) the protection of human health from electromagnetic fields. The assignment of individual rights of use for radio spectrum shall be subject to the following principles: (a) objectivity, transparency and non-discrimination; (b) promotion of efficient use of spectrum; (c) promotion of innovation and new technology. The Commissioner shall have regard to the Radio Spectrum Policy Programme established by Decision No 243/2012/EU of the European Parliament and of the Council. Rights of use for radio spectrum shall be granted for a period not exceeding twenty years. The Commissioner shall maintain a public register of all spectrum assignments."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Security of Networks and Services",
+      "content": "Providers of electronic communications networks and services shall take appropriate technical and organisational measures to appropriately manage the risks posed to the security of their networks and services. Having regard to the state of the art, those measures shall ensure a level of security appropriate to the risk presented. In particular, measures shall be taken to prevent and minimise the impact of security incidents on users and on interconnected networks, in particular to ensure the continuation of services. Providers shall notify significant security incidents to the Commissioner without undue delay. A 'significant security incident' is one that has a significant impact on the operation of networks or services. In assessing the significance of an impact of a security incident, the following parameters shall be taken into account: (a) the number of users affected by the security incident; (b) the duration of the security incident; (c) the geographic spread with regard to the area affected by the security incident; (d) the extent to which the functioning of the network or service is affected. The Commissioner shall submit an annual summary report to ENISA and the Commission on the notifications received."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Consumer Protection",
+      "content": "Providers of publicly available electronic communications services shall offer end-users contracts which include at least: (a) the name and address of the provider; (b) the services provided; (c) the service quality levels offered and parameters used to measure the quality; (d) information on privacy and personal data protection policies; (e) the minimum service quality levels offered, where applicable; (f) information on any measures taken by the provider to monitor and shape traffic so as to avoid filling or overfilling a network link, and information on how those measures could impact on service quality; (g) the types of maintenance service offered; (h) the contract duration, conditions for renewal and for termination of services and of the contract; (i) details of pricing or tariffs; (j) details on compensation and refund arrangements which apply if contracted service quality levels are not met. Providers shall ensure that contracts are available in clear and comprehensible language. The Commissioner shall issue standardised contract summary templates that providers are required to use."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Net Neutrality",
+      "content": "Providers of internet access services shall treat all internet traffic equally, without discrimination, restriction or interference, irrespective of the sender and receiver, the content accessed or distributed, the applications or services used or provided, or the terminal equipment used, in accordance with Regulation (EU) 2015/2120 of the European Parliament and of the Council. This Law implements the obligations set out in Regulation (EU) 2015/2120 in so far as national implementation is required. The Commissioner shall monitor compliance with the open internet access requirements under this Article and shall publish annual reports on its findings. Providers of internet access services shall implement transparent, non-discriminatory and proportionate traffic management measures. Providers shall publish clear, comprehensive, machine-readable and up-to-date information about their traffic management practices and their impact on service quality."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Dispute Resolution",
+      "content": "End-users and providers of electronic communications services shall have access to a simple, fair, transparent, independent, effective and low-cost out-of-court dispute settlement procedure for disputes relating to contracts. The Commissioner shall facilitate access to the out-of-court dispute settlement body designated for electronic communications disputes. The Commissioner shall itself have the power to settle disputes between undertakings in the electronic communications sector, including disputes relating to obligations under this Law. Any party involved in a dispute may refer the dispute to the Commissioner. The Commissioner shall issue a binding decision to resolve the dispute within four months of receipt of all relevant information. The Commissioner may adopt interim measures in cases of urgency to safeguard competition or protect the interests of end-users. Decisions of the Commissioner shall be subject to appeal before the Administrative Court."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Sanctions",
+      "content": "The Commissioner may impose administrative sanctions on undertakings providing electronic communications networks or services that infringe this Law or conditions attached to their authorisation. Administrative sanctions shall include: (a) a formal written warning; (b) an administrative fine not exceeding €500,000 per infringement; (c) a daily fine not exceeding €10,000 for each day of continued infringement; (d) suspension of the authorisation for a period not exceeding three months; (e) revocation of the authorisation in cases of serious or repeated infringements. When determining the level of a sanction, the Commissioner shall take into account: (a) the nature, gravity and duration of the infringement; (b) any financial advantage gained or loss avoided as a result of the infringement; (c) any previous infringements; (d) the level of cooperation with the Commissioner. The Commissioner shall afford the undertaking concerned the right to be heard before imposing a sanction."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Numbering",
+      "content": "The Commissioner shall manage the national numbering plan for electronic communications, adopting, publishing and updating the national numbering plan. The Commissioner shall ensure that adequate numbers and numbering ranges are provided for all publicly available electronic communications services. The assignment of numbers from the national numbering plan shall be made on the basis of objective, transparent and non-discriminatory procedures. The Commissioner shall maintain a register of all number assignments. Users shall have the right to number portability, enabling subscribers to retain their number regardless of the undertaking providing the service. Providers shall not prevent number portability. Porting of numbers and their activation shall be carried out within the shortest possible time and in any case, for a subscriber that has concluded an agreement to port a number to a new undertaking, that number shall be activated within one working day."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Infrastructure Sharing",
+      "content": "Where undertakings providing electronic communications networks have the right to install facilities on, over or under public or private property, or can take advantage of a procedure for the expropriation or use of property, the Commissioner may encourage the sharing of such facilities or property. The Commissioner may impose sharing or coordinated use of physical infrastructure to the extent that it is technically feasible, having taken into account environmental protection, public health, public security, and urban or town planning objectives. The Commissioner may impose obligations on undertakings providing electronic communications networks to share physical infrastructure. Costs for sharing shall be allocated in a fair, transparent and non-discriminatory manner. Where the sharing of physical infrastructure is not possible, operators may be required to coordinate the civil engineering works and to allow the installation of each other's network elements in shared facilities. The Commissioner shall publish guidelines on infrastructure sharing."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Regulation of Postal Services",
+      "content": "The Commissioner shall also regulate postal services within the Republic of Cyprus, implementing Directive 97/67/EC of the European Parliament and of the Council on common rules for the development of the internal market of Community postal services and the improvement of quality of service, and its subsequent amendments. The Commissioner shall designate a universal service provider for postal services that shall be required to provide a minimum range of postal services at affordable prices throughout the Republic. The universal postal service shall include the clearance, sorting, transport and delivery of postal items up to 2 kg, the clearance, sorting, transport and delivery of postal packages up to 10 kg, services for registered items and insured items. The Commissioner shall monitor the quality of postal service provision and publish annual quality reports."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16. Lawful Interception",
+      "content": "Providers of public electronic communications networks and publicly available electronic communications services shall, at their own expense, implement the technical facilities and organisational arrangements necessary for lawful interception of communications as required by the competent judicial or administrative authorities in accordance with applicable law. Providers shall implement interception capabilities within six months of the date of first providing service, or within six months of a new type of service being launched. Interception orders shall be issued only by the competent judicial authority pursuant to a court order in the circumstances and manner prescribed by law. The identity of persons subject to lawful interception, the content of communications intercepted, and information about the existence of interception measures shall be confidential. Providers shall maintain a secure log of all interception requests received and actions taken."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "Article 17. International Coordination",
+      "content": "The Commissioner shall cooperate with the regulatory authorities of other EU Member States and the European Commission to ensure the consistent application of Directive (EU) 2018/1972 and other relevant Union measures. The Commissioner shall be a member of the Body of European Regulators for Electronic Communications (BEREC) and shall actively participate in its work. The Commissioner shall take utmost account of the guidelines and decisions issued by BEREC. The Commissioner shall cooperate with the International Telecommunication Union (ITU) and, as part of Cyprus's representation in international telecommunications bodies, shall coordinate with the Ministry responsible for communications. The Commissioner shall participate in the coordination of cross-border radio spectrum use with neighbouring states, including Turkey, in accordance with applicable international agreements and ITU Radio Regulations."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "electronic communications network",
+      "definition": "Transmission systems and, where applicable, switching or routing equipment and other resources which permit the conveyance of signals by wire, radio, optical or other electromagnetic means, including satellite networks, fixed and mobile networks, and cable television networks.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "significant market power",
+      "definition": "A position of economic strength enjoyed by an undertaking, either individually or jointly with others, affording it the power to behave to an appreciable extent independently of competitors, customers, and ultimately consumers.",
+      "source_provision": "art5"
+    }
+  ]
+}
