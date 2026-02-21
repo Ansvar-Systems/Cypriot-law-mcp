@@ -23,7 +23,7 @@ npx @ansvar/cypriot-law-mcp
 
 ## Data Sources
 
-AI-generated seed data covering 10 key cybersecurity and data protection laws. Full official ingestion pending.
+Official legislation text from CyLaw (`https://www.cylaw.org`), ingested from consolidated statute pages.
 
 ## License
 

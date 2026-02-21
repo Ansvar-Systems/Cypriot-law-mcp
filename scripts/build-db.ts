@@ -253,16 +253,40 @@ function extractEuReferences(text: string): ExtractedEUReference[] {
   const refs: ExtractedEUReference[] = [];
   const seen = new Set<string>();
 
+  const toType = (raw: string): EUDocumentType | null => {
+    const token = raw.toLowerCase();
+    if (
+      token.includes('regulation') ||
+      token.includes('κανονισμ')
+    ) return 'regulation';
+    if (
+      token.includes('directive') ||
+      token.includes('οδηγ')
+    ) return 'directive';
+    return null;
+  };
+
+  const toCommunity = (raw: string | undefined): EUCommunity => {
+    const token = (raw ?? 'EU').toUpperCase().replace(/\./g, '');
+    if (token === 'ΕΕ') return 'EU';
+    if (token === 'EC') return 'EC';
+    if (token === 'EEC') return 'EEC';
+    if (token === 'EURATOM') return 'Euratom';
+    return 'EU';
+  };
+
   const patterns: RegExp[] = [
-    /\b(Regulation|Directive)\s*\((EU|EC|EEC|Euratom)\)\s*(?:No\.?\s*)?(\d{2,4})\/(\d{1,4})\b/gi,
-    /\b(Regulation|Directive)\s*(?:No\.?\s*)?(\d{2,4})\/(\d{1,4})\/(EU|EC|EEC|Euratom)\b/gi,
-    /\b(Regulation|Directive)\s*(?:No\.?\s*)?(\d{2,4})\/(\d{1,4})\b/gi,
+    /(Regulation|Directive|Κανονισμ(?:ός|ού)|Οδηγ(?:ία|ίας))\s*\((EU|Ε\.?Ε\.?|EC|EEC|Euratom)\)\s*(?:No\.?\s*|αρ(?:ιθ)?\.?\s*)?(\d{2,4})\/(\d{1,4})/giu,
+    /(Regulation|Directive|Κανονισμ(?:ός|ού)|Οδηγ(?:ία|ίας))\s*(?:No\.?\s*|αρ(?:ιθ)?\.?\s*)?(\d{2,4})\/(\d{1,4})\/(EU|Ε\.?Ε\.?|EC|EEC|Euratom)/giu,
+    /(Regulation|Directive|Κανονισμ(?:ός|ού)|Οδηγ(?:ία|ίας))\s*(?:No\.?\s*|αρ(?:ιθ)?\.?\s*)?(\d{2,4})\/(\d{1,4})/giu,
   ];
 
   for (const pattern of patterns) {
     let match: RegExpExecArray | null;
     while ((match = pattern.exec(text)) !== null) {
-      const type = match[1].toLowerCase() as EUDocumentType;
+      const type = toType(match[1]);
+      if (!type) continue;
+
       let rawYear: string, rawNumber: string, communityRaw: string | undefined;
 
       if (pattern === patterns[0]) {
@@ -278,14 +302,16 @@ function extractEuReferences(text: string): ExtractedEUReference[] {
       const number = Number.parseInt(rawNumber, 10);
       if (year <= 0 || Number.isNaN(number) || number <= 0) continue;
 
-      const community = (communityRaw?.toUpperCase() ?? 'EU') as EUCommunity;
+      const community = toCommunity(communityRaw);
       const euDocumentId = `${type}:${year}/${number}`;
 
       const start = Math.max(0, match.index - 120);
       const end = Math.min(text.length, match.index + match[0].length + 120);
       const referenceContext = text.slice(start, end).replace(/\s+/g, ' ').trim();
-      const euArticle = referenceContext.match(/\bArticle\s+(\d+[A-Za-z]?(?:\(\d+\))?)/i)?.[1] ?? null;
-      const referenceType: EUReferenceType = /\b(implement|align|transpos|equivalent)\b/i.test(referenceContext) ? 'implements' : 'references';
+      const euArticle = referenceContext.match(/\b(?:Article|Άρθρο)\s+(\d+[A-Za-zΑ-Ωα-ω]?(?:\(\d+\))?)/iu)?.[1] ?? null;
+      const referenceType: EUReferenceType = /\b(implement|align|transpos|equivalent|εφαρμογ|ενσωματ|εναρμον)\b/iu.test(referenceContext)
+        ? 'implements'
+        : 'references';
 
       const dedupeKey = `${euDocumentId}:${euArticle ?? ''}`;
       if (seen.has(dedupeKey)) continue;
@@ -449,8 +475,8 @@ function buildDatabase(): void {
     insertMeta.run('schema_version', '2');
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
-    insertMeta.run('jurisdiction', 'EE');
-    insertMeta.run('source', 'official-source');
+    insertMeta.run('jurisdiction', 'CY');
+    insertMeta.run('source', 'https://www.cylaw.org');
     insertMeta.run('licence', 'See sources.yml');
   });
   writeMeta();

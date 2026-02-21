@@ -3,23 +3,20 @@ mcp_name: "Cypriot Law MCP"
 jurisdiction: "CY"
 
 sources:
-  - name: "Cyprus Legislation Portal"
-    authority: "Cyprus Legislation Portal"
-    official_portal: "http://www.cylaw.org"
+  - name: "CyLaw (Cyprus Consolidated Legislation Portal)"
+    authority: "Cyprus Bar Association (portal operator)"
+    official_portal: "https://www.cylaw.org"
     retrieval_method: "HTML_SCRAPE"
-    update_frequency: "weekly"
+    update_frequency: "unknown"
     last_ingested: "2026-02-21"
     license_or_terms:
-      type: "Government Open Data"
-      url: "http://www.cylaw.org"
-      summary: "Official legislative texts are public domain"
+      type: "government_terms"
+      url: "https://www.cylaw.org/terms.html"
+      summary: "Cypriot legislation texts are publicly accessible via CyLaw; portal terms apply to reuse and access."
     coverage:
-      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
-      limitations: "AI-generated seed data; full official ingestion pending"
+      scope: "Consolidated Cypriot statutes available under /nomoi/enop/non-ind/ with article-level text in HTML"
+      limitations: "No public JSON API; some laws may be missing consolidated full text"
     languages:
       - "el"
+      - "en"
 
-data_freshness:
-  automated_checks: true
-  check_frequency: "weekly"
-  last_verified: "2026-02-21"

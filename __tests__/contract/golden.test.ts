@@ -20,16 +20,14 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 9 legal documents (excluding EU cross-refs)', () => {
-    const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
-    ).get() as { cnt: number };
-    expect(row.cnt).toBe(9);
+  it('should have 10 legal documents', () => {
+    const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_documents').get() as { cnt: number };
+    expect(row.cnt).toBe(10);
   });
 
-  it('should have at least 154 provisions', () => {
+  it('should have at least 350 provisions', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(154);
+    expect(row.cnt).toBeGreaterThanOrEqual(350);
   });
 
   it('should have FTS index', () => {
@@ -43,7 +41,7 @@ describe('Database integrity', () => {
 describe('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'cy-critical-infrastructure-protection' AND section = '1'"
+      "SELECT content FROM legal_provisions WHERE document_id = 'cy-data-protection-125-2018' AND section = '1'"
     ).get() as { content: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.content.length).toBeGreaterThan(50);
@@ -83,23 +81,25 @@ describe('Negative tests', () => {
 
   it('should return no results for invalid section', () => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'cy-critical-infrastructure-protection' AND section = '999ZZZ-INVALID'"
+      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'cy-network-information-security-89-2020' AND section = '999ZZZ-INVALID'"
     ).get() as { cnt: number };
     expect(row.cnt).toBe(0);
   });
 });
 
-describe('All 9 laws are present', () => {
+describe('All 10 laws are present', () => {
   const expectedDocs = [
-    'cy-critical-infrastructure-protection',
     'cy-data-protection-125-2018',
+    'cy-law-enforcement-data-44-2019',
+    'cy-network-information-security-89-2020',
     'cy-electronic-communications-112-2004',
-    'cy-electronic-government',
-    'cy-electronic-identification',
-    'cy-information-technology-framework',
-    'cy-nis2-security-networks',
-    'cy-telecommunications-privacy',
-    'cy-trade-secrets',  ];
+    'cy-ecommerce-156-2004',
+    'cy-eidas-55-2018',
+    'cy-trade-secrets-164-2020',
+    'cy-telecom-data-retention-183-2007',
+    'cy-attacks-on-information-systems-147-2015',
+    'cy-open-data-143-2021',
+  ];
 
   for (const docId of expectedDocs) {
     it(`should contain document: ${docId}`, () => {
