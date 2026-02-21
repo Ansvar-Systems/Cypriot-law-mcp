@@ -9,9 +9,9 @@ export interface TargetLaw {
   order: number;
   id: string;
   pathStem: string;
-  shortName: string;
-  titleEn: string;
-  description: string;
+  shortName?: string;
+  titleEn?: string;
+  description?: string;
 }
 
 export interface ParsedProvision {
@@ -32,7 +32,7 @@ export interface ParsedAct {
   id: string;
   type: 'statute';
   title: string;
-  title_en: string;
+  title_en?: string;
   short_name: string;
   status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
   issued_date?: string;
@@ -136,6 +136,26 @@ export const TARGET_CYPRIOT_LAWS: TargetLaw[] = [
   },
 ];
 
+const CORE_LAW_METADATA = new Map(
+  TARGET_CYPRIOT_LAWS.map(law => [law.pathStem, law] as const)
+);
+
+function makeGenericLawId(pathStem: string): string {
+  return `cy-law-${pathStem.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase()}`;
+}
+
+export function buildTargetLawFromStem(pathStem: string, order: number): TargetLaw {
+  const existing = CORE_LAW_METADATA.get(pathStem);
+  if (existing) return { ...existing, order };
+
+  return {
+    order,
+    id: makeGenericLawId(pathStem),
+    pathStem,
+    shortName: `Ν. ${pathStem.replace(/_/g, '/')}`,
+  };
+}
+
 const GREEK_TO_LATIN: Record<string, string> = {
   Α: 'A', α: 'a',
   Β: 'V', β: 'v',
@@ -228,6 +248,18 @@ function extractLawTitle(fullHtml: string): string | undefined {
   return cleanInlineText(h1);
 }
 
+function extractShortNameFromTitle(title: string, fallback: string): string {
+  const compact = title.replace(/\s+/g, ' ').trim();
+
+  const numberMatch = compact.match(/([A-Za-zΑ-Ωα-ω]?\d+\((?:I|II|III|IV|V)\)\/\d{4})/u);
+  if (numberMatch) return `Ν. ${numberMatch[1]}`;
+
+  const slashMatch = compact.match(/([A-Za-zΑ-Ωα-ω]?\d+\/\d{4})/u);
+  if (slashMatch) return `Ν. ${slashMatch[1]}`;
+
+  return fallback;
+}
+
 function toIsoDate(dmy: string): string | undefined {
   const m = dmy.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
   if (!m) return undefined;
@@ -296,8 +328,12 @@ function extractDefinitions(content: string, sourceProvision: string, sink: Pars
 }
 
 export function getLawUrls(target: TargetLaw): { fullUrl: string; indexUrl: string } {
+  const fullPathStem = /^\d+[A-Za-zΑ-Ωα-ω]*$/u.test(target.pathStem)
+    ? `0_${target.pathStem}`
+    : target.pathStem;
+
   return {
-    fullUrl: `https://www.cylaw.org/nomoi/enop/non-ind/${target.pathStem}/full.html`,
+    fullUrl: `https://www.cylaw.org/nomoi/enop/non-ind/${fullPathStem}/full.html`,
     indexUrl: `https://www.cylaw.org/nomoi/indexes/${target.pathStem}.html`,
   };
 }
@@ -349,15 +385,15 @@ export function parseCyLawHtml(fullHtml: string, target: TargetLaw, indexHtml?: 
   }
 
   const { fullUrl } = getLawUrls(target);
-  const title = extractLawTitle(fullHtml) ?? target.shortName;
+  const title = extractLawTitle(fullHtml) ?? target.shortName ?? target.pathStem;
+  const shortName = target.shortName ?? extractShortNameFromTitle(title, `Ν. ${target.pathStem.replace(/_/g, '/')}`);
   const issueDate = extractIssueDate(indexHtml);
 
-  return {
+  const parsed: ParsedAct = {
     id: target.id,
     type: 'statute',
     title,
-    title_en: target.titleEn,
-    short_name: target.shortName,
+    short_name: shortName,
     status: 'in_force',
     issued_date: issueDate,
     in_force_date: issueDate,
@@ -366,4 +402,10 @@ export function parseCyLawHtml(fullHtml: string, target: TargetLaw, indexHtml?: 
     provisions,
     definitions,
   };
+
+  if (target.titleEn) {
+    parsed.title_en = target.titleEn;
+  }
+
+  return parsed;
 }

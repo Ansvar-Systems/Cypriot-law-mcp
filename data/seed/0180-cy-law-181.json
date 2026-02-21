@@ -1,0 +1,35 @@
+{
+  "id": "cy-law-181",
+  "type": "statute",
+  "title": "Ο περί Απασχολήσεως Γυναικών εν Μεταλλείοις Νόμος (ΚΕΦ.181)",
+  "short_name": "Ν. 181",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_181/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Employment of Women (in Mines) Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n\"mine\" includes any undertaking, whether public or private, for the extraction of any substance from under the surface of the earth."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Prohibition of employment of women on underground work in mines",
+      "content": "3. No female, whatever her age, shall be employed on underground work in any mine:\nProvided that the Governor in Council may, by Regulations to be published in the Gazette, exempt from the operation of this section-\n(a) females holding positions of management who do not perform manual work;\n(b) females employed in health and welfare services;\n(c) females who, in the course of their duties, spend a period of training in the underground parts of a mine; and\n(d) any other females who may occasionally have to enter the underground parts of a mine for the purpose of a non-manual occupation."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Penalties",
+      "content": "4. Any person being the proprietor, owner or manager of any mine in which any female is employed in contravention of this Law shall be guilty of an offence and shall be liable to a fine of (50 for every female so employed."
+    }
+  ],
+  "definitions": []
+}

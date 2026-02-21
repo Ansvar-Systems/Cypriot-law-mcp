@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1987-1-7",
+  "type": "statute",
+  "title": "Ο περί Αλλαγής Τίτλων (Καταργητικός) Νόμος Του 1987 (7/1987)",
+  "short_name": "Ν. 1987/1/7",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1987_1_7/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Συvoπτικός τίτλoς",
+      "content": "1. Ο παρώv Νόμoς θα αvαφέρηται ως o περί Αλλαγής Τίτλωv (Καταργητικός) Νόμoς τoυ 1987."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Κατάργησις",
+      "content": "2. Ο περί Αλλαγής Τίτλωv Νόμoς, διά τoυ παρόvτoς καταργείται."
+    }
+  ],
+  "definitions": []
+}

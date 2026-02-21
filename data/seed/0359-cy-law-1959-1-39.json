@@ -1,0 +1,52 @@
+{
+  "id": "cy-law-1959-1-39",
+  "type": "statute",
+  "title": "Ο περί Εκτάκτoυ Αvάγκης (Διατηρoύμεvαι Εξoυσίαι) Νόμoς τoυ 1959 (39/1959)",
+  "short_name": "Ν. 1959/1/39",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1959_1_39/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Emergency (Residual Powers) Law, 1959."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law, unless the context otherwise requires-\n\"Emergency Regulations\" means any Regulation made by the Governor under section 6 of the Emergency Powers Order in Council, 1939, as from time to time amended;\n\"the Proclamation\" means a Proclamation directing that the provisions of Part II of the Emergency Powers Order-in-Council, 1939 (which were brought into operation in the Colony by a Proclamation dated the 26th day of November, 1955) should cease to have effect."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Continuance of certain powers",
+      "content": "3.-(1) If it appears to the Governor necessary or expedient that any Emergency Regulations, or any amendment of a Law made by Emergency Regulations, shall continue to have effect after the Proclamation, for the purpose of securing the public safety, the defence of the Colony, the maintainance of public order, or of maintaining supplies and services essential to the community, he may by Order direct that any such Emergency Regulations or amendment shall continue to have effect after the Proclamation by virtue of this Law, and may in such Order specify a date upon which the same shall cease to have effect.\n(2) An Order made under this section may provide for the making in any Emergency Regulations, or any amendment of a Law made by Emergency Regulations, of such variations and adaptations, if any, as appear to the Governor to be necessary or expedient for rendering the same applicable for any of the purposes aforesaid.\n(3) Where an Order is made under this section with respect to any Emergency Regulations or any amendment of a Law made by Emergency Regulations, all public instruments made under such Regulations or under any Law which has been amended by such Regulations and subsisting at the date when the Order comes into operation shall, save as is otherwise expressly provided in the Order, remain of effect, notwithstanding the Proclamation, as if they had been made under the Regulations or the amended Law as continued in force by the Order.\n(4) Where an Order is made under this section with respect to any Emergency Regulations or any amendment of a Law made by Emergency Regulations, such Regulations and amended Law and any public instrument made thereunder shall have effect notwithstanding the Proclamation and notwithstanding anything inconsistent therewith contained in any Law for the time being in force; and any provision of a Law which may be inconsistent with any such Regulations amended Law or public instrument shall to the extent of such inconsistency have no effect so long as such Regulations, amended Law or public instrument shall remain in force."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Revocation and variation of Emergency Regulations having effect under this Law",
+      "content": "4.-(1) The Governor, by Order made under this Law-\n(a) may revoke in whole or in part any Emergency Regulations which have effect by virtue of this Law, or any public instrument made thereunder, or may vary the same in such manner as appears to him to be necessary or expedient for any of the purposes specified in sub-section (1) of section 3; and\n(b) may declare that any amendment of a Law made by Emergency Regulations which has effect by virtue of this Law shall cease to have effect.\n(2) For the purposes of section 10 of the Interpretation Law, any Order made under section 3 or this section shall be deemed to be a Law and any enactment which is thereby revoked or which by virtue thereof ceases to have effect shall be deemed to have been repealed."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Άρθρο 5: Reference to Emergency Regulations in other Laws",
+      "content": "5. Any Law or public instrument referring to Emergency Regulations or to powers conferred under the Emergency Powers Order-in-Council, 1939, as from time to time amended, shall be construed as including a reference to Emergency Regulations or amendments of any Law made by Emergency Regulations having effect by virtue of this Law or, as the case may be, to powers conferred thereby."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Emergency Regulations",
+      "definition": "any Regulation made by the Governor under section 6 of the Emergency Powers Order in Council, 1939, as from time to time amended",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "the Proclamation",
+      "definition": "a Proclamation directing that the provisions of Part II of the Emergency Powers Order-in-Council, 1939 (which were brought into operation in the Colony by a Proclamation dated the 26th day of November, 1955) should cease to have effect",
+      "source_provision": "sec2"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "cy-law-339",
+  "type": "statute",
+  "title": "Ο περί Τουρκικού Οικογενειακού Δικαίου (Γάμος και Διαζύγιον) Νόμος (ΚΕΦ.339)",
+  "short_name": "Ν. 339",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_339/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Turkish Family (Marriage and Divorce) Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "chapter": "PART I PRELIMINARY",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law, unless the context otherwise requires-\n\"Court\" means a judge of a Turkish Family Court established under the Turkish Family Courts Law, exercising jurisdiction as regards the matters to which this Law relates;\n\"marriage officer\" means a judge of a Turkish Family Court performing the duties and exercising the powers vested in a marriage officer under the provisions of this Law and includes any person appointed by such judge to act as a marriage officer for the purposes of this Law."
+    },
+    {
+      "provision_ref": "sec3",
+      "chapter": "PART I PRELIMINARY",
+      "section": "3",
+      "title": "Άρθρο 3: Application of the Law",
+      "content": "3. This Law shall apply to all cases in which at least one of the parties to any matter dealt with in this Law is a Turk resident in Cyprus professing the moslem faith and to no other cases."
+    },
+    {
+      "provision_ref": "sec4",
+      "chapter": "PART II BETROTHAL",
+      "section": "4",
+      "title": "Άρθρο 4: Promise to marry",
+      "content": "4. The betrothal is the mutual promise of a man and a woman to marry one another."
+    },
+    {
+      "provision_ref": "sec5",
+      "chapter": "PART II BETROTHAL",
+      "section": "5",
+      "title": "Άρθρο 5: Breach of promise to marry",
+      "content": "5.-(1) No action shall be brought claiming the specific fulfilment of a promise to marry and, subject to subsection (2), no action shall be brought claiming damages stipulated or otherwise, for a breach of a promise to marry.\n(2)(a) If a party to a betrothal, without just and sufficient reason, breaks his promise to marry, or if the betrothal is dissolved for some reason for which such party is responsible, such party shall be liable to pay to the other party and to the parents of such other party or to any third party who had acted in loco parentis for such other party in connection with the betrothal any expenses incurred by such other party, parents or third party regarding preparations made in good faith in connection with the betrothal and in contemplation of the marriage.\n(b) If a party to a betrothal is, by reason of the breach of the promise to marry, seriously injured in his person or reputation, the Court may, if of opinion that the breach was due to the fault of the other party, award to the innocent party such compensation as it may think fit in addition to any amount payable under paragraph (a) above:\nProvided that, upon the death of an innocent party, the right of action shall not devolve upon the heirs of such party, unless-\n(i) the other party has agreed in writing to may compensation under this paragraph; or\n(ii) prior to the expiration of the period set out in subsection (3), an action had been brought by the innocent party claiming compensation under this paragraph.\n(c) The return of presents made to the betrothed by reason of their betrothal may, upon dissolution of the betrothal, be demanded by the persons who had given the same and, if such presents are no longer in existence, the party concerned shall be liable to pay their equivalent value:\nProvided that, if the betrothal comes to an end by the death of one of the parties, no claim for the return of the presents shall be entertained.\n(3) No action shall be brought for or in respect of any matter set out in subsection (2) after the expiration of one year from the date on which the cause of action accrued."
+    },
+    {
+      "provision_ref": "sec6",
+      "chapter": "PART III MARRIAGE",
+      "section": "6",
+      "title": "Άρθρο 6: Disability to marry",
+      "content": "6.-(1) A man shall not marry before he completes his eighteenth year and a woman shall not marry before she completes her sixteenth year:\nProvided that a woman who is over sixteen but has not completed her eighteenth year shall not marry except with the consent of her father, or, if her father is dead, of her mother or of her guardian:\nProvided further that, in exceptional cases and for good reason, the Court may, after hearing the parents or guardian, allow both a man and a woman to marry after completing their fifteenth and fourteenth year, respectively.\n(2) No person who is of unsound mind shall be capable of marrying."
+    },
+    {
+      "provision_ref": "sec7",
+      "chapter": "PART III MARRIAGE",
+      "section": "7",
+      "title": "Άρθρο 7: Impediments to marriage on account of relationship and religion",
+      "content": "7.-(1) A marriage is prohibited-\n(a) between blood relations in the direct line, between brothers and sisters of the full or half blood and between uncle and niece, nephew and aunt;\n(b) between relatives by marriage in the direct line even where the marriage which created such relationship has been declared invalid or dissolved by death or divorce;\n(c) between a moslem woman and a non-moslem man.\n(2) For the purposes of this section relationship by blood shall extend to relationship between an illegitimate child and his descendants on the one side and the father and his relations by blood on the other side."
+    },
+    {
+      "provision_ref": "sec8",
+      "chapter": "PART III MARRIAGE",
+      "section": "8",
+      "title": "Άρθρο 8: No new marriage except on proof of dissolution of former marriage",
+      "content": "8. No person shall marry again unless he proves to the satisfaction of the Court that the former marriage has been declared invalid or void or has been dissolved by divorce or the death of the other party."
+    },
+    {
+      "provision_ref": "sec9",
+      "chapter": "PART III MARRIAGE",
+      "section": "9",
+      "title": "Άρθρο 9: Delay for re-marriage of women in certain cases",
+      "content": "9. A widow or a woman whose marriage has been declared invalid or void or has been dissolved by divorce shall not marry again before the lapse of three hundred and two days after the death of her husband or after the previous marriage is declared invalid or void or is dissolved, as the case may be, unless in the meantime a child is born to the woman, in which case the period shall determine upon such birth: Provided that the period may be reduced by the Court if pregnancy of the woman by the former marriage is, in the opinion of the Court, excluded."
+    },
+    {
+      "provision_ref": "sec10",
+      "chapter": "PART III MARRIAGE",
+      "section": "10",
+      "title": "Άρθρο 10: Delay for re-marriage of divorced persons",
+      "content": "10.-(1) Divorced persons cannot enter upon a new marriage before the expiration of the period contained in the decree of divorce.\n(2) Nothing in this section shall apply to cases in which the divorced persons re marry each other."
+    },
+    {
+      "provision_ref": "sec11",
+      "chapter": "PART III MARRIAGE",
+      "section": "11",
+      "title": "Άρθρο 11: Notice of marriage",
+      "content": "11.-(1) No marriage shall be solemnized unless the parties to the betrothal first give notice to the marriage officer at the place where the male party to the betrothal ordinarily resides.\n(2) The notice shall be in the prescribed form and shall be signed by the parties to the betrothal and a party who is illiterate shall affix his mark thereto in the presence of two witnesses. Such notice shall be accompanied by the birth certificates of the parties and a certificate of the mukhtar of the place in which each party ordinarily resides stating that, to his best knowledge and belief, no disability or impediment exists to their marriage and, where necessary, by a certificate that the former spouse is dead or by a copy of a judgment of a competent Court or other authority pronouncing a divorce or the nullity of the former marriage and by the written consent of the parents or guardians:\nProvided that, in the case of a party who is not a Cypriot, the certificate or certificates required under this subsection shall, as regards such party, emanate from some authority of the place in which such party ordinarily resides and as to which the marriage officer is satisfied that it is competent to issue such certificate or certificates:\nProvided further that the marriage officer may, in his discretion, dispense with all or any of the certificates required under this subsection."
+    },
+    {
+      "provision_ref": "sec12",
+      "chapter": "PART III MARRIAGE",
+      "section": "12",
+      "title": "Άρθρο 12: Posting up of notice",
+      "content": "12.-(1) Upon the receipt of the notice as hereinbefore provided, the marriage officer shall file the same in his office and shall, within ten days of the receipt of the notice, cause copies thereof, certified under his hand and seal, to be posted outside his office and in a conspicuous place at the place or places where the parties ordinarily reside, inserting therein the date of the posting up: Provided that the marriage officer shall refuse to post up the notice where such notice does not comply with this Law or any rules made thereunder or where thereexists to his knowledge some disability or some other legal impediment to the marriage but, in every such case the marriage officer shall give notice thereof to the parties and, if not himself a judge of the Court, shall forthwith notify the Court of such refusal and the Court shall give such directions thereon as to it may seem fit and the marriage officer concerned shall comply with such directions.\n(2) If a marriage officer fails to post up the notice within ten days of its receipt as in subsection (1) provided, he shall be deemed to have refused to post up the same and, in every such case, any party to the notice may complain to the Court for such refusal and the Court shall give such direction thereon as to it may seem fit and the marriage officer concerned shall comply with such direction."
+    },
+    {
+      "provision_ref": "sec13",
+      "chapter": "PART III MARRIAGE",
+      "section": "13",
+      "title": "Άρθρο 13: Opposition",
+      "content": "13.-(1) Any person may, within ten days of the posting up of the notice, file with the Court an opposition against such marriage on the ground that either party is under disability or that there exists some legal impediment to the marriage; and no other ground shall be admissible in any such opposition.\n(2) The opposition shall be filed in the Court and the opposing party shall, within the same period of ten days, serve certified copies thereof to the parties of the betrothal and the marriage officer concerned.\n(3) Upon the receipt of a notice of opposition the marriage officer shall not proceed further with the proposed marriage until and unless he receives directions from the Court."
+    },
+    {
+      "provision_ref": "sec14",
+      "chapter": "PART III MARRIAGE",
+      "section": "14",
+      "title": "Άρθρο 14: Solemnization of marriage",
+      "content": "14.-(1) At any time not less than fifteen days, or such shorter period as the Court may in exceptional cases and for good reason direct, and not more than three months from the date of the posting of the notice, or where after an opposition has been made the Court so directs, the marriage officer shall, if so requested by the parties to the betrothal, proceed to solemnize the marriage or give to the parties a certificate under his hand and seal with regard to the due posting up of the notice and such certificate shall be sufficient authority for the solemnization of the marriage by any other marriage officer within a period not exceeding three months from the date of such certificate: Provided that a marriage officer shall refuse to solemnize the marriage or give a certificate as aforesaid if, in the meantime, there has come to his knowledge that there exists some disability or some other legal impediment to the marriage but, in every such case the marriage officer shall give notice thereof to the parties and, if not himself a judge of the Court, shall forthwith notify the Court of such refusal and the Court shall give such directions thereon as to it may seem fit and the marriage officer concerned shall comply with such directions.\n(2) The marriage shall be solemnized by a marriage officer in the presence of two or more witnesses of full age in the office of the marriage officer with open doors:\nProvided that, upon the production of a medical certificate that a party to the intended marriage is, owing to illness, unable to attend the office, the marriage may be solemnized in such other place as the marriage officer may consider convenient.\n(3) The marriage officer shall ask each party to the intended marriage whether they desire to be joined in matrimony; and, upon each of the parties replying in the affirmative and upon signing the prescribed book, the marriage officer shall declare them to be legally married and shall issue to each of the parties a marriage certificate in such form as may be prescribed."
+    },
+    {
+      "provision_ref": "sec15",
+      "chapter": "PART III MARRIAGE",
+      "section": "15",
+      "title": "Άρθρο 15: No impediment to religious ceremony in addition to marriage solemnized under Law",
+      "content": "15.-(1) No marriage between persons to whom this Law applies shall be valid and effective unless solemnized under the provisions of this Law but the parties thereto may, if they so desire, have in addition a religious marriage ceremony.\n(2) Where a religious marriage ceremony is desired, same shall not take place unless and until the marriage certificates granted under subsection (3) of section 14 are produced to the person performing the religious marriage ceremony and any person who performs an such ceremony without such certificates shall be guilty of any offence and shall be liable to a fine not exceeding £125."
+    },
+    {
+      "provision_ref": "sec16",
+      "chapter": "PART III MARRIAGE",
+      "section": "16",
+      "title": "Άρθρο 16: Declarations of validity of marriage",
+      "content": "16. Where the Court is satisfied that a marriage has been validly contracted under the Sheri Law before the coming into operation of this Law the Court may for the removal of doubts declare that such marriage shall by virtue of section 52 be deemed to have been contracted and solemnized under this Law."
+    },
+    {
+      "provision_ref": "sec17",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "17",
+      "title": "Άρθρο 17: Judgment for invalid or void marriages",
+      "content": "17. A marriage shall not be invalid or void save by a judgment of a Court declaring such marriage as invalid or void, as the case may be."
+    },
+    {
+      "provision_ref": "sec18",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "18",
+      "title": "Άρθρο 18: Suits for declaration of invalid or void marriages",
+      "content": "18.-(1) A suit for the declaration of a marriage as invalid may be instituted before a Court by one of the parties to the marriage or by any person who has any interest in the marriage. (2) A suit for the declaration of a marriage as void may only be instituted by one of the parties to the marriage."
+    },
+    {
+      "provision_ref": "sec19",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "19",
+      "title": "Άρθρο 19: Invalid marriages",
+      "content": "19. A marriage shall be declared invalid where-\n(a) at the date of the marriage one of the parties is already married;\n(b) at the date of the marriage either party to the marriage would be prohibited from marrying by reason of the provisions of section 6 or 7:\nProvided that, where consent is required for the marriage under the first proviso to subsection (1) of section 6 and a marriage has taken place without such consent, such marriage shall not be declared invalid if, in the meantime, the female party concerned-\n(a) completes her eighteenth year;\n(b) obtains the required consent; or\n(c) is pregnant."
+    },
+    {
+      "provision_ref": "sec20",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "20",
+      "title": "Άρθρο 20: Voidable marriages",
+      "content": "20. A marriage may be declared void where the party suing for such declaration satisfies the Court that-\n(a)at the date of the marriage, his or her judgment was affected by reason of some transitory cause;\n(b) he or she entered upon the marriage ceremony under a bona fide mistake in that he or she did not in fact intend to contract a marriage or to marry that particular person;\n(c) he or she was induced to contract the marriage under a bona fide mistake and belief that the other party possessed certain qualities, the absence of which, in the opinion of the Court, would make life in common impossible or intolerable;\n(d) he or she has been wilfully deceived by the other party or by a third person as to the other party's moral character and had thereby been induced to contract the marriage;\n(e)the other party suffers from a disease which gravely endangers the health of the party suing for the declaration or of any children of the marriage and such disease had been concealed from the party suing for such declaration;\n(f) he or she was induced to contract the marriage by threats of a grave and imminent danger to his or her own life or health or honour or the life, health or honour of a person closely related to such party."
+    },
+    {
+      "provision_ref": "sec21",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "21",
+      "title": "Άρθρο 21: Limitation of actions",
+      "content": "21. No suit for the declaration of a marriage as void shall be entertained unless instituted within one year from the date from which the party seeking to avoid the marriage has become aware of the ground for the avoidance, or, if the ground is under paragraph (f) of section 20, from the withdrawal of the threats as in such paragraph set out: Provided that, in any case, no such suit shall be entertained after a lapse of five years from the date of the marriage."
+    },
+    {
+      "provision_ref": "sec22",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "22",
+      "title": "Άρθρο 22: Status of children in invalid or void marriages",
+      "content": "22. Notwithstanding that a marriage may have been declared invalid or void, the children of any such marriage shall be considered to be legitimate and the relative position of the parents and the children in every such case shall be governed by the same rules as in the case of children where parents are divorced."
+    },
+    {
+      "provision_ref": "sec23",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "23",
+      "title": "Άρθρο 23: Non-observance of formalities",
+      "content": "23. No marriage solemnized by a marriage officer shall be declared as invalid or void-\n(a) solely by reason that any of the formalities regarding marriages, as in this Law provided, have not been observed;\n(b) solely by reason of the fact that the marriage has been contracted before the expiration of the required periods as in this Law provided."
+    },
+    {
+      "provision_ref": "sec24",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "24",
+      "title": "Άρθρο 24: Damages, maintenance, etc.",
+      "content": "24. Where a marriage has been declared invalid or void the claim of the parties to any damages, maintenance or other compensation shall be governed by the same rules as in the case of divorce."
+    },
+    {
+      "provision_ref": "sec25",
+      "chapter": "PART IV INVALID AND VOIDABLE MARRIAGES",
+      "section": "25",
+      "title": "Άρθρο 25: Death of party to suit",
+      "content": "25. Upon the death of a party, any suit for the declaration of a marriage as invalid or void shall be stayed: Provided that nothing in this section contained shall affect the right of the surviving party or of the heirs of the deceased party to claim damages, maintenance or other compensation as in the preceding section provided."
+    },
+    {
+      "provision_ref": "sec26",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "26",
+      "title": "Άρθρο 26: Grounds for divorce",
+      "content": "26. Either party to a marriage can sue the other party for divorce on any of the following grounds:-\n(a) that the other party has committed adultery:\nProvided that no divorce shall be granted if the Court is satisfied that the party suing for divorce has consented to the adultery or has since condoned it;\n(b)where the other party has made an attempt on the life of the party suing for divorce or where such other party has gravely ill-treated the party suing for divorce;\n(c) where the other party has committed an infamous crime or has been guilty of such dishonourable conduct as, in the opinion of the Court, renders life in common impossible or intolerable for the party suing for divorce;\n(d)where the other party has, without good cause deserted the party suing for divorce for a period exceeding one year;\nProvided that a party may, even before the lapse of one year, apply to the Court to call upon the other party to return to the conjugal home within such time as may be specified and, in such case, if such other party refuses or fails to comply, the party so applying may sue for divorce at any time after the lapse of the period specified by the Court, but in no case a divorce shall be granted under this proviso unless the desertion has lasted for a period of not less than three months and it still continues;\n(e) where the other party has become insane or where the mental condition of such other party is such as to make life in common impossible or intolerable for the party suing for divorce or constitutes a danger to the health of such party or the children of the marriage and the Court is satisfied by expert evidence that the insanity or the mental condition as hereinbefore provided is incurable or of a duration of not less than three years;\n(f) where the conjugal relations are so seriously strained that life together has become impossible or intolerable:\nProvided that, where the cause of such straining is mainly attributable to the fault of the one party, only the other party can sue for divorce."
+    },
+    {
+      "provision_ref": "sec27",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "27",
+      "title": "Άρθρο 27: Limitation of time in certain cases",
+      "content": "27. No suit for divorce on the grounds set out in paragraphs (a), (b) or (c) of section 26 shall be brought after the expiration of six months from the occurrence of the event constituting the ground of divorce as in the said paragraphs stated or from the time when such event first comes to the knowledge of the party suing for divorce."
+    },
+    {
+      "provision_ref": "sec28",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "28",
+      "title": "Άρθρο 28: Judicial separation",
+      "content": "28. A person, instead of suing for divorce, may sue for judicial separation and the Court may grant a judicial separation for a period not exceeding three years and, if at the expiration of the period, the parties do not reconcile, then either spouse may sue for divorce; and, in every such case, a divorce shall be granted, unless the facts on which the claim is based show that the claimant is solely the party in fault: Provided that a divorce shall be granted in every case in which a party, even if innocent, refuses to be reconciled:\nProvided further that, in dealing with the case, the Court may take into consideration not only the facts proved in the proceedings for judicial separation but also any other facts which may have occurred since."
+    },
+    {
+      "provision_ref": "sec29",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "29",
+      "title": "Άρθρο 29: Jurisdiction",
+      "content": "29. Proceedings for divorce or judicial separation shall be instituted before the Court where the claimant ordinarily resides and the Court may, pending the proceedings, make such order with regard to the lodging and maintenance of the wife and the custody of the children as to the Court may seem fit."
+    },
+    {
+      "provision_ref": "sec30",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "30",
+      "title": "Άρθρο 30: Judicial separation in lieu of divorce",
+      "content": "30. Notwithstanding that a party has sued for divorce and a ground of divorce has been established, the Court may, in lieu of an order of divorce, grant a judicial separation if, having regard to all the circumstances of the case, the Court is of opinion that reconciliation between husband and wife may be first tried."
+    },
+    {
+      "provision_ref": "sec31",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "31",
+      "title": "Άρθρο 31: Period of delay for second marriage",
+      "content": "31. When a divorce is granted, the Court shall fix a period of not less than one year and not more than two years within which the party in fault shall not contract a second marriage, unless the Court for special reasons which shall be recorded fixed a shorter period: Provided that the period, which may lapse under a decree of judicial separation, shall be taken into account for the purposes of this section."
+    },
+    {
+      "provision_ref": "sec32",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "32",
+      "title": "Άρθρο 32: Compensation",
+      "content": "32. Upon a decree of divorce, the Court may-\n(a) order the party in fault to pay such compensation to the innocent party as to the Court may seem fit, having regard to all the circumstances of the case, including the pecuniary position or expectations of the party in fault and of the injury to the person or reputation of the innocent party;\n(b) order a party, even if not in fault, to pay to the other party such sum as the Court may think fit for the maintenance of such other party who may have become destitute by reason of the divorce:\nProvided that such maintenance shall not be payable for a period exceeding one year from the date of the divorce:\nProvided further that the maintenance shall forthwith cease upon the marriage of the party who is in receipt of the same or, if the party paying such maintenance satisfies the Court that the other party is no longer destitute."
+    },
+    {
+      "provision_ref": "sec33",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "33",
+      "title": "Άρθρο 33: Living apart",
+      "content": "33. After a suit for divorce or judicial separation is filed, the parties may live apart."
+    },
+    {
+      "provision_ref": "sec34",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "34",
+      "title": "Άρθρο 34: Orders for maintenance, custody, or education",
+      "content": "34.-(1) The Court may-\n(a)when granting a divorce or judicial separation; or\n(b) in respect of the infant children of any marriage which has been dissolved under the Sheri Law before the coming into operation of this Law; or\n(c) where a husband has been guilty of wilful neglect to provide reasonable maintenance for his wife or the infant children of the marriage,\nexercise the powers conferred upon the Court by subsection (2) of section 8 of the Turkish Family Courts Law, and may order the husband to provide for the maintenance of the wife and the maintenance and education of such children.\n(2) No maintenance order shall be made in respect of any period prior to the date of the application for such order; and no sum due on a maintenance order for more than one year shall be recoverable.\n(3) The Court may discharge or vary any order made under this section or suspend any provision thereof temporarily and may revive the operation of any provision so suspended: in so doing the Court shall have regard to all the circumstances of the case including any increase or decrease in the means of either party to the marriage."
+    },
+    {
+      "provision_ref": "sec35",
+      "chapter": "PART V DIVORCE AND JUDICIAL SEPARATION",
+      "section": "35",
+      "title": "Άρθρο 35: Change of circumstances",
+      "content": "35. If conditions are changed in consequence of the marriage, departure or death of the one party or for any other reason the Court may, upon the petition of the other party, or the father or mother of the other party, make such order with regard to any children of the marriage as to the Court may seem fit."
+    },
+    {
+      "provision_ref": "sec36",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "36",
+      "title": "Άρθρο 36: Conjugal union",
+      "content": "36. The solemnization of marriage creates a conjugal union between the parties who, thereby, bind themselves to preserve the weal of the common relationship with fidelity and mutual assistance in harmonious co-operation and to take care of their children."
+    },
+    {
+      "provision_ref": "sec37",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "37",
+      "title": "Άρθρο 37: Status of spouses",
+      "content": "37.-(1) The husband is the head of the conjugal union; he determines the place of residence and, subject to the provisions of section 47, is generally charged with the care and support of the family.\n(2) The wife shall adopt the family name of the husband; she shall assist the husband and support him with all her ability in the maintenance of the home and shall have the management of the household affairs."
+    },
+    {
+      "provision_ref": "sec38",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "38",
+      "title": "Άρθρο 38: Protection of marital union",
+      "content": "38. If a party to a marriage neglects his marital duty or by his conduct brings danger, dishonour or material injury upon the other party, the injured party may apply to the Court for intervention and relief. The Court shall call the attention of the party in fault and, if such party persists in his neglect or conduct, the Court may award such compensation to the injured party as to the Court may seem fit."
+    },
+    {
+      "provision_ref": "sec39",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "39",
+      "title": "Άρθρο 39: Parties may live separately",
+      "content": "39.-(1) Where the health, reputation or the work of the one of the spouses is seriously injured by living together, the innocent party may, for as long as the danger of injury exists, live separately from the other party.\n(2) Where the Court is satisfied that there are good grounds for the parties to live separately, the Court may, on the application of the innocent party, direct the other party to pay such amount for the maintenance of the innocent party as to the Court may seem fit."
+    },
+    {
+      "provision_ref": "sec40",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "40",
+      "title": "Άρθρο 40: Debts due to husband and wife",
+      "content": "40. If the husband, though able so to do, fails or neglects to make adequate provision for the wife or children, the Court may direct that any debt due to the husband shall be paid to the wife in whole or in part for her maintenance and the maintenance of the children: Provided that nothing shall affect any order attaching such debts made in favour of a third party under any Law in force for the time being."
+    },
+    {
+      "provision_ref": "sec41",
+      "chapter": "PART VI GENERAL EFFECTS OF MARRIAGE",
+      "section": "41",
+      "title": "Άρθρο 41: Variation of arrangements under this Part",
+      "content": "41. The Court shall have power to set aside or vary any arrangement made under this Part of this Law whenever the cause which led to such arrangement has disappeared."
+    },
+    {
+      "provision_ref": "sec42",
+      "chapter": "PART VII CHILDREN",
+      "section": "42",
+      "title": "Άρθρο 42: Presumption of legitimacy",
+      "content": "42. Every child born during wedlock or within three hundred and two days after the dissolution of the marriage or the death of the husband, shall be presumed to be legitimate."
+    },
+    {
+      "provision_ref": "sec43",
+      "chapter": "PART VII CHILDREN",
+      "section": "43",
+      "title": "Άρθρο 43: Child born during judicial separation",
+      "content": "43. If, during the period of a judicial separation, the Court is satisfied that the husband has cohabited with the mother at the time of the possible conception of a child, such child shall be presumed to be legitimate."
+    },
+    {
+      "provision_ref": "sec44",
+      "chapter": "PART VII CHILDREN",
+      "section": "44",
+      "title": "Άρθρο 44: Disavowal of child by husband",
+      "content": "44. The legitimacy of a child may be contested by the husband suing therefor within one month from the discovery of the child's birth. In every such suit, the child and its mother shall be cited as defendants."
+    },
+    {
+      "provision_ref": "sec45",
+      "chapter": "PART VII CHILDREN",
+      "section": "45",
+      "title": "Άρθρο 45: Contesting legitimacy by person entitled to inherit",
+      "content": "45.-(1) If the husband dies before the lapse of the period prescribed for contesting the legitimacy of the child or if he has become mentally afflicted or where his place of abode is unkown or is impossible for any other reason to inform him of the birth of the child, then and in every such case, any person entitled to inherit next or jointly with the child can contest the legitimacy within one month after the birth comes to his knowledge.\n(2) Where a child is conceived before the solemnization of the marriage, its legitimacy can be contested as in subsection (1) provided, if it is proved that the husband could not possibly be its father even if the husband has acknowledged the child as his own."
+    },
+    {
+      "provision_ref": "sec46",
+      "chapter": "PART VII CHILDREN",
+      "section": "46",
+      "title": "Άρθρο 46: Husband estopped from contesting legitimacy, except for fraud",
+      "content": "46. If the husband has, directly or indirectly, recognized the legitimacy of the child, or if the period for contesting such legitimacy has lapsed, he cannot contest the legitimacy unless the Court is satisfied that such acknowledgment or lapse has been procured or occasioned by fraud and, in every such case, a further period of one month is allowed as from the date of the discovery of the fraud."
+    },
+    {
+      "provision_ref": "sec47",
+      "chapter": "PART VII CHILDREN",
+      "section": "47",
+      "title": "Άρθρο 47: Maintenance and education of children",
+      "content": "47. The parents shall, within their respective means, bear the cost of maintenance and education of the children: Provided that, if the parents are destitute or otherwise unable to bear the full cost of maintenance and education or where the Court so thinks fit, the Court can authorize the parents to utilize a child's own income for his maintenance and education."
+    },
+    {
+      "provision_ref": "sec48",
+      "chapter": "PART VII CHILDREN",
+      "section": "48",
+      "title": "Άρθρο 48: Religious education",
+      "content": "48. The religious education of the child shall be determined by the father or, in his absence or death, by the mother: Provided that, if the mother is not a moslem, the Court shall entrust the religious education to the nearest relation of the child on the father's side."
+    },
+    {
+      "provision_ref": "sec49",
+      "chapter": "PART VIII MISCELLANEOUS",
+      "section": "49",
+      "title": "Άρθρο 49: Notices",
+      "content": "49. Any notice or communication required to be given or made by a marriage officer under the provisions of this Law may be effected by serving such notice or communication on the person concerned or by sending the same through the post by letter addressed to the last known place of residence of such person: Provided that, where the notice or communication is given or made by letter, same shall, whenever practical, be given or made by registered letter."
+    },
+    {
+      "provision_ref": "sec50",
+      "chapter": "PART VIII MISCELLANEOUS",
+      "section": "50",
+      "title": "Άρθρο 50: Law to constitute sole enactment",
+      "content": "50.-(1) Subject to the provisions of subsection (2), this Law shall constitute the sole enactment to be applied by a Court bearing upon the matters dealt with therein.\n(2) If, in applying this Law, the Court considers that, for the proper determination of any matter incidental to the matters dealt with in this Law, it is necessary to apply any other Law in force for the time being, the Court may apply such other Law accordingly:\nProvided that nothing in this subsection contained shall be deemed to extend the jurisdiction of a Court beyond the matters dealt with in this Law."
+    },
+    {
+      "provision_ref": "sec51",
+      "chapter": "PART VIII MISCELLANEOUS",
+      "section": "51",
+      "title": "Άρθρο 51: Power to make Rules",
+      "content": "51. The Governor, with the advice of the Judges of the Turkish Family Courts, may, from time to time, by writing under his hand, make special Rules for the better carrying out of the provisions of this Law and, in particular-\n(a)for regulating the pleading, practice and procedure to be observed with regard to any matter dealt with in this Law;\n(b)for regulating the execution of any judgment or order of a Court;\n(c) for prescribing any matter required to be prescribed under this Law:\nProvided that until such Rules are made the matters and proceedings hereinbefore stated shall be regulated by the Rules made under section 19, or the rules saved under section 17, of the Turkish Family Courts Law, 1951, (including fees and forms) as the case may be, and such Rules may be applied with such deviations, alterations, or adaptations as may be necessary to carry into effect the provisions of this Law."
+    },
+    {
+      "provision_ref": "sec52",
+      "chapter": "PART VIII MISCELLANEOUS",
+      "section": "52",
+      "title": "Άρθρο 52: Saving",
+      "content": "52.-(1) Every marriage, contracted before the coming into operation of this Law, shall be deemed to have been contracted and solemnized under the provisions of this Law and, subject to the provisions of subsections (2) and (3), the provisions of this Law shall apply to such marriages.\n(2)Any deferred dowry provided in a contract of marriage (nikkiah) entered into before the coming into operation of this Law may be recovered by action before the Court only in case of the death of the husband out of his estate but no such deferred dowry shall be recoverable in case of a divorce between the parties.\n(3)Any prompt dowry provided in a contract of marriage entered into before the coming into operation of this Law may be recovered by action before the Court;\nProvided that no such action shall be brought or remedy enforced after the expiration of one year from the coming into operation of this Law:*\nProvided further that nothing herein contained shall enable an action to be brought or remedy to be enforced which, under the provisions of any Law in force for the time being relating to the limitation of actions, could not have been brought or enforced.\n* This Law came into operation on 28th May, 1951 (51, Vol. II 221)."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Court",
+      "definition": "a judge of a Turkish Family Court established under the Turkish Family Courts Law, exercising jurisdiction as regards the matters to which this Law relates",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "marriage officer",
+      "definition": "a judge of a Turkish Family Court performing the duties and exercising the powers vested in a marriage officer under the provisions of this Law and includes any person appointed by such judge to act as a marriage officer for the purposes of this Law",
+      "source_provision": "sec2"
+    }
+  ]
+}

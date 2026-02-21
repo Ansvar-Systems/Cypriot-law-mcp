@@ -1,0 +1,47 @@
+{
+  "id": "cy-law-1959-1-33",
+  "type": "statute",
+  "title": "Ο περί Τουρκικών Δημοτικών Επιτροπών (Προσωριναί Διατάξεις) Νόμος του 1959 (33/1959)",
+  "short_name": "Ν. 1959/1/33",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1959_1_33/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Turkish Municipal Committees (Temporary Provisions) Law, 1959, and shall be read as one with the Municipal Corporations Law (hereinafter referred to as \"the principal Law\")."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2.-(1) In this Law, unless the context otherwise requires-\n\"revenue\" means all moneys specified in section 86 of the principal Law and includes fines payable to the Town Fund of a municipal corporation under the proviso to sub-section (4) of section 125A of the principal Law;\n'Turkish Municipal Committee\" means the body of persons set up on or after the first day of July, 1958, in the towns of Nicosia, Limassol, Famagusta, Larnaca and Paphos by the Turkish inhabitants thereof for the purpose of performing municipal functions within the municipal limits of such towns.\n(2) Subject to sub-section (1) of this section, and unless the context otherwise requires, words or expressions contained in this Law shall have the meanings respectively assigned to them in the principal Law or in any Law amending or substituted for the same."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Performance of certain municipal functions by Turkish Municipal Committees",
+      "content": "3.-(1) Notwithstanding anything in the principal Law or in any other Law to the contrary contained, the Turkish Municipal Committees set up in the towns of Nicosia, Limassol, Famagusta, Larnaca and Paphos may exercise all the rights and powers, and perform any of the duties, which are expressly or by necessary implication conferred or imposed upon the council of a municipal corporation, in regard to the collection and recovery of revenue under Part II of the principal Law or any other Law.\n(2) The rights, powers and duties which under sub-section (1) are conferred or imposed upon a Turkish Municipal Committee shall be exercised and performed within the municipal limits of the town in which such Turkish Municipal Committee has been set up only in respect of:-\n(a)all Turkish inhabitants residing within the aforesaid municipal limits;\n(b) immovable property registered in the name of such Turkish inhabitants; and\n(c) any matter in which any such Turkish inhabitant was an applicant for a permit or licence or was otherwise a party to the act or transaction in respect of which revenue is derived and liable to pay such revenue.\n(3) Notwithstanding anything in the principal Law or in any other Law to the contrary contained, the council of a municipal corporation shall not exercise any of the rights or powers or perform any of the duties which are conferred or imposed upon a Turkish Municipal Committee in respect of Turkish inhabitants or their immovable property under the provisions of this section."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Legal proceedings",
+      "content": "4. In the exercise of the rights and powers and the performance of the duties of the council of a municipal corporation conferred or imposed upon it under the provisions of section 3 of this Law, a Turkish Municipal Committee may sue and be sued in all cases and in respect of all matters in which the council of a municipal corporation could have sued or been sued: Provided that no proceedings shall be instituted by or against a Turkish Municipal Committee without the written consent of the Governor."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Άρθρο 5: Duration",
+      "content": "5. This Law shall expire upon the establishment of separate municipalities by the Turkish inhabitants of Nicosia, Limassol, Famagusta, Larnaca and Paphos under the proposed Constitution of Cyprus."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "revenue",
+      "definition": "all moneys specified in section 86 of the principal Law and includes fines payable to the Town Fund of a municipal corporation under the proviso to sub-section (4) of section 125A of the principal Law",
+      "source_provision": "sec2"
+    }
+  ]
+}

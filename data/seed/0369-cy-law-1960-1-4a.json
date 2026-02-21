@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1960-1-4a",
+  "type": "statute",
+  "title": "Ο περί Συντάξεως του Σερ Έρικ Χάλλιναν Νόμος (A4/1960)",
+  "short_name": "Ν. 1960/1/4A",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1960_1_A4/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Sir Eric Hallinan Pension Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Computation of Sir Eric Hallinan’s pension",
+      "content": "2. For the purpose of computing his pension in accordance with the Pensions Law Sir Eric Hallinan shall be deemed to have been transferred on the 27th day of April, 1957, from the office of Chief Justice of Cyprus to the office of Chief Justice of the West Indies."
+    }
+  ],
+  "definitions": []
+}

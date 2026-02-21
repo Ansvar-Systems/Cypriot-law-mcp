@@ -1,0 +1,35 @@
+{
+  "id": "cy-law-1959-1-32a",
+  "type": "statute",
+  "title": "Ο Περί Δαvείων Αvαπτύξεως Νόμoς τoυ 1959 (Α32/1959)",
+  "short_name": "Ν. 1959/1/32A",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1959_1_A32/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Colonial Development Loan Law, 1959."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Governor may accept loan",
+      "content": "2.-(1) The Governor is hereby empowered to accept from the Secretary of State a loan of not more than one million one hundred thousand pounds sterling (,1,100,000) (hereinafter referred to in this Law as \"the Loan\") in accordance with the provisions of the Act.\n(2) The Governor is further empowered to accept any part of the loan from time to time."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Loan to be repaid and secured",
+      "content": "3.-(1) The loan and interest thereon shall be repaid by the Government to the Government of the United Kingdom by equated annual instalments of principal and interest so that the Loan shall be repaid within the period for which the same was granted.\n(2) The amount of the Loan and the interest thereon shall be a charge on the general revenues and assets of Cyprus."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Loan to be applied for purposes of Development Programme",
+      "content": "4. The Loan shall be applied for the purposes of the Development Expenditure ascribed in the Cyprus Estimates 1959 to the Departments set out in the Schedule to this Law."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cy-law-306",
+  "type": "statute",
+  "title": "Ο περί Συμφωνίας περι Τηλεφώνων Νόμος (ΚΕΦ.306)",
+  "short_name": "Ν. 306",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_306/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Telephone (Agreement) Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n“the Company” means Imperial and International Communications Limited and includes their successors and assigns permitted under the terms of any agreement entered into between them and the Governor."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Governor authorised to enter into an agreement",
+      "content": "3.-(1) It shall be lawful for the Governor to enter into an agreement with the Company whereby the company shall take over the Government telephones and establish and maintain the telephone service in the Colony, and for such agreement to provide (inter alia)-\n(a) that during the continuance of the agreement the Company shall not nor shall any of their revenues or property in the Colony be subjected to any special and exclusive taxation by the Government of the Colony, and\n(b) that notwithstanding anything in the Customs Tariff Law or any enactment amending such Law, import duties of customs shall not be charged during the continuance of the agreement on any machinery or apparatus (including masts, poles, lines and their parts, and materials) imported by the Company into the Colony, and certified to be solely required for the construction, maintenance or operation of their land telegraphs, wireless telegraphy stations, or telephone installations provided that such machinery and apparatus is of British origin, and\n(c) that the Government of the Colony will indemnify the Company against any loss incurred in the working of the telephone service during a period of ten years after the expiration of twelve months from the making of such agreement:\nProvided that such loss shall be agreed annually between the Governor and the Company subject to the concurrence of the Secretary of State for the Colonies and shall be paid to the Company by the Government:\nProvided also that the amounts so paid by the Government in respect of such loss shall not exceed the sum of ten thousand pounds of which not more than one thousand pounds shall be paid in any one year.\n(2) Any agreement made under this section may from time to time be varied, renewed or replaced by any subsequent agreement made in accordance with the provisions of this Law so far as they are applicable."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Allocation of revenue",
+      "content": "4. It shall be lawful for the Governor to, and the Governor shall from time to time allocate from the general revenue of the Colony any sum payable by reason of the provisions of section 3(1)(c) hereof."
+    }
+  ],
+  "definitions": []
+}

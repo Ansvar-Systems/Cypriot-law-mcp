@@ -1,0 +1,924 @@
+{
+  "id": "cy-law-166",
+  "type": "statute",
+  "title": "Ο περί Στοιχειώδους Εκπαιδεύσεως Νόμος (ΚΕΦ.166)",
+  "short_name": "Ν. 166",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_166/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "chapter": "PART I PRELIMINARY",
+      "section": "1",
+      "title": "Άρθρο 1: Συνοπτικός τίτλος",
+      "content": "1. O παρών Νόμος θα αναφέρεται ως ο περί Στοιχειώδους Εκπαιδεύσεως Νόμος."
+    },
+    {
+      "provision_ref": "sec2",
+      "chapter": "PART I PRELIMINARY",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n“Assistant Director” means the Assistant Director of Education;\n“child,” except in so far as may be otherwise prescribed by Regulations, means any person between the ages of four and fourteen;\n“Commissioner” means the Commissioner of the district in which the town or village, where a school is in operation, is situate;\n“Director” means the Director of Education and includes any officer of the Education Department authorised by him in writing for all or any of the purposes of this Law;\n“dwelling house” means any house, room, structure, yard or place situated within any compulsory school attendance area and owned, occupied or used by any parent;\n“married” or “married woman” includes in respect of a female teacher who professes the Moslem faith, a female teacher who has been betrothed (nikah) in accordance with the rites of the Moslem faith;\n“Greek-Orthodox” means-\n(a) where used in respect of persons, any person who belongs to the Greek-Orthodox Church, and\n(b) where used in respect of schools, any school prescribed for the community belonging to the Greek-Orthodox Church, and\n(c) where used in respect of educational bodies established under this Law, any educational body performing duties and exercising powers in relation to any Greek-Orthodox school;\n“parent” means the father or other person having control or care of, or in his employment, any child;\n“Regulations” means the Regulations made by the Governor under the provisions of this Law;\n“school” means any elementary school prescribed by the Governor to be in operation under this Law in any town or village;\n“school year” means a period of twelve months commencing on the 1st day of September in any year;\n“service” means service in a school in the Δημοκρατία;\n“σύμπλεγμα” σημαίνει δύο ή περισσοτέρας παρακειμένας περιοχάς, ανεξαρτήτως του εάν αύται είναι χωρία ή πόλεις ή τμήματα χωρίων ή πόλεων, ενούμενα εις σύμπλεγμα, δι’ άπαντας ή τινας των σκοπών του παρόντος Νόμου, βάσει Διατάγματος εκδιδομένου δυνάμει του εδαφίου (1) του άρθρου 6~\n“town” means the towns of Nicosia, Limassol, Larnaca (including Scala), Famagusta (including Varosha), Ktima (including Paphos) and Kyrenia and includes any village or group which το Υπουργικόν Συμβούλιον ήθελε καθορίσει, διά Διατάγματος εκδιδομένου δυνάμει του εδαφίου (1) του άρθρου 6, to be a town for all or any of the purposes of this Law;\n“village” includes all villages, village areas and groups other than a village or group which το Υπουργικόν Συμβούλιον ήθελε καθορίσει, διά Διατάγματος εκδιδομένου δυνάμει του εδαφίου (1) του άρθρου 6, to be a town for all or any of the purposes of this Law;\n“Village Commission” means-\n(a) in respect of a village which is not a Municipal Corporation, the mukhtar and azas of the religious community for which the school has been prescribed, with the mukhtar as Chairman.\n(b) in respect of a village which, not being a town, is a Municipal Corporation, the members of the Municipal Council thereof belonging to the religious community, for which the school has been prescribed, with the Mayor or Deputy Mayor or, if neither of them belongs to such religious community, the oldest of such members, as the case may be, as Chairman.\n“Υπουργός” σημαίνει τον Υπουργόν Παιδείας και περιλαμβάνει λειτουργόν του Υπουργείου Παιδείας εγγράφως εξουσιοδοτηθέντα υπ’ αυτού δι’ οιονδήποτε των σκοπών του παρόντος Νόμου."
+    },
+    {
+      "provision_ref": "sec3",
+      "chapter": "PART II CENTRAL AUTHORITY AND DIRECTOR",
+      "section": "3",
+      "title": "Άρθρο 3: Central authority",
+      "content": "3.-(1) The Governor shall be the central authority for all matters relating to elementary education in the Δημοκρατία and, subject to the provisions of this Law, he is hereby charged with the control and supervision and the performance of all duties and the exercise of all powers connected therewith."
+    },
+    {
+      "provision_ref": "sec4",
+      "chapter": "PART II CENTRAL AUTHORITY AND DIRECTOR",
+      "section": "4",
+      "title": "Άρθρο 4: Power of delegation to Governor",
+      "content": "4.-(1) The Governor may from time to time delegate to-\n(a) the Director,\n(b) the Boards of Education,\n(c) the Town Committees,\n(d) the Village Commissions,\n(e) the Committees of Management,\nthe performance of all or any of the duties and the exercise of all or any of the powers vested in the Governor under this Law.\n(2) The Governor may at any time revoke any such delegation."
+    },
+    {
+      "provision_ref": "sec5",
+      "chapter": "PART II CENTRAL AUTHORITY AND DIRECTOR",
+      "section": "5",
+      "title": "Άρθρο 5: Power to Governor to make Regulations",
+      "content": "5.-(1) The Governor may from time to time make Regulations to be published in the Gazette for all or any of the purposes of this Law.\n(2) In particular and without prejudice to the generality of the foregoing power, such Regulations may relate to all or any of the following matters, except where specific provision therefor is made in this Law, that is to say-\n(a) the ages between which children shall be entitled to attend school or to receive elementary instruction therein free of charge, and the ages between which children shall attend school in a compulsory school attendance area;\n(α1) τον καθορισμόν ή τον τρόπον καθορισμού περιφερειών, εν οιαδήποτε πόλει, χωρίω ή συμπλέγματι, εξ ων θα προέρχωνται οι μαθηταί οίτινες θα φοιτώσιν εις έκαστον σχολείον της τοιαύτης πόλεως, χωρίου ή συμπλέγματος~\n(b) the attendance of children at school, their expulsion, removal or superannuation therefrom and the transfer of children from one school to another;\n(c) the auditing of school accounts;\n(d) the books to be used in schools and in school libraries;\n(e) the conduct of business at meetings of Boards of Education, Town Committees, Village Commissions and Committees of Management, ως και την άσκησιν περαιτέρω αρμοδιοτήτων και τον τρόπον της τοιαύτης ασκήσεως υπό Εκπαιδευτικών Συμβουλίων, Σχολικών Εφορειών, Χωριτικών Αρχών και Επιτροπών Διαχειρίσεως~\n(f) the examination and registration of teachers;\n(g) the curriculum, syllabus and courses of instruction to be followed in schools;\n(h) the development, erection, extension, improvement, provision, renting or repairing of any school buildings, gardens, playgrounds, premises and yards in any town or village and, in any village, of teachers dwellings;\n(i) the duties and powers of school attendance officers, inspectors, assistant inspectors and sub-inspectors of schools;\n(j) the duties and powers of teachers;\n(k) the discipline to be enforced upon children;\n(l) the establishment, management and maintenance of school libraries;\n(m) the furniture and equipment of schools;\n(n) the grading of schools;\n(o) the grants and loans to be made from the Education Funds established under this Law or otherwise;\n(p) the health, cleanliness, medical examination and treatment and the nutrition of children attending school;\n(q) the holidays and vacations to be kept in schools and by teachers, and the manner of celebrating any holiday;\n(r) the inspection, examination, management, supervision and hours of opening and closing of schools;\n(s) the nature of information which shall be furnished to teachers or school attendance officers by any person from whom such information may be demanded;\n(t) the mode of administering and acounting for any school property by Town Committees, Village Commissions and Committees of Management;\n(u) the mode of payment of teachers’ salaries and the times at which they are to be paid;\n(v) the qualifications, educational and otherwise, to be possessed by teachers;\n(κγ) παν θέμα όπερ δυνάμει των διατάξεων του παρόντος Νόμου χρήζει ή είναι επιδεκτικόν καθορισμού.\n(3) The Regulations may provide for the imposition on offenders against the same of penalties not exceeding .25 for each offence, and in case of a continuing offence a further penalty not exceeding .25 for each day during which the offence continues."
+    },
+    {
+      "provision_ref": "sec6",
+      "chapter": "PART II CENTRAL AUTHORITY AND DIRECTOR",
+      "section": "6",
+      "title": "Άρθρο 6: Καταργήθηκε",
+      "content": "6. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec7",
+      "chapter": "PART II CENTRAL AUTHORITY AND DIRECTOR",
+      "section": "7",
+      "title": "Άρθρο 7: Specific power of Director",
+      "content": "7. Τhe Director shall have power from time to time to issue, and when issued amend, alter or revoke, directions-\n(a) prescribing the form of account books, records and registers to be kept by Town Committees, Village Commissions, Committees of Management and teachers;\n(b) prescribing the form of returns to be made by Town Committees, Village Commissions, Committees of Management and teachers and the times at which such returns are to be made;\n(c) prescribing the form of estimate to be used by Town Committees, Village Commissions and Committees of Management;\n(d) authorizing any Town Committee, Village Commission or Committee of Management to utilize any item in the estimates not required for the purposes for which it was provided or any saving thereon for any other purpose specified therein or for the purpose of covering any excess of expenditure in respect of any other item appearing therein;\n(e) regulating the sanitation in school building or premises;\n(f) regulating the supply or sale to children by Town Committees, Village Commissions, Committees of Management and teachers of writing materials and of books prescribed by Regulations to be used in schools."
+    },
+    {
+      "provision_ref": "sec8",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "8",
+      "title": "Άρθρο 8: Establishment of Board of Education",
+      "content": "8. There shall be established Boards of Education composed as hereinafter provided."
+    },
+    {
+      "provision_ref": "sec9",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "9",
+      "title": "Άρθρο 9: Composition of Board for Greek-Othodox, Moslem and other schools",
+      "content": "9.-(1) The Board of Education for Greek-Orthodox schools shall be composed as follows-\n(a) the Director, as Chairman;\n(b) the Assistant Director, as Vice-Chairman; and\n(c) six other duly qualified members of the Greek-Orthodox community, having knowledge of and an interest in elementary education, appointed by the Governor, one from each district.\n(2) The Board of Education for Moslem schools shall be composed as follows-\n(a) the Director, as Chairman;\n(b) the Assistant Director, as Vice-Chairman;\n(c) the Delegates of Evcaf; and\n(d) six other duly qualified members of the Moslem community, having knowledge of and an interest in elementary education, appointed by the Governor, one from each district.\n(3) The Director shall perform the duties and exercise the powers of a Board of Education for the schools of any other religious community in the Δημοκρατία:\nProvided that, in lieu of the Director, the Governor may appoint for any such school a board consisting of not more than six persons with the Director as Chairman to perform the duties and exercise the powers of a Board of Education for the school in respect of which such Board is appointed.\n(4) Every member of a Board of Education, other than an ex-officio member, shall hold office for a period of two years from the date of his appointment:\nProvided that the Governor may, if he deems it expedient, terminate at any time the appointment of any such member."
+    },
+    {
+      "provision_ref": "sec10",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "10",
+      "title": "Άρθρο 10: Calling of meetings of Boards",
+      "content": "10. The Chairman shall call all meetings of Boards of Education or sub-committees thereof."
+    },
+    {
+      "provision_ref": "sec11",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "11",
+      "title": "Άρθρο 11: Duties and powers of Boards",
+      "content": "11. The Boards of Education-\n(a) shall deliberate upon such matters relating to or connected with elementary education in the Δημοκρατία as may be referred to them from time to time by the Governor and report thereon through the Director to the Governor;\n(b) may consider any other matter relating to or connected with elementary education in the Δημοκρατία and make recommendations thereon through the Director to the Governor; and\n(c) shall perform all duties and exercise all powers which are vested in them by this Law or any Regulations or which may be delegated to them by the Governor under this Law."
+    },
+    {
+      "provision_ref": "sec12",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "12",
+      "title": "Άρθρο 12: Number of meetings",
+      "content": "12. There shall be at least two meetings of every Board of Education in the course of each year."
+    },
+    {
+      "provision_ref": "sec13",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "13",
+      "title": "Άρθρο 13: Quorum at meetings of Boards",
+      "content": "13. No business shall be transacted at any meeting unless four members at least are present, except in the case of the Board of Education for Maronite Schools where three members shall form a quorum;\nProvided always that every Board of Education may appoint so many of its members as it may deem sufficient to form a sub-committee to transact such business as the Board may determine that may require to be dealt with in the intervals between the meetings of the Board. The Director shall be Chairman of each sub-committee.\nIf, on the second summons from the Chairman, four members, or in the case of the Board of Education for Maronite Schools, three members, are not present at the time and place appointed for the meeting, the Board may proceed with business if two members are present."
+    },
+    {
+      "provision_ref": "sec14",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "14",
+      "title": "Άρθρο 14: Resignation and cessation of membership and filling of vacancies",
+      "content": "14.-(1) Any member of a Board of Education, other than an ex-officio member, may resign his membership upon giving notice in writing to the Colonial Secretary.\n(2) Any member, other than an ex-officio member, who has not on the 31st day of December in each year, attended one-half of the meetings of the Board during the preceding twelve months or during his tenure of office in such months shall thereupon cease to be a member of the Board unless good cause is shown for such absence to the satisfaction of the Administrative Secretary.\n(3) Any vacation on a Board of Education shall be filled by the Governor by appointing a duly qualified person to fill the vacancy."
+    },
+    {
+      "provision_ref": "sec15",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "15",
+      "title": "Άρθρο 15: Members may be re-appointed",
+      "content": "15. Any member of a Board of Education, other than an ex-officio member, whose period of office has expired, shall be eligible for re-appointment thereafter."
+    },
+    {
+      "provision_ref": "sec16",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "16",
+      "title": "Άρθρο 16: Καταργήθηκε",
+      "content": "16. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec17",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "17",
+      "title": "Άρθρο 17: Καταργήθηκε",
+      "content": "17. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec18",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "18",
+      "title": "Άρθρο 18: Καταργήθηκε",
+      "content": "18. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec19",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "19",
+      "title": "Άρθρο 19: Καταργήθηκε",
+      "content": "19. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec20",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "20",
+      "title": "Άρθρο 20: Καταργήθηκε",
+      "content": "20. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec21",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "21",
+      "title": "Άρθρο 21: Καταργήθηκε",
+      "content": "21. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec22",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "22",
+      "title": "Άρθρο 22: Καταργήθηκε",
+      "content": "22. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec23",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "23",
+      "title": "Άρθρο 23: Καταργήθηκε",
+      "content": "23. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec24",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "24",
+      "title": "Άρθρο 24: Καταργήθηκε",
+      "content": "24. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec25",
+      "chapter": "PART III EDUCATIONAL BODIES",
+      "section": "25",
+      "title": "Άρθρο 25: Καταργήθηκε",
+      "content": "25. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec26",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "26",
+      "title": "Άρθρο 26: Prescription of schools and appointment of teachers.",
+      "content": "26.-(1) The Governor on or before the 15th day of August in each year shall prescrible for each religious community the towns, villages and groups in which schools shall be in operation during the school year next ensuing, the nature and grade of each school and the names of the teachers to be appointed to each school:\nProvided that with regard to schools other Greek-Orthodox or Moslem the prescription by the Governor of schools which shall be in operation during the school year next ensuing shall be a sufficient compliance with this section without any further particulars.\n(2) No school attended by children between the ages of four and fourteen ή ετέρας ηλικίας καθοριζομένης διά Κανονισμών δυνάμει του ορισμού της λέξεως “παιδίον” εν τω άρθρω 2 ή δυνάμει του άρθρου 5 shall be opened, maintained, conducted or be in operation in any town or village unless-\n(a) such school has been prescribed by the Governor under the provisions of this section or of section 27 of this Law; or\n(b) the written authority of the Governor therefor has been previously obtained.\n(3) Any person acting in contravention of subsection (2) hereof, shall be guilty of an offence and shall be liable on conviction to a fine not exceeding .250, and in case of a continuing offence to a further fine not exceeding .250 for each day during which the offence continues:\nProvided that no prosecution for an offence under this section shall be instituted except by or with the consent of the Attorney-General."
+    },
+    {
+      "provision_ref": "sec27",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "27",
+      "title": "Άρθρο 27: Late prescription of schools or appointment of teachers",
+      "content": "27. If for any reason it is not possible to prescribe a school or appoint definitely a teacher for any school for the school year next ensuing by the 15th day of August, the prescription or appointment shall be made as soon thereafter as possible in the manner provided in section 26 of this Law."
+    },
+    {
+      "provision_ref": "sec28",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "28",
+      "title": "Άρθρο 28: Vacancies",
+      "content": "28. The Director may fill any vacancy whenever it occurs or make such arrangements in connection therewith as the exigencies of the service may require."
+    },
+    {
+      "provision_ref": "sec29",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "29",
+      "title": "Άρθρο 29: Transfers",
+      "content": "29. Teachers may be transferred by the Director from one school to another at any time during the school year according to the exigencies of the service."
+    },
+    {
+      "provision_ref": "sec30",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "30",
+      "title": "Άρθρο 30: Interdictions",
+      "content": "30.-(1) The Director may interedict from his duties any teacher whose conduct may appear to him prejudicial to the interests of the school in which he is teaching or of the religious community interested in such school, and may provide a substitute for the performance of his duties:\nProvided that such interdiction shall immediately be laid before the Governor.\n(2) A teacher who has been interdicted shall, pending consideration of his case by the Governor, receive one-half of his salary. If the Governor decides not to take any action against such teacher as in section 31 of this Law provided, such teacher shall be entitled to the full amount of salary which he would have received if he had not been interdicted:\nProvided that a teacher who is interdicted on account of his conviction on a criminal charge or who, while under interdiction is convicted of a criminal charge shall receive no salary from the date of his conviction pending consideration of his case by the Governor."
+    },
+    {
+      "provision_ref": "sec31",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "31",
+      "title": "Άρθρο 31: Dismissal, etc",
+      "content": "31. The\nGovernor may in the case of misconduct, neglect of duty, inefficiency or of conduct which appear to the Governor to be prejudicial to the interests of education, religion, good government or social order in the Δημοκρατία, order the dismissal, withholding of salary or suspension of any teacher from employment as a teacher for such period as may seem just and may revoke any such order:\nProvided that in every such case where the teacher has not been convicted on a criminal charge the grounds of intended dismissal, withholding of salary or suspension are stated in writing and communicated to the teacher in order that he may have full opportunity of exculpating himself, and that the matter is investigated by the Governor with the aid of the Director."
+    },
+    {
+      "provision_ref": "sec32",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "32",
+      "title": "Άρθρο 32: Permanent Staff Register",
+      "content": "32.-(1) The Director shall keep a register of teachers, (in this Law referred to as “the Permanent Staff Register”) wherein he shall enter or cause to be entered in separate sections the names of-\n(a) Greek-Orthodox teachers,\n(b) Moslem teachers, and\n(c) teachers other than Greek-Orthodox or Moslem.\n(2) The Director shall remove or cause to be removed from the Permanent Staff Register the name of any teacher who-\n(a) has died,\n(b) has retired,\n(c) has ceased to possess the qualifications required by this Law or by Regulations in that behalf, or\n(d) for any reason has ceased to be employed under this Law."
+    },
+    {
+      "provision_ref": "sec33",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "33",
+      "title": "Άρθρο 33: Continuance of salary",
+      "content": "33.-(1) Subject to the provisions of subsection (2) hereof any teacher on the Permanent Staff Register unemployed in any year, except owing to suspension or dismissal or to refusal to accept a proposed post, or to absence on study leave or to the abolition of his post, shall continue to receive his salary as if he were employed.\n(2) Any teacher may be permitted by the Director, subject to such conditions as the latter may think fit to impose, to act as a teacher in a secondary school or other recognized school for a definite period or to perform temporarily any duty in connection with education or in the service of the Government or of Her Majesty’s Forces; such teacher, whilst so acting or performing such duty, shall continue to receive salary under this Law, such salary to be reimbursed to Government by the institution employing him, together with such additions as may, from time to time, be fixed by the Governor."
+    },
+    {
+      "provision_ref": "sec34",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "34",
+      "title": "Άρθρο 34: Duty allowances",
+      "content": "34. The Governor may grant to teacher who act in such senior posts as may be prescribed such duty allowance as may be prescribed."
+    },
+    {
+      "provision_ref": "sec35",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "35",
+      "title": "Άρθρο 35: Special allowances",
+      "content": "35. The Governor may prescribe additional qualifications of teachers in respect of which there may be paid such special allowance as may be prescribed, subject to such conditions as he may think fit to impose."
+    },
+    {
+      "provision_ref": "sec36",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "36",
+      "title": "Άρθρο 36: No business or other work, etc., by teachers except with permission",
+      "content": "36. No teacher shall engage, either directly or indirectly, in any business or shall receive any remuneration, other than his salary, in connection with any service rendered, or work done, by him save with the prior permission in writing of the Director."
+    },
+    {
+      "provision_ref": "sec37",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "37",
+      "title": "Άρθρο 37: Leave",
+      "content": "37.-(1) A teacher may be granted sick leave by the Director of such duration and on such terms as may be prescribed.\n(2) The Director may grant casual leave to any teacher for special reasons:\nProvided that no salary shall be payable for any period by which such casual leave exceeds an aggregate of fourteen days in any one school year.\n(3) The Governor may on the recommendation of the Director grant to a teacher study leave for such period and for such educational purposes and subject to such terms and conditions (including the salary, if any, payable during such leave) as the Governor may in each case determine:\nProvided that such leave shall not count as service under this Law and shall not be taken into account in the computation of any pension, gratuity, benevolent grant or additional grant unless such teacher-\n(a) satisfies the Director that such leave has been utilized for the educational purpose and in accordance with the terms and conditions under which it was granted; and\n(b) for a period of not less than one year after the expiration of such leave either serves in any school to which he may be appointed under section 26(1) or section 27 of this Law or with the permission of the Director acts or performs a duty under section 33(2) of this Law:\nProvided also that the name of such teacher may be removed from the Permanent Staff Register if the Director is satisfied that such leave has not been utilized for the educational purpose and in accordance with the terms and conditions under which it was granted.\n(4) For the purposes of this section-\n“salary” shall include any special allowance payable to a teacher."
+    },
+    {
+      "provision_ref": "sec38",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "38",
+      "title": "Άρθρο 38: Temporary teachers",
+      "content": "38.-(1) The Director shall keep a register of candidates who are willing to serve as temporary teachers.\n(2) The register so kept as aforesaid shall be called the Temporary Staff Register and there shall be separate sections therein for-\n(a) Greek-Orthodox;\n(b) Moslem; and\n(c) other candidates.\n(3) In the event of no teacher on the Permanent Staff Register being available, the Director shall, except in so far as may be otherwise provided in any Regulations, select a candidate whose name is on the Temporary Staff Register to fill temporarily any vacancy.\n(4) The Director may at any time require any candidate whose name is on the Temporary Staff Register to undergo before him an examination in such subjects of elementary education as he may prescribe, and if such candidate fails in such an examination his name may be removed from the Temporary Staff Register."
+    },
+    {
+      "provision_ref": "sec39",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "39",
+      "title": "Άρθρο 39: Teachers may be required to qualify in certain subjects",
+      "content": "39. The Governor may at any time by notice in the Gazette require that teachers whose names appear on the Permanent Staff Register shall qualify and pass within such time as may be specified in such notice an examination in any subject of elementary education, and the name of any such teacher who fails to pass such examination may be removed from the Permanent Staff Register."
+    },
+    {
+      "provision_ref": "sec40",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "40",
+      "title": "Άρθρο 40: Married women",
+      "content": "40. No married woman shall be registered on the Permanent Staff Register except by leave of the Governor on the special recommendation of the Director, and the name of any such married woman may in like manner be removed at any time from the Permanent Staff Register."
+    },
+    {
+      "provision_ref": "sec41",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "41",
+      "title": "Άρθρο 41: Qualifications of teachers. Religion",
+      "content": "41.-(1) No person shall be registered on the Permanent Staff Register-\n(a) as a Greek-Orthodox teacher who is not a member of the Greek-Orthodox Church, or\n(b) as a Moslem teacher who does not profess the Moslem faith.\n(2) No person shall hereafter be registered as a teacher on the Permanent Staff Register unless-\n(a) he has completed twenty years of age, and\n(b) he is a πολίτης της Δημοκρατίας, and\n(c) he fulfils the requirements prescribed by Regulations in that behalf.\n(3) No person shall be registered as a teacher on the Permanent Staff Register in the section thereof relating to teachers of religious communities other than Greek-Orthodox and Moslem, unless, in addition to the requirements prescribed in subsection (2) hereof, his appointment as a teacher has been approved by the Governor."
+    },
+    {
+      "provision_ref": "sec42",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "42",
+      "title": "Άρθρο 42: Teachers on old Permanent Staff Register",
+      "content": "42. Teachers whose names are already on the Permanent Staff Register under the Elementary Education Laws, 1929 to 1932, and who in the case of males have not attained the age of sixty years and in the case of females have not attained the age of fifty-five years, shall be entitled to be registered on the Permanent Staff Register under this Law in the sections therein relating to\n(a) Greek-Orthodox;\n(b) Moslem; and\n(c) other teachers,\nas the case may be."
+    },
+    {
+      "provision_ref": "sec43",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "43",
+      "title": "Άρθρο 43: Power to Governor to order the closing of schools in certain cases",
+      "content": "43.-(1) The Governor shall have power at any time by Order to direct the closing of any school whenever it is shown to his satisfaction-\n(a) that teaching of a seditious, disloyal, immoral or otherwise harmful character is being or has recently been imparted in the school; or\n(b) that the school premises have been used for purposes subversive to good government or social order in the Δημοκρατία~ or\n(c) that the behaviour of the religious community for which the school has been prescribed or any section thereof has been such as to render it impossible for the teacher to carry out his duties; or\n(d) that the school is being conducted in a place the sanitary condition of which is detrimental or injurious to the health of the children attending such school or is being kept in contravention of any directions of the Director in that respect.\n(2) Upon such an Order being made the school to which such Order refers shall be closed and shall remain closed until such Order has been revoked or cancelled by the Governor.\n(3) Any person acting in contravention of any Order made under this section shall be guilty of an offence and shall be liable on conviction to a fine not exceeding .250 and in case of a continuing offence to a further fine not exceeding .25 for each day during which the offence continues."
+    },
+    {
+      "provision_ref": "sec44",
+      "chapter": "PART IV PRESCRIPTION OF SCHOOLS, APPOINTMENT AND QUALIFICATIONS OF TEACHERS AND CLOSING OF SCHOOLS",
+      "section": "44",
+      "title": "Άρθρο 44: Power to close school on outbreak of disease",
+      "content": "44.-(1) The Director of Medical Services may at any time by notification in writing direct the closing of any school when in his opinion the outbreak of an infectious or contagious disease renders such closing advisable, and thereupon such school shall be closed and shall remain closed until the Director of Medical Services revokes the notification.\n(2) The Director may close any school conducted in a place which has become structurally or otherwise dangerous.\n(3) Any person acting in contravention of this section shall be guilty of an offence and shall be liable to a fine of .250, and in case of a continuing offence to a further fine of .25 for each day during which the offence continues."
+    },
+    {
+      "provision_ref": "sec45",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "45",
+      "title": "Άρθρο 45: Ερμηνεία",
+      "content": "45. Διά τους σκοπούς του παρόντος Μέρους, εκτός εάν εκ του κειμένου προκύπτη διάφορος έννοια-\n“δημοσία εκπαιδευτική υπηρεσία” σημαίνει την υπηρεσίαν την περιλαμβάνουσαν τας θέσεις των διδασκάλων και οιασδήποτε ετέρας θέσεις τας οποίας ήθελεν ορίσει το Υπουργικόν Συμβούλιον~\n“διδάσκαλος” σημαίνει-\n(α) Τον εκπαιδευτικό που διορίζεται σύμφωνα με το Νόμο για υπηρεσία σε δημόσια σχολεία στοιχειώδους εκπαιδεύσεως και περιλαμβάνει Διευθυντή και τον κάτοχο οποιασδήποτε άλλης θέσης στη Δημόσια Εκπαιδευτική Υπηρεσία την οποία θα ορίσει το Υπουργικό Συμβούλιο~ και\n(β) τον εκπαιδευτικό που διορίζεται από την εφορία των αρμένικων σχολείων της Κύπρου για υπηρεσία σε αρμένικο δημοτικό σχολείο της Κύπρου~\n“μισθός” σημαίνει τον ετήσιον μισθόν και περιλαμβάνει μέρος του τιμαριθμικού επιδόματος ίσον προς ποσοστόν του ετησίου μισθού ως το Υπουργικόν Συμβούλιον, διά διατάγματος δημοσιευομένου εν τη επισήμω εφημερίδι της Δημοκρατίας, ήθελεν εκάστοτε καθορίσει, αλλά δεν περιλαμβάνει οιονδήποτε έτερον επίδομα~\n“φιλοδώρημα” σημαίνει οιονδήποτε φιλοδώρημα χορηγούμενον δυνάμει του παρόντος Μέρους."
+    },
+    {
+      "provision_ref": "sec45A",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "45Α",
+      "title": "Άρθρο 45Α: Retirement on the grounds of ill-health",
+      "content": "45Α.-(1) Subject to the provisions of subsection (2) of this section any teacher eligible for a penson as provided in section 45-\n(a) who retires in the circumstances described in paragraph (b) of sub-section (1) of section 49 of this Law; and\n(b) who at the date of his retirement has completed more than ten years but less than twenty years service,\nmay be granted an additional pension at the rate of one six-hundredth of his salary for each month by which his service falls short of twenty years or by which his age at such date falls short of sixty years whichever is less.\n(2) The provisions of sub-section (1) of this section shall not apply in the case of a teacher-\n(a) who is permanently injured and entitled to benefits under the Workmen’s Compensation Law; or\n(b) who is permanently injured and eligible to receive an additional pension under the provisions of section 53 of this Law:\nProvided that if the pension for which such teacher is eligible under the provisions of the said section 53 is less than the additional pension for which he would otherwise be eligible under the provisions of this section, such teacher may be granted an additional pension under this section in lieu of an additional pension under the provisions of section 53 of this Law."
+    },
+    {
+      "provision_ref": "sec46",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "46",
+      "title": "Άρθρο 46: Σύνταξη και συντελεστής",
+      "content": "46.-(1)Τηρουμένων των διατάξεων του παρόντος Μέρους σε δάσκαλο που έχει συμπληρώσει υπηρεσία πέντε ή περισσότερα έτη καταβάλλεται κατά την αφυπηρέτηση του σε οποιαδήποτε από τις περιπτώσεις που αναφέρονται στο άρθρο 51, ετήσια σύνταξη με βάση συντελεστή ενός οκτακοσιοστού των ετήσιων συντάξιμων απολαβών του κατά την ημερομηνία της αφυπηρέτησης του για κάθε συμπληρωμένο μήνα της συντάξιμης υπηρεσίας του και εφάπαξ ποσό ίσο με την ετήσια σύνταξη πολλαπλασιαζόμενη επί δεκατέσσερα και διαιρούμενου του προκύπτοντος ποσού διά τρία: Νοείται ότι σύνταξη καταβαλλόμενη σε δάσκαλο δυνάμει του παρόντος Μέρους κατά την ημερομηνία της αφυπηρέτησης του δεν μπορεί αν υπερβαίνει το ένα δεύτερο των ετήσιων συντάξιμων απολαβών του:\nΝοείται περαιτέρω ότι, σε περίπτωση αφυπηρέτησης ή παραίτησης δασκάλου την προηγούμενη της ημερομηνίας παροχής αύξησης του τιμαριθμικού επιδόματος επί του βασικού μισθού, οι συντάξιμες απολαβές του λογίζονται ότι αυξάνονται ανάλογα, λαμβανομένης υπόψη της τιμαριθμικής αυτής αύξησης.\n(2) Σε περίπτωση που ο μισθός του δασκάλου βρίσκεται πάνω σε κλίμακα και ο δάσκαλος μέχρι την ημερομηνία της αφυπηρέτησης ή παραίτησης του έχει κερδίσει μέρος της επόμενης ετήσιας προσαύξησης της κλίμακας του, οι συντάξιμες απολαβές του λογίζονται ότι αυξάνονται κατά τόσα δωδέκατα του ποσού της προσαύξησης αυτής όσοι είναι οι μήνες κατά τους οποίους υπηρέτησε μετά τη χορήγηση της τελευταίας προσαύξησης του."
+    },
+    {
+      "provision_ref": "sec47",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "47",
+      "title": "Άρθρο 47: Αύξησις συντάξεως εις περιπτώσεις αφυπηρετήσεως λόγω ασθενείας",
+      "content": "47.-(1) Τηρουμένων των διατάξεων του εδαφίου (2), σε περίπτωση που δάσκαλος, ο οποίος αφυπηρετεί δυνάμει της παραγράφου (β) του εδαφίου (1) του άρθρου 51, έχει κατά την ημέρα της αφυπηρέτησης του συμπληρώσει συντάξιμη υπηρεσία-\n(α) Πέντε ή περισσότερα έτη αλλά κάτω από δέκα έτη, θεωρείται ότι συμπλήρωσε διπλάσια συντάξιμη υπηρεσία,\n(β) δέκα ή περισσότερα έτη αλλά κάτω από δεκαπέντε έτη, θεωρείται ότι συμπλήρωσε είκοσι έτη συντάξιμη υπηρεσία,\n(γ) δεκαπέντε ή περισσότερα έτη αλλά κάτω από είκοσι τρία έτη, η συντάξιμη υπηρεσία του αυξάνεται κατά πέντε έτη, με ανώτατο όριο συντάξιμης υπηρεσίας τα είκοσι πέντε έτη,\n(δ) είκοσι τρία ή περισσότερα έτη αλλά κάτω από τριάντα έτη, η συντάξιμη υπηρεσία του αυξάνεται κατά δύο έτη, με ανώτατο όριο συντάξιμης υπηρεσίας τα τριάντα έτη,\nτης υπηρεσίας που προστίθεται κατά τον τρόπο αυτό θεωρουμένης ως υπηρεσίας με εισφορές:\nΝοείται ότι σε καμιά περίπτωση η σύνταξη θα υπολογίζεται με βάση υπηρεσία μεγαλύτερη εκείνης την οποία θα είχε ο δάσκαλος εάν παρέμενε στην υπηρεσία μέχρι την ηλικία αναγκαστικής αφυπηρέτησης του.\n(2) Αι διατάξεις του εδαφίου (1) δεν εφαρμόζονται εις την περίπτωσιν διδασκάλου ο οποίος καθίσταται ανάπηρος συνεπεία τραύματος εν τη εκτελέσει του καθήκοντος του και ο οποίος δικαιούται εις πρόσθετον σύνταξιν δυνάμει του άρθρου 55 εάν η τοιαύτη πρόσθετος σύνταξις είναι μεγαλυτέρα του δυνάμει του εδαφίου (1) παρεχομένου ωφελήματος."
+    },
+    {
+      "provision_ref": "sec48",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "48",
+      "title": "Άρθρο 48: Eφάπαξ ποσό κατά την αφυπηρέτηση πριν από τη συμπλήρωση πενταετούς υπηρεσίας",
+      "content": "48.-(1) Σε δάσκαλο που αφυπηρετεί σε οποιαδήποτε από τις περιπτώσεις που αναφέρονται στο άρθρο 51 πριν από τη συμπλήρωση υπηρεσίας πέντε ετών καταβάλλεται εφάπαξ ποσό ίσο με το ένα δέκατο των μηνιαίων συντάξιμων απολαβών του κατά την ημερομηνία αφυπηρέτησης για κάθε συμπληρωμένο μήνα συντάξιμης υπηρεσίας.\n(2) Οι διατάξεις του εδαφίου (1) δεν εφαρμόζονται στην περίπτωση δασκάλας στην οποία επιτρέπεται να αφυπηρετήσει λόγω γάμου ή επικείμενου γάμου ή τεκνογονίας ή λόγω υιοθέτησης από αυτή τέκνου ηλικίας όχι μεγαλύτερης των έξι ετών."
+    },
+    {
+      "provision_ref": "sec49",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "49",
+      "title": "Άρθρο 49: Συντάξιμος υπηρεσία",
+      "content": "49.-(1) Τηρουμένων των διατάξεων του παρόντος άρθρου, συντάξιμος υπηρεσία είναι-\n(α) η υπηρεσία διδασκάλου επί μονίμου βάσεως~\n(β) η υπηρεσία διδασκάλου επί προσωρινής βάσεως επί συμβάσει εάν εις αμφοτέρας τας περιπτώσεις αύτη προηγήται, είτε αμέσως είτε κατόπιν διακοπής υπηρεσίας επί μονίμου βάσεως~\n(γ) υπηρεσία η οποία θα ηδύνατο να λογισθή ως συντάξιμος δυνάμει του περί Συντάξεων Νόμου, των περί Συντάξεων Καθηγητών Νόμων του 1967 έως 1979, ή οιουδήποτε άλλου νόμου διέποντος την χορήγησιν συντάξεως εκ του Παγίου Ταμείου της Δημοκρατίας, εάν η τοιαύτη υπηρεσία προηγήται, είτε αμέσως είτε κατόπιν διακοπής, συνταξίμου υπηρεσίας δυνάμει του παρόντος Νόμου ή διακόπτη τοιαύτην υπηρεσίαν ή εάν η τοιαύτη υπηρεσία διεκόπη ή διακόπτεται λόγω φοιτήσεως εν Κύπρω εις το Διδασκαλικόν Κολλέγιον ή την Παιδαγωγικήν Ακαδημίαν, περιλαμβανομένης υπηρεσίας σε σχολείο δημοτικής, μέσης ή ανώτερης εκπαίδευσης εκτός Κύπρου, όπως ο όρος αυτός ερμηνεύεται στον περί Συντάξεων Καθηγητών (Τροποποιητικό) Νόμο του 1992.\nΝοείται ότι στην περίπτωση δασκάλου ο οποίος αφυπηρέτησε πριν από την ημερομηνία έναρξης της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1992 αναθεωρείται η ετήσια σύνταξη του από την πρώτη του μήνα που ακολουθεί την ημερομηνία δημοσίευσης του Νόμου αυτού, αφού εφαρμοστεί η τροποποίηση που εκτίθεται στο άρθρο 2 του εν λόγω Νόμου~\n(δ) Η υπηρεσία δασκάλου σε δημόσια σχολεία στην Ελλάδα που προηγείται μόνιμου διορισμού σε δημόσια σχολεία δημοτικής εκπαίδευσης της Κύπρου:\nΝοείται ότι θα καταβάλλονται απευθείας στην Κυπριακή Δημοκρατία τα ποσά που ο δάσκαλος δικαιούται να λάβει από τα Επικουρικά Ταμεία της Ελλάδας καθώς και τα άλλα συνταξιοδοτικά ωφελήματα που δικαιούται για την υπηρεσία του στην Ελλάδα σύμφωνα με τη Σύμβαση μεταξύ της Κυβέρνησης της Κυπριακής Δημοκρατίας και της Κυβέρνησης της Ελληνικής Δημοκρατίας για Συνταξιοδότηση Κρατικών Υπαλλήλων του 1994.\n(2) Ουδεμία περίοδος απουσίας διδασκάλου επ’ αδεία άνευ απολαβών λογίζεται ως συντάξιμος υπηρεσία εκτός εάν η τοιαύτη άδεια είναι εκπαιδευτική άδεια η οποία παρεχωρήθη υπό της αρμοδίας αρχής και συμφώνως προς τους εκάστοτε εν ισχύϊ κανονισμούς τους διέποντας την χορήγησιν τοιαύτης εκπαιδευτικής αδείας ή είναι άδεια η οποία παρεχωρήθη τη εγκρίσει του Υπουργικού Συμβουλίου προς το συμφέρον της εκπαιδεύσεως ή διά σκοπούς δημοσίας πολιτικής.\n(3) Συντάξιμος υπηρεσία λογίζεται και πάσα περίοδος υπηρεσίας διδασκάλου εις τας Ενόπλους Δυνάμεις της Δημοκρατίας διακόπτουσα την υπηρεσίαν αυτού ως διδασκάλου.\nΔιά τους σκοπούς του παρόντος εδαφίου “Ένοπλοι Δυνάμεις” σημαίνει την δυνάμει των περί της Εθνικής Φρουράς Νόμων συσταθείσαν Εθνικήν Φρουράν και περιλαμβάνει πάσαν άλλην Δύναμιν την οποίαν το Υπουργικόν Συμβούλιον ήθελε κηρύξει ως Ένοπλον Δύναμιν της Δημοκρατίας.\n(3Α) Συντάξιμη υπηρεσία λογίζεται και κάθε περίοδος υπηρεσίας διδασκάλου στα Αρμένικα Δημοτικά Σχολεία της Κύπρου, η οποία προσφέρθηκε και πριν από την ημερομηνία έναρξης της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 2) Νόμου του 1996 αλλά δεν περιλαμβάνει υπηρεσία διδασκάλου ο οποίος δεν υπηρετούσε κατά την ημερομηνία αυτή.\n(4) Διά τον υπολογισμόν της ολικής συνταξίμου υπηρεσίας διδασκάλου χρονική περίοδος άνω των δεκαπέντε ημερών λογίζεται ως συμπεπληρωμένος μην.\n(5) Σε περίπτωση δασκάλου που υπηρετεί σε σχολεία στις τουρκοκρατούμενες περιοχές της Κύπρου ή υπηρέτησε στα σχολεία αυτά πριν από την αφυπηρέτηση ή το θάνατο του και δε συμπληρώνει το υπό του βασικού νόμου απαιτούμενο ανώτατο όριο υπηρεσίας για πλήρη σύνταξη, ο χρόνος υπηρεσίας στα σχολεία αυτά μετά την τουρκική εισβολή λογίζεται ως διπλάσιος του πραγματικού για σκοπούς υπολογισμού των ωφελημάτων αφυπηρέτησης του."
+    },
+    {
+      "provision_ref": "sec50",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "50",
+      "title": "Άρθρο 50: Αναγνώρισις προηγουμένης υπηρεσίας",
+      "content": "50.-(1) Τηρουμένων των διατάξεων των εδαφίων (2) και (3), εάν διδάσκαλος υπηρετήσας δι’ οιανδήποτε περίοδον εγκατέλειψεν ή εγκαταλείψη την δημοσίαν εκπαιδευτικήν υπηρεσίαν δι’ οιονδήποτε λόγον άνευ της χορηγήσεως οιουδήποτε ωφελήματος δυνάμει του παρόντος Νόμου, ακολούθως δε επαναδιωρίσθη ή ήθελεν επαναδιορισθή εις την δημοσίαν εκπαιδευτικήν υπηρεσίαν και υπηρετήση διά περίοδον ουχί ολιγωτέραν των πέντε ετών, αφυπηρετήση δε τελικώς εις οιανδήποτε περίπτωσιν καθ’ ην δικαιούται εις σύνταξιν δυνάμει του άρθρου 51, η προηγουμένη υπηρεσία αυτού λαμβάνεται υπ’ όψιν διά τον υπολογισμόν της συντάξεως του επί τη τελική αφυπηρετήσει του:\nΝοείται ότι εάν εις τον διδάσκαλον εχορηγήθη φιλοδώρημα δυνάμει οιουδήποτε άλλου νόμου ή οιουδήποτε κανονισμού αναφορικώς προς την προηγουμένην υπηρεσίαν του, αι διατάξεις του παρόντος εδαφίου εφαρμόζονται μόνον εάν ο διδάσκαλος εκλέξη να επιστρέψη το ούτω χορηγηθέν εις αυτόν φιλοδώρημα ευθύς μετά τον επαναδιορισμόν του ή εντός τριών μηνών από της ημερομηνίας ενάρξεως της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1981.\n(2) Εάν διδάσκαλος αφυπηρετήσας δυνάμει της παραγράφου (β), (γ) ή (δ) του εδαφίου (1) του άρθρου 51 επαναδιωρίσθη ή ήθελεν επαναδιορισθή εις την δημοσίαν εκπαιδευτικήν υπηρεσίαν και υπηρετήση διά περίοδον ουχί ολιγωτέραν των πέντε ετών, αφυπηρετήση δε τελικώς εις οιανδήποτε περίπτωσιν καθ’ ην δικαιούται εις σύνταξιν δυνάμει του εν λόγω άρθρου, η προηγουμένη υπηρεσία αυτού δύναται να ληφθή υπ’ όψιν διά τον υπολογισμόν της συντάξεως του επί τη τελική αφυπηρετήσει του νοουμένου ότι ούτος ήθελεν ειδοποιήσει εγγράφως τον Γενικόν Λογιστήν ευθύς μετά τον επαναδιορισμόν του ή εντός τριών μηνών από της ημερομηνίας ενάρξεως της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1981 ότι-\n(ι) αναλαμβάνει όπως επιστρέψη αμέσως οιονδήποτε φιλοδώρημα χορηγηθέν εις αυτόν δυνάμει του άρθρου 48~ ή\n(ιι) συγκατατίθεται όπως η καταβολή οιασδήποτε χορηγηθείσης ετησίας συντάξεως διακοπή από της ημερομηνίας του επαναδιορισμού του και οιονδήποτε πληρωθέν εις αυτόν εφ’ άπαξ επί της συντάξεως φιλοδώρημα επιστραφή υπ’ αυτού αμέσως, εν τοιαύτη δε περιπτώσει οιαδήποτε προστεθείσα περίοδος υπηρεσίας δεν λαμβάνεται υπ’ όψιν κατά τον υπολογισμόν της συντάξεως και του φιλοδωρήματος των καταβλητέων επί τη τελική αφυπηρετήσει του:\nΝοείται ότι εις περίπτωσιν μη ειδοποιήσεως υπό του διδασκάλου περί συγκαταθέσεως του ως προνοείται εις την υποπαράγραφον (ιι) ανωτέρω, οιαδήποτε πρόσθετος ετησία σύνταξις χορηγηθείσα δυνάμει του άρθρου 47 ή του άρθρου 54 αφαιρείται εκ της συντάξεως ευθύς ως ούτος επαναδιορισθή, η αφαιρετέα δε δυνάμει της παρούσης επιφυλάξεως σύνταξις είναι εκείνη η οποία κατεβάλλετο εις αυτόν κατά την ημερομηνίαν του επαναδιορισμού του.\n(3) Εάν διδασκάλισσα αφυπηρετήσασα δυνάμει της επιφυλάξεως (β) του εδαφίου (1) του άρθρου 53 επαναδιωρίσθη ή ήθελεν επαναδιορισθή εις την δημοσίαν εκπαιδευτικήν υπηρεσίαν και υπηρετήση διά περίοδον ουχί ολιγωτέραν των πέντε ετών, αφυπηρετήση δε τελικώς εις οιανδήποτε περίπτωσιν καθ’ ην δικαιούται εις σύνταξιν δυνάμει του άρθρου 51, η προηγούμενη υπηρεσία αυτής δύναται να ληφθή υπ’ όψιν διά τον υπολογισμόν της συντάξεως της επί τη τελική αφυπηρετήσει της νοουμένου ότι αύτη ήθελεν ειδοποιήσει εγγράφως τον Γενικόν Λογιστήν ευθύς μετά τον επαναδιορισμόν της ή εντός τριών μηνών από της ημερομηνίας της ενάρξεως της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1981 ότι αναλαμβάνει όπως επιστρέψη οιονδήποτε φιλοδώρημα χορηγηθέν εις αυτήν δυνάμει του άρθρου 52.\n(4) Εάν διδάσκαλος αφυπηρετήσας δυνάμει της παραγράφου (ζ) του άρθρου 51 επαναδιορισθή εις την δημοσίαν εκπαιδευτικήν υπηρεσίαν και υπηρετήση διά περίοδον ουχί ολιγωτέραν των πέντε ετών, αφυπηρετήση δε τελικώς εις οιανδήποτε περίπτωσιν καθ’ ην δικαιούται εις σύνταξιν δυνάμει του εν λόγω άρθρου, η προηγουμένη υπηρεσία αυτού δύναται να ληφθή υπ’ όψιν διά τον υπολογισμόν της συντάξεως του επί τη τελική αφυπηρετήσει του νοουμένου ότι ούτος ήθελεν ειδοποιήσει εγγράφως τον Γενικόν Λογιστήν ευθύς μετά τον επαναδιορισμόν του ότι αναλαμβάνει όπως επιστρέψη οιονδήποτε φιλοδώρημα χορηγηθέν εις αυτόν δυνάμει του εδαφίου (3) του άρθρου 51Β ή ότι συγκατατίθεται όπως η καταβολή οιασδήποτε ετησίας συντάξεως χορηγηθείσης δυνάμει του εδαφίου (5) του εν λόγω άρθρου διακοπή από της ημερομηνίας του επαναδιορισμού του και όπως οιονδήποτε πληρωθέν εις αυτόν φιλοδώρημα δυνάμει του αυτού εδαφίου επιστραφή υπ’ αυτού αμέσως.\n(5) Η δυνάμει του παρόντος άρθρου επιστροφή οιουδήποτε ποσού γίνεται μεθ’ απλού τόκου, προς τοσούτον επιτόκιον όσον ο Υπουργός Οικονομικών ήθελεν εκάστοτε καθορίσει, υπολογιζομένου από της ημερομηνίας καθ’ ην τούτο είχε καταβληθή μέχρι της ημερομηνίας της επιστροφής ολοκλήρου του ποσού. Ο χρόνος και ο τρόπος της επιστροφής καθορίζονται υπό του Υπουργού Οικονομικών.\n(6) Εάν ο διδάσκαλος εις τον οποίον αναφέρεται το εδάφιον (1), (2), (3) ή (4) του παρόντος άρθρου πλην της επιφυλάξεως του εδαφίου (2), αποβιώση καθ’ οιονδήποτε χρόνον μετά τον επαναδιορισμόν του, η προηγουμένη υπηρεσία του λαμβάνεται υπ’ όψιν διά τον υπολογισμόν της συντάξεως χήρας και τέκνων και του εφ’ άπαξ φιλοδωρήματος του καταβλητέου εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού, του εις τα ως άνω εδάφια όρου περί συμπληρώσεως πενταετούς υπηρεσίας μη λαμβανομένου υπ’ όψιν.\n(7) Τηρουμένων των διατάξεων των προηγούμενων εδαφίων, δάσκαλος στον οποίο χορηγήθηκε φιλοδώρημα δυνάμει του παρόντος Νόμου για οποιαδήποτε προηγούμενη υπηρεσία, δύναται να ασκήσει οποτεδήποτε εκλογή να επιστρέψει στην Κυβέρνηση της Δημοκρατίας το φιλοδώρημα, χωρίς την επιβολή τόκου, εάν η επιστροφή απαιτείται για σκοπούς χορήγησης σύνταξης για την υπηρεσία αυτή από την Κυβέρνηση της Ελληνικής Δημοκρατίας."
+    },
+    {
+      "provision_ref": "sec51",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51",
+      "title": "Άρθρο 51: Pension or gratuity, when granted",
+      "content": "51.-(1) No pension or gratuity shall be granted to any teacher except on his retirement from the service in any one of the following cases-\n(a)on or after attaining the age of εξήκοντα ετών, or in any case in which the Governor, under the provisions of this Law, may require or permit a teacher to retire on or after attaining the age of πεντήκοντα πέντε ετών, on being required or permitted so to retire;\n(b) on medical evidence to the satisfaction του Υπουργού Παιδείας και Πολιτισμού, that he is incapable by reason of some infirmity of mind or body of discharging his duties as teacher and that such infirmity is likely to be permanent;\n(c) on compulsory retirement for the purpose of facilitating improvement in the organization of elementary schools by which greater efficiency or economy may be effected;\n(d) on the abolition of his post;\n(e) in the case of termination of employment in the public interest as in subsection (2) hereof provided;\n(στ) όταν εν τω δημοσίω συμφέροντι η αφυπηρέτησις αυτού καθίσταται αναγκαία ίνα ούτος αναλάβη δημόσιον λειτούργημα ασυμβίβαστον προς το αξίωμα ή την θέσιν ην κατέχει εν τη δημοσία εκπαιδευτική υπηρεσία~\n(ζ) οσάκις εν τω δημοσίω συμφέροντι η αφυπηρέτησις αυτού γίνεται ίνα ούτος διορισθή εις οργανισμόν ως προνοείται εν τω άρθρω 51Β~\n(η) εις περίπτωσιν οικειοθελούς προώρου αφυπηρετήσεως ως προνοείται εν τω άρθρω 51Γ.\n(2) Where a teacher’s service is terminated υπό του Υπουργικού Συμβουλίου on the ground that, having regard to the conditions of the service, the usefulness of the teacher thereto and all the other circumstances of the case, such termination is desirable in the public interest, and a pension, gratuity or other allowance cannot otherwise be granted to him under the provisions of this Law, το Υπουργικόν Συμβούλιον may, if he thinks fit, grant such pension, gratuity or other allowance as he thinks just and proper, not exceeding in amount that for which the teacher would be eligible if he retired from the service in the circumstances described in paragraph (b) of subsection (1) of this section."
+    },
+    {
+      "provision_ref": "sec51A",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51Α",
+      "title": "Άρθρο 51Α: Aφυπηρέτησις προς ανάληψιν δημοσίου λειτουργήματος",
+      "content": "51Α.-(1) Οσάκις διδάσκαλος αφυπηρετή προς ανάληψιν δημοσίου λειτουργήματος ασυμβιβάστου προς το αξίωμα ή την θέσιν ην κατέχει εν τη δημοσία εκπαιδευτική υπηρεσία, ούτος εις πάσαν περίπτωσιν λαμβάνει διά την τοιαύτην δημοσίαν εκπαιδευτικήν υπηρεσίαν-\n(α) σύνταξιν δυνάμει του άρθρου 46, του εν αυτώ όρου περί συμπληρώσεως πενταετούς υπηρεσίας και των διατάξεων του άρθρου 48 μη λαμβανομένων υπ’ όψιν~ και\n(β) τοσαύτην επιπρόσθετον σύνταξιν όσην το Υπουργικόν Συμβούλιον ήθελε κρίνει δικαίαν και πρέπουσαν.\n(2) Η επιπρόσθετος σύνταξις η αναφερομένη εις την παράγραφον (β) του εδαφίου (1)-\n(α) ομού μετά της συντάξεως της χορηγηθείσης εις αυτόν δυνάμει της παραγράφου (α) του εδαφίου (1) του παρόντος άρθρου ή οιασδήποτε ετέρας διατάξεως του παρόντος Μέρους δεν θα υπερβαίνη-\n(i) εις περίπτωσιν καθ’ ην ο διδάσκαλος δεν έχει συμπληρώσει δεκαετή υπηρεσίαν, την σύνταξιν ην ούτος θα εδικαιούτο να λάβη εάν υπηρέτει εν τη δημοσία εκπαιδευτική υπηρεσία διά τοσαύτην περιπλέον περίοδον όσην υπηρέτησε προ της αναλήψεως του δημοσίου λειτουργήματος, ή εάν αφυπηρέτει εκ ταύτης λόγω ορίου ηλικίας, οιαδήποτε των δύο τούτων συντάξεων θα ήτο η μικροτέρα~\n(ii) εις περίπτωσιν καθ’ ην ο διδάσκαλος έχει συμπληρώσει δεκαετή υπηρεσίαν, την σύνταξιν ην ούτος θα εδικαιούτο να λάβη εάν υπηρέτει εν τη δημοσία εκπαιδευτική υπηρεσία διά περίοδον δέκα περιπλέον ετών ή εάν αφυπηρέτει εκ ταύτης λόγω ορίου ηλικίας, οιαδήποτε των δύο τούτων συντάξεων θα ήτο η μικροτέρα~\n(β) δεν θα καταβάλληται εις αυτόν καθ’ ον χρόνον ούτος-\n(i) κατέχει το αμέσως μετά την αφυπηρέτησιν του αναληφθέν υπ’ αυτού δημόσιον λειτούργημα~ ή\n(ii) κατέχει οιονδήποτε μεταγενεστέρως αναληφθέν υπ’ αυτού δημόσιον λειτούργημα όπερ είναι ασυμβίβαστον προς το αξίωμα ή την θέσιν ην κατέχει εν τη δημοσία εκπαιδευτική υπηρεσία κατά την αφυπηρέτησιν του~ ή\n(iii) κατέχει οιονδήποτε αναληφθέν υπ’ αυτού, καθ’ οιονδήποτε χρόνον, δημόσιον λειτούργημα καθορισθέν ως τοιούτο υπό του Υπουργικού Συμβουλίου ή οιανδήποτε θέσιν εν τη δημοσία εκπαιδευτική υπηρεσία ή εν τη δημοσία ή δικαστική υπηρεσία~\n(γ) θα αυξάνηται καθ’ οιονδήποτε ποσοστόν καθ’ ον ήθελον τυχόν αυξηθή αι συντάξεις μεταξύ της ημερομηνίας αφυπηρετήσεως αυτού και της ημερομηνίας καταβολής της επιπροσθέτου συντάξεως δυνάμει οιουδήποτε Νόμου προνοούντος περί αυξήσεως συντάξεων, ή δυνάμει οιουδήποτε διατάγματος του Υπουργικού Συμβουλίου προνοούντος περί τιμαριθμικής αυξήσεως των συντάξεων.\n(3) Οιαδήποτε νέα υπηρεσία αναληφθείσα υφ’ οιουδήποτε προσώπου είτε εν τη δημοσία εκπαιδευτική υπηρεσία είτε εν τη δημοσία ή δικαστική υπηρεσία μετά την αφυπηρέτησιν αυτού εκ της δημοσίας εκπαιδευτικής υπηρεσίας δεν θα θεωρήται ως συνέχεια της προηγουμένης υπηρεσίας του εν τη δημοσία εκπαιδευτική υπηρεσία.\n(4) Σε περιπτώσεις αφυπηρέτησης δυνάμει του παρόντος άρθρου μετά την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1992, από τους μήνες υπηρεσίας που λαμβάνονται υπόψη για τον υπολογισμό της επιπρόσθετης σύνταξης αφαιρούνται οι μήνες υπηρεσίας στο λειτούργημα που ήταν ασυμβίβαστο με τη θέση που κατείχε στην εκπαιδευτική υπηρεσία, για την οποία κερδήθηκαν συνταξιοδοτικά ωφελήματα."
+    },
+    {
+      "provision_ref": "sec51V",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51Β",
+      "title": "Άρθρο 51Β: Αφυπηρέτηση λόγω επικείμενου διορισμού σε οργανισμό",
+      "content": "51Β.-(1) Εάν σε δάσκαλο που κατέχει συντάξιμη θέση επιτραπεί να αφυπηρετήσει λόγω επικείμενου διορισμού του σε οργανισμό μετά την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, η Κυβέρνηση της Δημοκρατίας καταβάλλει στον οργανισμό κατά την αποχώρηση του από τη δημόσια εκπαιδευτική υπηρεσία εφάπαξ ποσό ίσο με το ένα δωδέκατο των μηνιαίων συντάξιμων απολαβών του κατά την ημέρα της αφυπηρέτησης του για κάθε συμπληρωμένο μήνα συντάξιμης υπηρεσίας και ποσό ίσο με το διπλάσιο του ποσού των εισφορών που κατέβαλε ο δάσκαλος για τη μεταβίβαση της σύνταξης στη χήρα και τα τέκνα του, μαζί με τόκο προς τέτοιο επιτόκιο όσο καθορίζει εκάστοτε ο Υπουργός Οικονομικών με βάση το εδάφιο (4) του άρθρου 62Ι. Σε τέτοια περίπτωση η υπηρεσία του στη δημόσια εκπαιδευτική υπηρεσία λαμβάνεται υπόψη από τον οργανισμό για τον καθορισμό του μήκους υπηρεσίας που του δίδει δικαίωμα σε ωφελήματα και για τον υπολογισμό των ωφελημάτων αφυπηρέτησης που θα δικαιούται να λάβει από τον οργανισμό με βάση το σχέδιο ωφελημάτων αφυπηρέτησης που λειτουργεί στον οργανισμό και είναι όμοιο με το κυβερνητικό σχέδιο συντάξεων.\n(2) Εάν ο δάσκαλος στον οποίο εφαρμόζεται το εδάφιο (1) δικαιούται κατά την αφυπηρέτηση του από τον οργανισμό σε ετήσια σύνταξη, αυτή δεν μπορεί να υπερβεί το ένα δεύτερο των ετήσιων συντάξιμων απολαβών του κατά την ημέρα της αφυπηρέτησης του από τον οργανισμό.\n(3) Στο παρόν άρθρο ο όρος “οργανισμός” σημαίνει οποιοδήποτε νομικό πρόσωπο δημόσιου δικαίου ή άλλο οργανισμό δημόσιου δικαίου άνευ νομικής προσωπικότητος που ιδρύθηκε προς το δημόσιο συμφέρον με ειδικό νόμο του οποίου τα κεφάλαια είτε παρέχονται είτε είναι εγγυημένα από τη Δημοκρατία και οποιαδήποτε αρχή τοπικής διοίκησης."
+    },
+    {
+      "provision_ref": "sec51VV",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51ΒΒ",
+      "title": "Άρθρο 51ΒΒ: Ειδικές διατάξεις σε σχέση με πρώην δασκάλους που διορίστηκαν σε οργανισμό",
+      "content": "51ΒΒ.-(1) Σε περίπτωση δασκάλου, ο οποίος εργάστηκε στη δημόσια εκπαιδευτική υπηρεσία πάνω σε βάση πλήρους απασχόλησης είτε ως μόνιμος είτε ως έκτακτος είτε ως ωρομίσθιος για οποιαδήποτε περίοδο πριν από την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992 και διορίστηκε ή ήθελε διοριστεί σε οργανισμό οποτεδήποτε πριν ή μετά την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, εφαρμόζονται οι διατάξεις του άρθρου 51Β που εκτίθενται στο άρθρο 2 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, εκτός αν ο δάσκαλος δηλώσει εγγράφως προς τον Υπουργό Οικονομικών μέσα σε έξι μήνες από την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992 ότι επιθυμεί να εφαρμοστούν στην περίπτωση του οι διατάξεις του άρθρου 51Β που εκτίθενται στο άρθρο 4 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1979, όπως τροποποιήθηκε με το άρθρο 7 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1990. Το εφάπαξ ποσό που προβλέπεται στο εδάφιο (1) του άρθρου 51Β, που εκτίθεται στο άρθρο 2 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) του 1992, υπολογίζεται με βάση τις συντάξιμες απολαβές του κατά την ημέρα που αποχώρησε από τη δημόσια εκπαιδευτική υπηρεσία και καταβάλλεται στον οργανισμό μετά την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992 μαζί με τις αναφερόμενες στο εν λόγω εδάφιο εισφορές. Πάνω και στα δύο ποσά προστίθεται τόκος, από την ημέρα της αποχώρησης μέχρι την ημέρα της καταβολής, προς τέτοιο επιτόκιο όσο καθορίζει εκάστοτε ο Υπουργός Οικονομικών με βάση το εδάφιο (4) του άρθρου 62Ι:\nΝοείται ότι υπάλληλος οργανισμού, που κατά την ημερομηνία ενάρξεως ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992 δεν είναι εντεταγμένος σε σχέδιο συντάξεων όμοιο με το κυβερνητικό σχέδιο συντάξεων αλλά έχει δικαίωμα εκλογής μεταπήδησης του σε τέτοιο σχέδιο οποτεδήποτε πριν από την αφυπηρέτηση του, διατηρεί το δικαίωμα να εκλέξει, οποτεδήποτε πριν από την αφυπηρέτηση του, όπως, με τη μεταπήδηση του στο κυβερνητικό σχέδιο συντάξεων, εφαρμοστούν είτε οι διατάξεις του άρθρου 51Β που εκτίθενται στο άρθρο 2 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, είτε οι διατάξεις του άρθρου 51Β του βασικού νόμου που εκτίθενται στο άρθρο 4 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1979, όπως τροποποιήθηκε με το άρθρο 7 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1990:\nΝοείται περαιτέρω ότι αν στον υπάλληλο καταβλήθηκε από την Κυβέρνηση οποιοδήποτε φιλοδώρημα ή άλλο ωφέλημα οι διατάξεις του παρόντος εδαφίου εφαρμόζονται μόνο αν ο υπάλληλος εκλέξει μέσα σε έξι μήνες από την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού)( Αρ. 3) Νόμου του 1992 να επιστρέψει στην Κυβέρνηση το φιλοδώρημα ή άλλο ωφέλημα με τόκο όπως αναφέρεται στο εδάφιο αυτό.\n(2) Σε περίπτωση δασκάλου, ο οποίος διορίστηκε ή ήθελε διοριστεί σε οργανισμό στον οποίο δε λειτουργεί σχέδιο συντάξεων όμοιο με το κυβερνητικό σχέδιο συντάξεων, τα ωφελήματα αφυπηρέτησης του καταβάλλονται από την Κυβέρνηση της Δημοκρατίας και με βάση τις διατάξεις του άρθρου 51Β που εκτίθενται στο άρθρο 4 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1979, όπως τροποποιήθηκε με το άρθρο 7 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1990.\n(3) Στο παρόν άρθρο ο όρος “οργανισμός” έχει την έννοια που του δίδεται με το εδάφιο (3) του άρθρου 51Β."
+    },
+    {
+      "provision_ref": "sec51G",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51Γ",
+      "title": "Άρθρο 51Γ: Οικειοθελής πρόωρος αφυπηρέτησις",
+      "content": "51Γ.-(1)(α) Όταν δάσκαλος, που κατέχει συντάξιμη θέση και συμπλήρωσε υπηρεσία πέντε ή περισσότερα έτη και ηλικία όχι μικρότερη των σαράντα πέντε ετών, υποβάλει αίτηση για πρόωρη αφυπηρέτηση από την υπηρεσία, ο Υπουργός Παιδείας και Πολιτισμού, δύναται να επιτρέψει την πρόωρη αφυπηρέτηση του. Στην περίπτωση αυτή η σύνταξη και το εφάπαξ ποσό παγοποιούνται και καταβάλλονται αμέσως μετά που αυτός θα συμπληρώσει την ηλικία των πενήντα πέντε ετών. Η σύνταξη και το εφάπαξ ποσό θα υπολογίζονται δυνάμει του άρθρου 46 και με βάση τις συντάξιμες απολαβές του κατά την ημέρα της πρόωρης αφυπηρέτησης του και θα αυξάνονται κατά οποιοδήποτε ποσοστό που τυχόν ήθελαν αυξηθεί οι συντάξεις μεταξύ της ημερομηνίας αφυπηρέτησης του και της ημερομηνίας καταβολής της σύνταξης και του εφάπαξ ποσού δυνάμει οποιουδήποτε νόμου που προνοεί για αύξηση των συντάξεων ή δυνάμει οποιουδήποτε διατάγματος του Υπουργικού Συμβουλίου που προνοεί για τιμαριθμική αύξηση των συντάξεων.\n(β) Οσάκις διδάσκαλος, όστις κατέχει συντάξιμον θέσιν αλλά δεν ικανοποιεί τους άλλους όρους της παραγράφου (α) του παρόντος εδαφίου έχει όμως συντάξιμον υπηρεσίαν ουχί ολιγωτέραν των τριών ετών, παραιτήται της θέσεως του κατόπιν αδείας της Επιτροπής Εκπαιδευτικής Υπηρεσίας, ούτος λαμβάνει αμέσως μετά την παραίτησιν του φιλοδώρημα ίσον προς το εν δωδέκατον των κατά την ημερομηνίαν παραιτήσεως μηνιαίων συνταξίμων απολαβών αυτού δι’ έκαστον συμπεπληρωμένον μήνα υπηρεσίας~\n(2) Εν περιπτώσει αρνήσεως του Υπουργού Παιδείας και Πολιτισμού να επιτρέψη την πρόωρον αφυπηρέτησιν διδασκάλου τινός συμφώνως προς τας διατάξεις της παραγράφου (α) του εδαφίου (1) ή εν περιπτώσει αρνήσεως της Επιτροπής Εκπαιδευτικής Υπηρεσίας να αποδεχθή την παραίτησιν διδασκάλου τινός συμφώνως προς τας διατάξεις της παραγράφου (β) του εδαφίου (1), η τοιαύτη άρνησις δέον να είναι δεόντως ητιολογημένη.\n(3) Εάν ο διδάσκαλος εις τον οποίον εφαρμόζεται η παράγραφος (α) του εδαφίου (1) ασθενήση καθ’ οιονδήποτε χρόνον προ της συμπληρώσεως της ηλικίας των πεντήκοντα πέντε ετών, ο Υπουργός Οικονομικών, εάν ικανοποιηθή εξ ιατρικής εκθέσεως υπό Κυβερνητικού Ιατροσυμβουλίου ότι ούτος υποφέρει από σωματικήν ή πνευματικήν αναπηρίαν η οποία είναι κατά πάσαν πιθανότητα μόνιμος και η οποία είναι τοιαύτης φύσεως ώστε να μη δύναται ούτος να ασκήση οιονδήποτε επάγγελμα, δύναται να επιτρέψη την εις αυτόν καταβολήν της συντάξεως αμέσως, εν τοιαύτη δε περιπτώσει το άρθρον 47 δεν θα εφαρμόζηται. Η ούτω καταβαλλομένη εις αυτόν σύνταξις αυξάνεται καθ’ οιονδήποτε ποσοστόν καθ’ ον αι συντάξεις, μεταξύ της ημερομηνίας αφυπηρετήσεως του και της ημερομηνίας του θανάτου του, ήθελον τυχόν αυξηθή δυνάμει οιουδήποτε Νόμου προνοούντος περί αυξήσεως συντάξεων ή δυνάμει οιουδήποτε διατάγματος του Υπουργικού Συμβουλίου προνοούντος περί τιμαριθμικής αυξήσεως των συντάξεων.\n(4) Εάν ο διδάσκαλος εις τον οποίον εφαρμόζεται η παράγραφος (α) του εδαφίου (1) αποβιώση καθ’ οιονδήποτε χρόνον προ της συμπληρώσεως της ηλικίας των πεντήκοντα πέντε ετών, καταβάλλεται εις την χήραν και τα δικαιούμενα εις σύνταξιν τέκνα αυτού, εάν υπάρχουν, σύνταξις χήρας και τέκνων, συμφώνως προς τας διατάξεις του Μέρους VA του παρόντος Νόμου, μη εφαρμοζομένης της πρώτης επιφυλάξεως του εδαφίου (1) του άρθρου 62Ε. Η ούτω καταβαλλομένη εις την χήραν και τα τέκνα του διδασκάλου σύνταξις αυξάνεται καθ’ οιονδήποτε ποσοστόν καθ’ ον αι συντάξεις, μεταξύ της ημερομηνίας αφυπηρετήσεως του και της ημερομηνίας του θανάτου του, ήθελον τυχόν αυξηθή δυνάμει οιουδήποτε Νόμου προνοούντος περί αυξήσεως συντάξεων ή δυνάμει οιουδήποτε διατάγματος του Υπουργικού Συμβουλίου προνοούντος περί τιμαριθμικής αυξήσεως των συντάξεων.\n(5) Εάν ο διδάσκαλος εις τον οποίον εφαρμόζεται η παράγραφος (α) του εδαφίου (1) αποβιώση καθ’ οιονδήποτε χρόνον προ της συμπληρώσεως της ηλικίας των πεντήκοντα πέντε ετών, χορηγείται εφ’ άπαξ φιλοδώρημα εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού, ίσον προς το εφ’ άπαξ επί της συντάξεως φιλοδώρημα εις το οποίον θα εδικαιούτο κατά την πρόωρον αφυπηρέτησιν του. Το εν λόγω φιλοδώρημα αυξάνεται καθ’ οιονδήποτε ποσοστόν καθ’ ον αι συντάξεις, μεταξύ της ημερομηνίας αφυπηρετήσεως του και της ημερομηνίας του θανάτου του, ήθελον τυχόν αυξηθή δυνάμει οιουδήποτε Νόμου προνοούντος περί αυξήσεως συντάξεων ή δυνάμει οιουδήποτε διατάγματος του Υπουργικού Συμβουλίου προνοούντος περί τιμαριθμικής αυξήσεως των συντάξεων.\n(6)(α) Εάν ο διδάσκαλος εις τον οποίον εφαρμόζεται το εδάφιον (1) επαναδιορισθή εις την δημοσίαν εκπαιδευτικήν υπηρεσίαν προ της καταβολής οιασδήποτε συντάξεως και αφυπηρετήση τελικώς εις οιανδήποτε περίπτωσιν καθ’ ην δικαιούται εις σύνταξιν δυνάμει του άρθρου 51, η προηγουμένη υπηρεσία αυτού, εάν ούτος επιθυμή, λαμβάνεται υπ’ όψιν διά τον υπολογισμόν της συντάξεως του επί τη τελική αφυπηρετήσει του, νοουμένου ότι η αμέσως προ της αφυπηρετήσεως περίοδος της υπηρεσίας του δεν είναι ολιγωτέρα των πέντε ετών και ότι ούτος αμέσως μετά τον επαναδιορισμόν επέλεξεν όπως επιστρέψη οιονδήποτε φιλοδώρημα χορηγηθέν εις αυτόν δυνάμει της παραγράφου (β) του εδαφίου (1):\nΝοείται ότι εάν ο διδάσκαλος, ο οποίος εξέλεξε να επιστρέψη το φιλοδώρημα αποβιώση καθ’ οιονδήποτε χρόνον μετά τον επαναδιορισμόν του η προηγουμένη υπηρεσία του λαμβάνεται υπ’ όψιν διά τον υπολογισμόν της συντάξεως χήρας και τέκνων και του εφ’ άπαξ φιλοδωρήματος του καταβλητέου εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού, του εν τω παρόντι εδαφίω όρου περί συμπληρώσεως πενταετούς υπηρεσίας μη λαμβανομένου υπ’ όψιν.\n(β) Η δυνάμει του παρόντος εδαφίου επιστροφή φιλοδωρήματος γίνεται μεθ’ απλού τόκου, προς τοσούτον επιτόκιον όσον ο Υπουργός Οικονομικών ήθελεν εκάστοτε καθορίσει, υπολογιζομένου από της ημερομηνίας καθ’ ην τούτο είχε καταβληθή μέχρι της ημερομηνίας της επιστροφής ολοκλήρου του ποσού. Ο χρόνος και ο τρόπος της επιστροφής καθορίζονται υπό του Υπουργού Οικονομικών.\n(7) Εάν ο διδάσκαλος εις τον οποίον εφαρμόζεται η παράγραφος (α) του εδαφίου (1) επαναδιορισθή ή επαναπροσληφθή εις οιανδήποτε υπηρεσίαν της Δημοκρατίας μετά την συμπλήρωσιν της ηλικίας των πεντήκοντα πέντε ετών ουδεμία σύνταξις θα είναι πληρωτέα κατά την διάρκειαν του επαναδιορισμού του. Η καταβολή της συντάξεως επαναρχίζει μετά την τελικήν αφυπηρέτησιν του εις ο ύψος αύτη θα ευρίσκετο εάν δεν είχε διακοπή."
+    },
+    {
+      "provision_ref": "sec51D",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "51Δ",
+      "title": "Άρθρο 51Δ: Ωφελήματα δασκάλων με υπηρεσία σε οργανισμό",
+      "content": "51Δ.-(1) Εάν δάσκαλος, ο οποίος διορίστηκε ή ήθελε διοριστεί στη δημόσια εκπαιδευτική υπηρεσία πριν ή μετά την έναρξη ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, είχε ή έχει προϋπηρεσία σε οργανισμό, η προϋπηρεσία αυτή λογίζεται ως συντάξιμη υπηρεσία για τον καθορισμό του μήκους υπηρεσίας που του δίδει δικαίωμα σε ωφελήματα και για τον υπολογισμό των ωφελημάτων αφυπηρέτησης που θα δικαιούται να λάβει από την Κυβέρνηση της Δημοκρατίας με βάση τις διατάξεις του παρόντος Νόμου, είτε ο διορισμός του στη δημόσια εκπαιδευτική υπηρεσία έγινε ή ήθελε γίνει αμέσως είτε μετά από διακοπή. Ο οργανισμός καταβάλλει στην Κυβέρνηση της Δημοκρατίας κατά την αποχώρηση του υπαλλήλου από τον οργανισμό ή μετά την έναρξη της ισχύος του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992 εφάπαξ ποσό ίσο με το ένα δωδέκατο των μηνιαίων συντάξιμων απολαβών του για κάθε συμπληρωμένο μήνα συντάξιμης υπηρεσίας στον οργανισμό καθώς και το διπλάσιο τυχόν εισφορών που κατέβαλε ο υπάλληλος για τη μεταβίβαση της σύνταξης στη χήρα και τα τέκνα του μαζί με τόκο πάνω σε όλα τα ποσά από την ημέρα της αποχώρησης μέχρι την ημέρα της καταβολής προς τέτοιο επιτόκιο όσο καθορίζει εκάστοτε ο Υπουργός Οικονομικών με βάση το εδάφιο (4) του άρθρου 62Ι:\nΝοείται ότι αν στον υπάλληλο καταβλήθηκε από τον οργανισμό οποιοδήποτε ωφέλημα υπό μορφή φιλοδωρήματος ή εισφορών εργοδότη σε Ταμείο Προνοίας, οι διατάξεις του παρόντος εδαφίου εφαρμόζονται μόνον αν ο υπάλληλος εκλέξει να καταβάλει στην Κυβέρνηση το ωφέλημα αυτό με τόκο όπως αναφέρεται στο παρόν εδάφιο, οπότε ο οργανισμός δεν υποχρεούται στην καταβολή του εφάπαξ ποσού που αναφέρεται στο εδάφιο αυτό.\n(2) Στο παρόν άρθρο ο όρος “οργανισμός” έχει την έννοια που του δίδεται με το εδάφιο (3) του άρθρου 51Β.\n(3) Οι διατάξεις του παρόντος άρθρου εφαρμόζονται και στην περίπτωση δασκάλου ο οποίος αφυπηρέτησε πριν από την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 3) Νόμου του 1992, στην περίπτωση όμως αυτή αναθεωρείται μόνο η ετήσια σύνταξη του από την πρώτη του μήνα που ακολουθεί την ημερομηνία αυτή."
+    },
+    {
+      "provision_ref": "sec52",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "52",
+      "title": "Άρθρο 52: Φιλοδώρημα εις διδασκαλίσσας εις τινας περιπτώσεις",
+      "content": "52. Εάν εις διδασκάλισσαν της οποίας ο διορισμός εις συντάξιμον θέσιν έχει επικυρωθή και η οποία έχει συμπληρώσει συντάξιμον υπηρεσίαν ουχί μικροτέραν των τριών ετών, επιτραπή όπως αφυπηρετήση λόγω επικειμένου γάμου ή γάμου ή συνεπεία γάμου ή τεκνογονίας ή υιοθετήσεως τέκνου ηλικίας ουχί μεγαλυτέρας των εξ ετών και αύτη δεν δικαιούται εις σύνταξιν δυνάμει του άρθρου 51, χορηγείται εις αυτήν φιλοδώρημα ίσον προς το εν δωδέκατον των κατά την ημερομηνίαν αφυπηρετήσεως μηνιαίων συνταξίμων απολαβών αυτής δι’ έκαστον συμπεπληρωμένον μήνα υπηρεσίας εάν προσκομίση εντός εξ μηνών από της αφυπηρετήσεως αυτής ή εντός τοιαύτης μακροτέρας προθεσμίας όσην ο Υπουργός Οικονομικών ήθελεν επιτρέψει εις οιανδήποτε ειδικήν περίπτωσιν, ικανοποιητικόν αποδεικτικόν του γάμου ή της τεκνογονίας αυτής ή της υπ’ αυτής υιοθετήσεως τέκνου."
+    },
+    {
+      "provision_ref": "sec53",
+      "chapter": "PART V RETIREMENT OF TEACHERS AND PENSIONS",
+      "section": "53",
+      "title": "Άρθρο 53: Ηλικία αφυπηρετήσεως",
+      "content": "53.-(1) Η ηλικία υποχρεωτικής αφυπηρετήσεως απάντων των διδασκάλων είναι η των εξήκοντα ετών:\nΝοείται ότι-\n(α) εις διδάσκαλον ο οποίος συμπληροί την ηλικίαν υποχρεωτικής αφυπηρετήσεως κατά την διάρκειαν του σχολικού έτους δύναται να επιτραπή υπό του Υπουργού Παιδείας όπως συνεχίση να υπηρετή μέχρι τέλους του σχολικού έτους~\n(β) το Υπουργικόν Συμβούλιον δύναται να απαιτήση παρά διδασκάλου όπως αφυπηρετήση επί τη συμπληρώσει ηλικίας κατά πέντε έτη μικροτέρας της ηλικίας υποχρεωτικής αφυπηρετήσεως αυτού ή καθ’ οιονδήποτε μεταγενέστερον χρόνον και ο Υπουργός Παιδείας και Πολιτισμού δύναται να επιτρέψη εις διδάσκαλον όπως αφυπηρετήση επί τη συμπληρώσει ηλικίας κατά πέντε έτη μικροτέρας της ηλικίας υποχρεωτικής αφυπηρετήσεως αυτού ή καθ’ οιονδήποτε μεταγενέστερον χρόνον, ωσαύτως δε προκειμένου περί διδασκαλίσσης ο Υπουργός Παιδείας και Πολιτισμού να επιτρέψη εις αυτήν όπως αφυπηρετήση λόγω επικειμένου γάμου ή γάμου ή συνεπεία γάμου ή τεκνογονίας αυτής ή λόγω υιοθετήσεως υπ’ αυτής τέκνου ηλικίας ουχί μεγαλυτέρας των εξ ετών.\n(γ) το Υπουργικόν Συμβούλιον δύναται, εάν θεωρή τούτο επιθυμητόν προς το συμφέρον της εκπαιδεύσεως, να επιτρέψη εις διδάσκαλον όπως παραμείνη εν τη υπηρεσία μετά την ημερομηνία καθ’ ην συμπληρούται η ηλικία υποχρεωτικής αφυπηρετήσεως αυτού επί τοσούτο χρονικόν διάστημα όσον το Συμβούλιον ήθελε ορίσει.\n(2) Ο Υπουργός Παιδείας δύναται καθ’ οιονδήποτε χρόνον να ζητήση παρ’ οιουδήποτε διδασκάλου την προσαγωγήν τοιούτων αποδεικτικών της ημερομηνίας γεννήσεως αυτού οία ήθελεν ορίσει το Υπουργικόν Συμβούλιον."
+    },
+    {
+      "provision_ref": "sec54",
+      "section": "54",
+      "title": "Άρθρο 54: Retirement on re-organization of elementary schools",
+      "content": "54. If a teacher is compulsorily retired from the service for the purpose of facilitating improvement in the organization of elementary schools by which greater efficiency or economy may be effected his pension may be increased by the addition of a certain number of sixtieths to his salary, that is to say-\n(a) in the case of a teacher who has served\ntwenty years .. .. .. .. .. .. seven\n(b) in the case of a teacher who has served\nless than twenty years, but not less\nthan fifteen years .. .. .. .. .. five\n(c) in the case of a teacher who has served\nless than fifteen years, but not less\nthan ten years .. .. .. .. .. three:\nProvided that no addition shall be made under this section so as to entitle a teacher to a higher pension than the maximum two-thirds, or to a higher pension than that to which such teacher would have been entitled by length of service on reaching the age of fifty-five years.\nProvided that no addition shall be made under this section so as to entitle a teacher to a higher pension than the maximum two-thirds, or to a higher pension than that to which such teacher would have been entitled by length of service on reaching the age of fifty-five years."
+    },
+    {
+      "provision_ref": "sec55",
+      "section": "55",
+      "title": "Άρθρο 55: Σύνταξις εν περιπτώσει αφυπηρετήσεως λόγω αναπηρίας",
+      "content": "55.-(1) Εάν μόνιμος διδάσκαλος του οποίου ο διορισμός επεκυρώθη καταστή μονίμως ανάπηρος συνεπεία τραύματος το οποίον υπέστη-\n(α) εν τη ενεργώ εκτελέσει του καθήκοντος αυτού~ και\n(β) άνευ ιδικής του αμελείας~ και\n(γ) λόγω περιστάσεων αι οποίαι δύνανται ειδικώς να αποδοθώσιν εις την φύσιν του καθήκοντος αυτού,\nτο Υπουργικόν Συμβούλιον δύναται-\n(i) εάν η αφυπηρέτησις αυτού καταστή αναγκαία ή ουσιαστικώς επιταχυνθή και εάν η συνολική υπηρεσία αυτού είναι ολιγωτέρα των δέκα ετών, να χορηγήση εις αυτόν, αντί φιλοδωρήματος βάσει του άρθρου 48, σύνταξιν βάσει του άρθρου 46 αγνοουμένου του όρου περί συμπληρώσεως υπηρεσίας δέκα ετών~\n(ii) να χορηγήση εις αυτόν επί τη αφυπηρετήσει του πρόσθετον σύνταξιν ως ακολούθως υπολογιζομένην επί τη βάσει του μισθού αυτού κατά την ημερομηνίαν της αφυπηρετήσεως αυτού:\nΌταν η αναπηρία είναι-\nελαφρά, πέντε εξηκοστά του μισθού\nσοβαρά, δέκα εξηκοστά του μισθού\nλίαν σοβαρά, δεκαπέντε εξηκοστά του μισθού\nπλήρης, είκοσιν εξηκοστά του μισθού.\nΔιά τους σκοπούς της παρούσης παραγράφου οι όροι-\n“ελαφρά αναπηρία” σημαίνει βαθμόν αναπηρίας μεταξύ 10% και 30% αμφοτέρων συμπεριλαμβανομένων,\n“σοβαρά αναπηρία” σημαίνει βαθμόν αναπηρίας άνω του 30% και μέχρι 50% συμπεριλαμβανομένου,\n“λίαν σοβαρά αναπηρία” σημαίνει βαθμόν αναπηρίας άνω του 50% και μέχρι 70% συμπεριλαμβανομένου,\n“πλήρης αναπηρία” σημαίνει βαθμόν αναπηρίας άνω του 70%,\nως αύτη και οι βαθμοί ταύτης καθορίζονται εις τον περί Κοινωνικών Ασφαλίσεων Νόμον ή πάντα Νόμον τροποποιούντα ή αντικαθιστώντα αυτόν:\nΝοείται ότι η πρόσθετος σύνταξις δύναται να μειωθή κατά τοσούτο ποσόν όσον το Υπουργικόν Συμβούλιον ήθελε θεωρήσει εύλογον εάν η αναπηρία δεν είναι ο λόγος ή ο μόνος λόγος της αφυπηρετήσεως:\nΝοείται περαιτέρω ότι η πρόσθετος σύνταξις ομού μετά της συντάξεως δεν δύναται να υπερβή τα πέντε έκτα του ανωτάτου μισθού του διδασκάλου καθ’ οιονδήποτε χρόνον της υπηρεσίας του.\n(2) Οιαδήποτε πρόσθετος σύνταξις πληρωτέα δυνάμει της παραγράφου (ii) του εδαφίου (1) μειούται κατά ποσόν ίσον προς το εν τρίτον του ετησίου ποσού του λόγω αναπηρίας καταβαλλομένου ωφελήματος υπό μορφήν συντάξεως πληρωτέας δυνάμει του περί Κοινωνικών Ασφαλίσεων Νόμου ή παντός νόμου τροποποιούντος ή αντικαθιστώντος αυτόν.\n(3) Οιαδήποτε πρόσθετος σύνταξις πληρωτέα δυνάμει της παραγράφου (ii) του εδαφίου (1) ομού μεθ’ οιασδήποτε συντάξεως πληρωτέας δυνάμει του παρόντος Μέρους και του ετησίου ποσού του λόγω αναπηρίας καταβαλλομένου ωφελήματος υπό μορφήν συντάξεως δυνάμει του περί Κοινωνικών Ασφαλίσεων Νόμου ή παντός Νόμου τροποποιούντος ή αντικαθιστώντος αυτόν δεν δύναται να υπερβή τον μισθόν του διδασκάλου κατά την ημερομηνίαν αφυπηρετήσεως αυτού."
+    },
+    {
+      "provision_ref": "sec55A",
+      "section": "55Α",
+      "title": "Άρθρο 55Α: Αύξησις συντάξεως εις περιπτώσεις αφυπηρετήσεως λόγω πλήρους αναπηρίας",
+      "content": "55Α.-(1) Ανεξαρτήτως των διατάξεων του άρθρου 47 και τηρουμένης της δεύτερης επιφύλαξης του άρθρου 46, εις περίπτωσιν αφυπηρετήσεως διδασκάλου δυνάμει της παραγράφου (β) του εδαφίου (1) του άρθρου 51, όστις συνεπλήρωσεν υπηρεσίαν πέντε ή περισσοτέρων ετών και όστις κατέστη πλήρως ανάπηρος, η εις αυτόν χορηγητέα σύνταξις είναι εκείνη η οποία θα κατεβάλλετο εις αυτόν εάν ο αφυπηρετών εξηκολούθει να ευρίσκεται εν τη υπηρεσία και αφυπηρέτει κατά την ημερομηνίαν καθ’ ην θα συνεπλήρωνε το όριον ηλικίας αναγκαστικής αφυπηρετήσεως, υπολογίζεται δε επί της ανωτάτης βαθμίδος της μισθοδοτικής κλίμακος της θέσεως της αμέσως ανωτέρας της θέσεως την οποίαν ούτος κατέχει κατά την ημερομηνίαν της αφυπηρετήσεως του. Η ούτω προστιθεμένη περίοδος υπηρεσίας θεωρείται ως υπηρεσία μετ’ εισφορών:\nΝοείται ότι εάν η δυνάμει του άρθρου 55 χορηγητέα σύνταξις είναι συνολικώς μεγαλυτέρα της δυνάμει του παρόντος άρθρου χορηγητέας συντάξεως καταβάλλεται η μεγαλυτέρα σύνταξις.\n(2) Διά τους σκοπούς του παρόντος άρθρου-\n“Αγών” σημαίνει τον απελευθερωτικόν αγώνα του Ελληνικού Κυπριακού Λαού, τον αρξάμενον ενόπλως υπό της ΕΟΚΑ την 1ην Απριλίου, 1955, και λήξαντα διά της διαταγής του Αρχηγού Διγενή την 9ην Μαρτίου, 1959~\n“πλήρως ανάπηρος” σημαίνει διδάσκαλον όστις κατέστη μονίμως ανίκανος εις βαθμόν εκατόν τοις εκατόν και η τοιαύτη ανικανότης καθιστά αδύνατον την εκτέλεσιν των καθηκόντων της θέσεως του, της τοιαύτης ανικανότητος και του βαθμού αυτής οφειλομένων αποκλειστικώς εις τραύματα προκληθέντα υπό περιστάσεις αίτινες κρίνονται υπό του Υπουργού Οικονομικών ως απορρέουσα εκ της συμμετοχής του εις τον Αγώνα ή εκ των μετά την 21ην Δεκεμβρίου, 1963 ή των ως εκ της παρανόμου δράσεως της ΕΟΚΑ Β ή των κατά ή μετά το πραξικόπημα της 15ης Ιουλίου, 1974 ή των από της 20ής Ιουλίου, 1974, Τουρκικής εισβολής δημιουργηθεισών συνθηκών."
+    },
+    {
+      "provision_ref": "sec56",
+      "section": "56",
+      "title": "Άρθρο 56: Συντάξεις εις εξαρτωμένους διδασκάλου φονευομένου εν τη εκτελέσει του καθήκοντος",
+      "content": "56.-(1)Τηρουμένων των διατάξεων του παρόντος άρθρου, όταν διδάσκαλος αποθάνη συνεπεία τραύματος το οποίον υπέστη-\n(α) εν τη ενεργώ εκτελέσει του καθήκοντος αυτού~ και\n(β) άνευ ιδικής του αμελείας~ και\n(γ) λόγω περιστάσεων αι οποίαι δύνανται ειδικώς να αποδοθώσιν εις την φύσιν του καθήκοντος αυτού,\nενώ διετέλει εν υπηρεσία, το Υπουργικόν Συμβούλιον δύναται να χορηγήση επιπροσθέτως προς το δυνάμει του άρθρου 61 (ως τούτο ανηριθμήθη υπό του παρόντος Νόμου) τυχόν χορηγηθέν εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού φιλοδώρημα-\n(i) Εάν ο αποθανών δάσκαλος καταλείπει χήρα, σύνταξη σ’ αυτή εφόσο παραμένει ανύπανδρη, το ποσό της οποίας να μην υπερβαίνει τα είκοσι πέντε τοις εκατόν των ετήσιων συντάξιμων απολαβών του κατά την ημερομηνία του θανάτου του~\n(ii) εάν ο αποθανών διδάσκαλος καταλίπη χήραν εις την οποίαν χορηγείται σύνταξις δυνάμει της προηγουμένης παραγράφου και τέκνον ή τέκνα, σύνταξιν δι’ έκαστον τέκνον εκ ποσού μη υπερβαίνοντος το εν έκτον της υπό της προηγουμένης παραγράφου καθοριζομένης συντάξεως~\n(iii) εάν ο αποθανών διδάσκαλος καταλίπη τέκνον ή τέκνα, αλλά δεν καταλίπη χήραν ή δεν χορηγείται σύνταξις εις την χήραν, σύνταξιν δι’ έκαστον τέκνον εκ ποσού διπλασίου του υπό της προηγουμένης παραγράφου καθοριζομένου~\n(iv) εάν ο αποθανών διδάσκαλος καταλίπη τέκνον ή τέκνα και χήραν εις την οποίαν χορηγείται σύνταξις δυνάμει της παραγράφου (i) του παρόντος εδαφίου και η χήρα ακολούθως αποθάνη, σύνταξιν δι’ έκαστον τέκνον από της ημερομηνίας του θανάτου της χήρας εκ ποσού διπλασίου του υπό της παραγράφου (ii) του παρόντος εδαφίου καθοριζομένου~\n(v) εάν ο αποθανών διδάσκαλος δεν καταλίπη χήραν, ή εάν δεν χορηγείται σύνταξις εις την χήραν, και εάν η μήτηρ του εξηρτάτο πλήρως ή κυρίως εξ αυτού διά την συντήρησιν της, σύνταξιν εις την μητέρα, εφ’ όσον αύτη στερείται επαρκών μέσων συντηρήσεως, εκ ποσού μη υπερβαίνοντος την σύνταξιν ήτις θα ηδύνατο να είχε χορηγηθή εις την χήραν αυτού:\nΝοείται ότι-\n(α) σύνταξις δεν είναι πληρωτέα δυνάμει του παρόντος εδαφίου καθ’ οιονδήποτε χρόνον διά πλείονα των τριών τέκνα~\n(β) εις περίπτωσιν συντάξεως χορηγηθείσης δυνάμει της παραγράφου (v) του παρόντος εδαφίου, εάν η μήτηρ είναι χήρα κατά τον χρόνον της χορηγήσεως της συντάξεως και ακολούθως νυμφευθή εκ νέου, η τοιαύτη σύνταξις τερματίζεται από της ημερομηνίας του νέου γάμου~ εάν δε κατά την κρίσιν του Υπουργού Οικονομικών καθ’ οιονδήποτε χρόνον η μήτηρ έχη άλλους επαρκείς πόρους συντηρήσεως, η σύνταξις αύτη τερματίζεται από της ημερομηνίας την οποίαν ο Υπουργός Οικονομικών ήθελεν ορίσει~\n(γ) σύνταξις χορηγηθείσα εις θήλυ τέκνον δυνάμει του παρόντος εδαφίου τερματίζεται όταν το τέκνον νυμφευθή~\n(δ) ο Υπουργός Οικονομικών δύναται να διατάξη-\n(i) την συνέχισιν καταβολής συντάξεως διά τέκνον το οποίον, καίτοι έπαυσε δικαιούμενον ταύτης δυνάμει του παρόντος άρθρου, υπέστη, καθ’ ον χρόνον εδικαιούτο εις σύνταξιν, πνευματικήν ή σωματικήν αναπηρίαν πιστοποιουμένην ιατρικώς και καθιστώσαν αυτό ανίκανον να κερδίζη τα προς το ζην~\n(ii) τηρουμένων των διατάξεων των παραγράφων (α) και (γ) της παρούσης επιφυλάξεως, την καταβολήν συντάξεως διά τέκνον το οποίον ανεξαρτήτως ηλικίας κατά τον χρόνον του θανάτου του πατρός του υποφέρει εκ πνευματικής ή σωματικής αναπηρίας πιστοποιουμένης ιατρικώς και καθιστώσης αυτό ανίκανον να κερδίζη τα προς το ζην:\nΝοείται ότι ο Υπουργός Οικονομικών δύναται, εις εκατέραν των περιπτώσεων, να διατάξη τον τερματισμόν της συντάξεως καθ’ οιονδήποτε χρόνον εάν ικανοποιηθή δι’ ιατρικής αποδείξεως ότι η αναπηρία έπαυσεν υφισταμένη ή δεν εμποδίζει το εν λόγω τέκνον να κερδίζη τα προς το ζην.\n(2) Οιαιδήποτε συντάξεις πληρωτέαι δυνάμει του παρόντος άρθρου μειούνται κατά ποσόν ίσον προς το εν τρίτον του ετησίου ποσού του λόγω θανάτου καταβαλλομένου ωφελήματος υπό μορφήν συντάξεων πληρωτέων δυνάμει του περί Κοινωνικών Ασφαλίσεων Νόμου ή παντός Νόμου τροποποιούντος ή αντικαθιστώντος αυτόν.\n(3) Η ελάχιστη δυνάμει του παρόντος άρθρου καταβλητέα σύνταξη καθορίζεται από την 1η Ιουλίου 1985 σε πενήντα πέντε λίρες και 24 σεντ μηνιαίως και πάνω στο ποσό αυτό υπολογίζονται και οι συντάξεις που χορηγούνται στα τέκνα δυνάμει του παρόντος άρθρου. Η ελάχιστη αυτή σύνταξη δεν υπόκειται στην τιμαριθμική αύξηση που προβλέπεται στο άρθρο 63.\n(4) Οιαιδήποτε συντάξεις πληρωτέαι δυνάμει του παρόντος άρθρου ομού μετά του ετησίου ποσού παντός λόγω θανάτου καταβαλλομένου ωφελήματος υπό μορφήν συντάξεων πληρωτέων δυνάμει του περί Κοινωνικών Ασφαλίσεων Νόμου ή παντός Νόμου τροποποιούντος ή αντικαθιστώντος αυτόν εν ουδεμία περιπτώσει υπερβαίνουσι τον κατά την ημέραν του θανάτου μισθόν του διδασκάλου.\n(5) Διά τους σκοπούς του παρόντος άρθρου η λέξις “τέκνον” σημαίνει τέκνον το οποίον είναι κάτω της ηλικίας των δεκαεξ ετών ή το οποίον είναι άνω της ηλικίας ταύτης αλλά κάτω της ηλικίας των είκοσι πέντε ετών και φοιτά εις σχολήν, κολλέγιον, πανεπιστήμιον ή άλλο εκπαιδευτικόν ίδρυμα ή εξασκείται υφ’ οιουδήποτε προσώπου δι’ οιονδήποτε επιτήδευμα, επάγγελμα ή τέχνην υπό τοιαύτας συνθήκας ώστε να απαιτήται παρ’ αυτού να αφιεροί εις την φοίτησιν ή εξάσκησιν το σύνολον του χρόνου του ή διατελεί σε ενεργό υπηρεσία στην Εθνική Φρουρά δυνάμει των περί Εθνικής Φρουράς Νόμων του 1964 μέχρι 1989. Ο όρος περιλαμβάνει-\n(α) τέκνον γεννηθέν μετά τον θάνατον του γονέως~\n(β) θετόν ή εξώγαμον τέκνον γεννηθέν προ της ημερομηνίας του τραύματος και πλήρως ή κυρίως εξαρτώμενον εκ του αποθανόντος διδασκάλου διά την συντήρησιν του~ και\n(γ) τέκνον υιοθετηθέν νομίμως προ της ημερομηνίας του τραύματος και εξαρτώμενον ως προανεφέρθη.\n(6) Αι διατάξεις του παρόντος άρθρου δεν εφαρμόζωνται εν περιπτώσει θανάτου διδασκάλου όταν η χήρα ή τα τέκνα αυτού ή αμφότερα δικαιούνται εις συντάξεις δυνάμει του Μέρους VA:\nΝοείται ότι εάν αι δυνάμει του Μέρους VA χορηγητέαι συντάξεις είναι συνολικώς μικρότεραι των δυνάμει του παρόντος άρθρου χορηγητέων συντάξεων, καταβάλλονται αι συνολικώς μεγαλύτεραι συντάξεις."
+    },
+    {
+      "provision_ref": "sec56A",
+      "section": "56Α",
+      "title": "Άρθρο 56Α: Eιδικαί διατάξεις εν σχέσει προς τους αφυπηρετούντας λόγω ασθενείας",
+      "content": "56Α.-(1) Πας συνταξιούχος διδάσκαλος, ο οποίος αφυπηρέτησε δυνάμει της παραγράφου (β) του εδαφίου (1) του άρθρου 51, ή εις τον οποίον εχορηγήθη σύνταξις δυνάμει του εδαφίου (5) του άρθρου 51Β ή δυνάμει του εδαφίου (3) του άρθρου 51Γ, υποχρεούται όπως υποβάλλη εαυτόν εις ιατρικήν εξέτασιν υπό Κυβερνητικού Ιατροσυμβουλίου οσάκις κληθή προς τούτο υπό του Διευθυντού της Υπηρεσίας Δημοσίας Διοικήσεως και Προσωπικού.\nΕάν το Ιατροσυμβούλιον κρίνη ότι ούτος απεθεραπεύθη και δύναται να ασκήση οιονδήποτε επάγγελμα, τότε ο Υπουργός Οικονομικών δύναται, λαμβανομένων υπ’ όψιν οιωνδήποτε ειδικών συνθηκών της περιπτώσεως του, να διατάξη την διακοπήν ολοκλήρου ή μέρους της συντάξεως του. Εις τοιαύτην περίπτωσιν η σύνταξις του διακόπτεται αναλόγως, επαναρχίζει δε να καταβάλλεται ευθύς μετά την συμπλήρωσιν της ηλικίας των πεντήκοντα πέντε ετών, εκτός εάν αποβιώση προ της ηλικίας ταύτης, ότε εφαρμόζονται αι διατάξεις του άρθρου 62Β ή του εδαφίου (6) του άρθρου 51Β ή του εδαφίου (4) του άρθρου 51Γ, αναλόγως της περιπτώσεως.\n(2) Εάν ο συνταξιούχος διδάσκαλος ο οποίος εκλήθη να υποβληθή εις ιατρικήν εξέτασιν συμφώνως προς τας διατάξεις του εδαφίου (1), παρέλειψε να συμμορφωθή προς την κλήσιν άνευ ευλόγου τινός αιτίας και εντός ευλόγου τινός χρονικού διαστήματος η καταβολή της συντάξεως αυτού αναστέλλεται μέχρι συμμορφώσεως του προς την τοιαύτην κλήσιν.\n(3) Εάν ο συνταξιούχος διδάσκαλος, του οποίου η σύνταξις διεκόπη δυνάμει του εδαφίου (1), ασθενήση εκ νέου καθ’ οιονδήποτε χρόνον προ της συμπληρώσεως της ηλικίας των πεντήκοντα πέντε ετών, ο Υπουργός Οικονομικών, εάν ικανοποιηθή εξ εκθέσεως Κυβερνητικού Ιατροσυμβουλίου ότι ούτος υποφέρει από σωματικήν ή πνευματικήν αναπηρίαν η οποία είναι κατά πάσαν πιθανότητα μόνιμος και η οποία είναι τοιαύτης φύσεως ώστε να μη δύναται ούτος να ασκήση οιονδήποτε επάγγελμα, δύναται να επιτρέψη όπως η καταβολή της συντάξεως επαναρχίση, οπότε το ύψος της τοιαύτης συντάξεως θα είναι ως εάν αύτη δεν είχε διακοπή."
+    },
+    {
+      "provision_ref": "sec57",
+      "section": "57",
+      "title": "Άρθρο 57: Καταργήθηκε",
+      "content": "57. Καταργήθηκε."
+    },
+    {
+      "provision_ref": "sec58",
+      "section": "58",
+      "title": "Άρθρο 58: Pension and gratuity not assignable",
+      "content": "58. No pension or gratuity granted under this Part of this Law shall be assignable or transferable or liable to be attached, sequestrated or levied upon, for or in respect of any debt or claim whatsoever, other than a debt due to the Government of Cyprus."
+    },
+    {
+      "provision_ref": "sec59",
+      "section": "59",
+      "title": "Άρθρο 59: Pension to cease on conviction",
+      "content": "59. If any teacher to whom a pension has been granted under this Part of this Law is sentenced to imprisonment by any competent Court for any crime or offence, then, in every such case, it shall be lawful for the Governor in Council to direct that such pension shall forthwith cease:\nProvided that the pension shall be restored with retrospective effect in the case of a person who after conviction at any time receives a free pardon:\nProvided also that where a pension ceases for the reason aforesaid it shall be lawful for the Governor in Council to cause all or any part of the moneys to which the pensioner would have been entitled to be applied to the benefit of any wife, child or children of the pensioner, or, after the expiration of his sentence, also to the benefit of the pensioner himself in the same manner and subject to the same qualifications and restrictions as in the case of bankruptcy in section 60 of this Law provided."
+    },
+    {
+      "provision_ref": "sec60",
+      "section": "60",
+      "title": "Άρθρο 60: Pensions and gratuities not of right",
+      "content": "60. Where it is established to the satisfaction of the Governor in Council that a teacher has been guilty of negligence, irregularity or misconduct, the pension or gratuity may be reduced or altogether withheld."
+    },
+    {
+      "provision_ref": "sec61",
+      "section": "61",
+      "title": "Άρθρο 61: Φιλοδώρημα όταν διδάσκαλος αποθάνει εν υπηρεσία ή μετά την αφυπηρέτησιν",
+      "content": "61.-(1) Όταν δάσκαλος που κατέχει συντάξιμη θέση ή δάσκαλος που υπηρετεί σε μη συντάξιμη θέση στην οποία αποσπάσθηκε από συντάξιμη θέση αποθάνει στην υπηρεσία, χορηγείται στο νόμιμο προσωπικό αντιπρόσωπο αυτού εφάπαξ ποσό μη υπερβαίνον τις ετήσιες συντάξιμες απολαβές του κατά την ημερομηνία του θανάτου του ή το εφάπαξ ποσό στο οποίο θα εδικαιούτο εάν είχε αφυπηρετήσει κάτω από τις περιστάσεις που περιγράφονται στην παράγραφο (β) του άρθρου 51, κατά την ημερομηνία του θανάτου του, οποιοδήποτε από τα ποσά αυτά είναι το μεγαλύτερο:\nΝοείται ότι για τους σκοπούς του παρόντος εδαφίου σε περίπτωση που ο θάνατος επισυμβεί μεταξύ της 31ης Ιανουαρίου και της 31ης Αυγούστου, η συντάξιμη υπηρεσία του λογίζεται ότι αυξάνεται κατά δύο μήνες ή κατά το χρονικό διάστημα που μεσολαβεί μεταξύ της ημερομηνίας του θανάτου του και της 31ης Αυγούστου εάν τούτο είναι βραχύτερο των δύο μηνών.\n(2) Όταν διδάσκαλος εις τον οποίον εχορηγήθη σύνταξις ή φιλοδώρημα δυνάμει του παρόντος Μέρους αποθάνη μετά την αφυπηρέτησιν του και το συνολικώς πληρωθέν ή πληρωτέον εις αυτόν μέχρι του θανάτου του ποσόν υπό μορφήν συντάξεως ή φιλοδωρήματος δι’ οιανδήποτε υπηρεσίαν είναι μικρότερον του ετησίου μισθού τον οποίον ελάμβανε κατά τον χρόνον της αφυπηρετήσεως του το Υπουργικόν Συμβούλιον δύναται να χορηγήση εις τον νόμιμον προσωπικόν αντιιπρόσωπον αυτού φιλοδώρημα ίσον προς την διαφοράν."
+    },
+    {
+      "provision_ref": "sec62",
+      "section": "62",
+      "title": "Άρθρο 62: Commencement and application of this Part",
+      "content": "62.-(1) Τhis Part of this Law as enacted in the Elementary Education (Amendment) Law, 1944 as amended by the Elementary Education (Amendment) Law, 1949 shall be deemed to have commenced on the 1st day of September, 1942, and shall apply to-\n(a) every teacher whose name was, on the date aforesaid, on the Permanent Staff Register; and\n(b) subject to the provisions of subsection (2) every teacher whose name was entered, after the date aforesaid, on the Permanent Staff Register:\nProvided that this Part of this Law shall not apply to any teacher who made an election under and in accordance with the provisions of paragraph (a) of the Proviso to section 49A of the Elementary Education Law as enacted in section 23 of the Elementary Education (Amendment) Law, 1944.\n(2) This Part of this Law as enacted in the Elementary Education (Amendment) Law, 1944, as amended by the Elementary Education (Amendment) Law, 1947 shall be deemed to have commenced on the 1st day of January, 1945, and shall apply to-\n(a) every teacher whose name was on the Permanent Staff Register on that date and who has not made an election under section 49A of the Elementary Education Law as enacted in section 23 of the Elementary Education (Amendment) Law, 1944;\n(b) every teacher whose name was on the Permanent Staff Register on that date and continued to be on that Register on the 3rd day of July, 1947 and who has made an election under section 49A of the Elementary Education Law as enacted in section 23 of the Elementary Education (Amendment) Law, 1944;\n(c) any teacher whose name was entered on the Permanent Staff Register between the 1st day of January, 1945 and the 3rd day of July, 1947;\n(d) any teacher whose name is entered in the Permanent Staff Register after the 3rd day of July, 1947:\nProvided that this Part of this Law as amended by the Elementary Education (Amendment) Law, 1947 shall not apply to any teacher who has made an election under and in accordance with the provisions of subsection (2) of section 3 of the Elementary Education (Amendment) Law, 1947, unless he is permitted by the Governor to revoke such election at any time before he attains the age of fifty-five years, and all matters relating to the pension or gratuity and the age of retirement of any such teacher shall be regulated and determined as if the Elementary Education Laws, 1933 to 1944 had not been amended by the Elementary Education (Amendment) Law 1947:\nProvided that nothing in the foregoing Proviso contained shall apply to the amendment of section 42j of the Elementary Education Law as set out in paragraph (E) of section 2 of the Elementary Education (Amendment) Law 1947 whereby the words “five-sixths” were substituted for the words “two-thirds” which occurred in that section before such amendment."
+    },
+    {
+      "provision_ref": "sec62A",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Α",
+      "title": "Άρθρο 62Α: Ερμηνεία",
+      "content": "62Α.-(1) Διά τους σκοπούς του παρόντος Μέρους εκτός εάν εκ του κειμένου προκύπτη διάφορος έννοια-\n“ορισθείσα ημέρα” σημαίνει την 1ην ημέραν του Απριλίου 1967~\n“συντάξιμος διδάσκαλος” σημαίνει διδάσκαλον υπηρετούντα υπό μόνιμον ιδιότητα ο οποίος δικαιούται δυνάμει του Μέρους V εις σύνταξιν επί τη αφυπηρετήσει του αλλά δεν περιλαμβάνει διδασκάλισσαν~\n“συνταξιούχος” σημαίνει διδάσκαλον εις τον οποίον εχορηγήθη σύνταξις δυνάμει του Μέρους V επί τη αφυπηρετήσει του αλλά δεν περιλαμβάνει διδασκάλισσαν~\n“υπηρεσία άνευ εισφορών” σημαίνει υπηρεσίαν διά την οποίαν αρχικαί ή τελικαί εισφοραί, ως ορίζονται εν τω άρθρω 62Θ, δεν καταβάλλονται~\n“υπηρεσία μετ’ εισφορών” σημαίνει υπηρεσίαν κατόπιν της ορισθείσης ημέρας διά την οποίαν κατεβλήθησαν περιοδικαί εισφοραί, ως προνοείται εν τω άρθρω 62Η, ή υπηρεσίαν διά την οποίαν κατεβλήθησαν αρχικαί εισφοραί ή εγένετο συμφωνία προς καταβολήν τελικών εισφορών δι’ αφαιρέσεως εκ του εφ’ άπαξ επί της συντάξεως φιλοδωρήματος, ως προνοείται εν τω άρθρω 62Θ~\n“Υπουργός” σημαίνει τον Υπουργόν Οικονομικών.\n(2) Πάσα λέξις ή πας όρος χρησιμοποιούμενος εν τω παρόντι Μέρει και μη οριζόμενος εν αυτώ έχει, εκτός εάν εκ του κειμένου προκύπτη διάφορος έννοια, την υπό του Μέρους V αποδοθείσαν εις αυτόν έννοιαν."
+    },
+    {
+      "provision_ref": "sec62V",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Β",
+      "title": "Άρθρο 62Β: Συντάξεις εις χήρας και τέκνα",
+      "content": "62Β. Τηρουμένων των διατάξεων του παρόντος Μέρους, επί τω θανάτω συνταξίμου διδασκάλου εις τον οποίον εφαρμόζεται το παρόν Μέρος ή συνταξιούχου (εν τοις εφεξής αναφερομένου ως “ο αποθανών”) χορηγείται διά την υπηρεσίαν αυτού-\n(α) όταν καταλίπη χήραν, σύνταξις εις την χήραν (εν τοις εφεξής αναφερομένη ως “σύνταξις χήρας”)~ και\n(β) όταν είχε σύζυγον καθ’ οιονδήποτε χρόνον κατόπιν της ορισθείσης ημέρας (είτε ο γάμος παρέμεινεν εν ισχύϊ μέχρι του θανάτου του είτε όχι και είτε σύνταξις χήρας χορηγείται ή δυνατόν να χορηγηθή είτε όχι), σύνταξις προς όφελος των εκ του γάμου τέκνων και εις ωρισμένας περιπτώσεις, άλλων τέκνων αυτού ή αυτής (εν τοις εφεξής αναφερομένης ως “σύνταξις τέκνων”):\nΝοείται ότι, διά τους σκοπούς του παρόντος Μέρους, δεν λαμβάνεται υπ’ όψιν γάμος του αποθανόντος τελεσθείς αφ’ ότου ούτος έπαυσε να είναι διδάσκαλος, πάσα δε εν τω παρόντι Μέρει αναφορά εις γάμον, σύζυγον, την χήραν ή τα τέκνα του αποθανόντος ερμηνεύεται αναλόγως:\nΝοείται περαιτέρω ότι εάν ο αποθανών είχε σύζυγο κατά το χρόνο της αφυπηρέτησης του, η οποία απέθανε μετά την αφυπηρέτηση του και ακολούθως αυτός νυμφεύθηκε εκ νέου, η τελευταία σύζυγος του θεωρείται ως χήρα για τους σκοπούς του παρόντος Μέρους."
+    },
+    {
+      "provision_ref": "sec62G",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Γ",
+      "title": "Άρθρο 62Γ: Εξάρτησις συντάξεων εκ της συντάξεως του αποθανόντος",
+      "content": "62Γ. Σύνταξις δεν χορηγείται δυνάμει του παρόντος Μέρους εκτός εάν-\n(α) ο αποθανών ήτο συνταξιούχος~ ή\n(β) ο αποθανών εδικαιούτο εις την χορήγησιν συντάξεως δυνάμει του Μέρους V (είτε τοιαύτη σύνταξις πράγματι εχορηγήθη είτε όχι)~ ή\n(γ) ο αποθανών υπηρέτει ακόμη ως διδάσκαλος κατά τον χρόνον του θανάτου του και, εάν είχε τότε αφυπηρετήσει δυνάμει της παραγράφου (β) του εδαφίου (1) του άρθρου 51, θα εδικαιούτο εις την χορήγησιν συντάξεως."
+    },
+    {
+      "provision_ref": "sec62D",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Δ",
+      "title": "Άρθρο 62Δ: Σύνταξις χήρας",
+      "content": "62Δ.-(1) Σύνταξις χήρας δεν χορηγείται εάν, η χήρα κατά τον χρόνον του θανάτου του συζύγου συνέζη μετ’ άλλου ανδρός, ή εάν μετά τον θάνατον του συζύγου η χήρα επανενυμφεύθη~ εάν δε κατόπιν της χορηγήσεως συντάξεως χήρας η χήρα επανανυμφευθή, η σύνταξις τερματίζεται από της ημερομηνίας του νέου γάμου.\n(2) Τηρουμένων των διατάξεων του εδαφίου (1), η σύνταξις χήρας καταβάλλεται από του θανάτου του συζύγου μέχρι του θανάτου της χήρας."
+    },
+    {
+      "provision_ref": "sec62E",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Ε",
+      "title": "Άρθρο 62Ε: Ποσοστό της σύνταξης χήρας",
+      "content": "62Ε.-(1) Τηρουμένων των διατάξεων των εδαφίων (2) και (3), η σύνταξη χήρας είναι-\n(α) για υπηρεσία με εισφορές το 75% της σύνταξης του συνταξιούχου κατά την ημέρα του θανάτου του ή της σύνταξης στην οποία θα εδικαιούτο ο συντάξιμος δάσκαλος με βάση τη συντάξιμη υπηρεσία του κατά την ημέρα του θανάτου του,\n(β) για υπηρεσία χωρίς εισφορές, το 37.5% της σύνταξης του συνταξιούχου κατά την ημέρα του θανάτου ή της σύνταξης στην οποία θα εδικαιούτο ο συντάξιμος δάσκαλος με βάση τη συντάξιμη υπηρεσία του κατά την ημέρα του θανάτου του:\nΝοείται ότι εάν ο συντάξιμος δάσκαλος είχε, την ημέρα του θανάτου του στην υπηρεσία, συμπληρώσει συντάξιμη υπηρεσία-\n(i) πέντε ή περισσότερα έτη αλλά κάτω από δέκα έτη, θεωρείται ότι συμπλήρωσε διπλάσια συντάξιμη υπηρεσία,\n(ii) δέκα ή περισσότερα έτη αλλά κάτω από δεκαπέντε έτη, θεωρείται ότι συμπλήρωσε είκοσι ετών συντάξιμη υπηρεσία,\n(iii) δεκαπέντε ή περισσότερα έτη, αλλά κάτω από είκοσι τρία έτη, η συντάξιμη υπηρεσία του αυξάνεται κατά πέντε έτη, με ανώτατο όριο συντάξιμης υπηρεσίας τα είκοσι πέντε έτη,\n(iv) είκοσι τρία ή περισσότερα έτη αλλά κάτω από τριάντα έτη, η συντάξιμη υπηρεσία του αυξάνεται κατά δύο έτη, με ανώτατο όριο συντάξιμης υπηρεσίας τα τριάντα έτη,\nτης υπηρεσίας που προστίθεται με τον τρόπο αυτό θεωρούμενης ως υπηρεσίας με εισφορές:\nΝοείται περαιτέρω ότι σε καμιά περίπτωση η σύνταξη θα υπολογίζεται με βάση υπηρεσία μεγαλύτερη εκείνης την οποία θα είχε ο δάσκαλος εάν παρέμενε στην υπηρεσία μέχρι την ηλικία αναγκαστικής αφυπηρέτησης του.\n(2) Η σύνταξη χήρας συνταξιούχου που αφυπηρέτησε πριν από την ορισθείσα ημέρα είναι το 37.5% της σύνταξης που καταβάλλεται σ’ αυτόν κατά την ημέρα του θανάτου του.\n(3) Η ελάχιστη δυνάμει του παρόντος άρθρου καταβλητέα σύνταξη καθορίζεται από την 1η Ιουλίου 1985 σε πενήντα πέντε λίρες και 24 σεντ μηνιαίως. Η ελάχιστη αυτή σύνταξη δεν υπόκειται στην τιμαριθμική αύξηση που προβλέπεται στο άρθρο 63."
+    },
+    {
+      "provision_ref": "sec62Ea",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Εα",
+      "title": "Άρθρο 62Εα: Εξουσία Υπουργού Οικονομικών για αναθεώρηση της ελάχιστης σύνταξης χήρας",
+      "content": "62Εα. Ο Υπουργός Οικονομικών έχει εξουσία να προβαίνει σε αναθεώρηση του ποσού της ελάχιστης σύνταξης χήρας με βάση το ποσοστό κατά το οποίο αυξάνονται εκάστοτε οι βασικές παροχές δυνάμει των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 μέχρι 1990 ή κάθε νόμου που τροποποιεί ή αντικαθιστά αυτούς."
+    },
+    {
+      "provision_ref": "sec62ST",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62ΣΤ",
+      "title": "Άρθρο 62ΣΤ: Σύνταξις τέκνων",
+      "content": "62ΣΤ.-(1) Σύνταξις τέκνων χορηγείται εάν υφίστανται τέκνα δικαιούμενα εις ταύτην και καταβάλλεται εφ’ όσον χρόνον ταύτα δικαιούνται.\n(2) Τηρουμένων των διατάξεων του παρόντος άρθρου, τέκνα δικαιούμενα εις σύνταξιν είναι τα τέκνα του αποθανόντος ή τέκνα συζύγου αυτού ως ορίζεται εις το εδάφιον (6).\n(3) Δεν δικαιούνται εις σύνταξιν τέκνων επί τη βάσει του παρόντος άρθρου-\n(α) τέκνα του αποθανόντος γεννηθέντα μετά πάροδον δέκα μηνών αφ’ ότου ούτος έπαυσε να είναι διδάσκαλος ή υιοθετηθέντα υπ’ αυτού αφ’ ότου ούτος έπαυσε να είναι διδάσκαλος~\n(β) τέκνα συζύγου του αποθανόντος γεννηθέντα ή υιοθετηθέντα μετά την διάλυσιν του γάμου ή αφ’ ότου ο αποθανών έπαυσε να είναι διδάσκαλος.\n(4) Τηρουμένων των διατάξεων του εδαφίου (3), δεν χορηγείται σύνταξις διά-\n(α) εξώγαμον τέκνον του αποθανόντος~ ή\n(β) θετόν τέκνον του αποθανόντος και τέκνον συζύγου αυτού~ ή\n(γ) θετόν, υιοθετηθέν ή εξώγαμον τέκνον συζύγου αυτού,\nεκτός εάν το τέκνον εξηρτάτο πλήρως ή κυρίως εκ του αποθανόντος κατά τον χρόνον του θανάτου αυτού.\n(5) Δεν χορηγείται σύνταξις τέκνων διά θήλυ τέκνον το οποίον κατά τον χρόνον του θανάτου του αποθανόντος ήτο έγγαμον και σύνταξις τέκνων χορηγηθείσα διά θήλυ τέκνον τερματίζεται όταν τούτο νυμφευθή.\n(6) Διά τους σκοπούς του παρόντος άρθρου ο όρος “τέκνον” έχει την εις τον όρον τούτον αποδιδομένην έννοιαν υπό του εδαφίου (4) του άρθρου 56.\n(7) Ανεξαρτήτως των προηγουμένων διατάξεων του παρόντος άρθρου, ο Υπουργός Οικονομικών δύναται να διατάξη-\n(α) την συνέχισιν της καταβολής συντάξεως τέκνων διά τέκνον το οποίον, καίτοι έπαυσε δικαιούμενον ταύτης δυνάμει του παρόντος άρθρου, υπέστη, καθ’ ον χρόνον εδικαιούτο εις σύνταξιν τέκνων, πνευματικήν ή σωματικήν αναπηρίαν πιστοποιουμένην ιατρικώς και καθιστώσαν αυτό ανίκανον να κερδίζη τα προς το ζην~\n(β) την καταβολήν συντάξεως τέκνων διά τέκνον το οποίον ανεξαρτήτως ηλικίας κατά τον χρόνον του θανάτου του πατρός του υποφέρει εκ πνευματικής ή σωματικής αναπηρίας πιστοποιουμένης ιατρικώς και καθιστώσης αυτό ανίκανον να κερδίζη τα προς το ζην:\nΝοείται ότι ο Υπουργός Οικονομικών δύναται, εις εκατέραν των περιπτώσεων, να διατάξη τον τερματισμόν της συντάξεως και οιονδήποτε χρόνον εάν ικανοποιηθή δι’ ιατρικής αποδείξεως ότι η αναπηρία έπαυσεν υφισταμένη ή δεν εμποδίζει το εν λόγω τέκνον να κερδίζη τα προς το ζην."
+    },
+    {
+      "provision_ref": "sec62Z",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Ζ",
+      "title": "Άρθρο 62Ζ: Συντάξεις τέκνων: ποσοστόν και τρόπος καταβολής",
+      "content": "62Ζ.-(1) Μία μόνον σύνταξις τέκνων χορηγείται διά την υπηρεσίαν οιουδήποτε διδασκάλου αλλά-\n(α) το ποσοστόν αυτής ποικίλλει αναλόγως του αριθμού των εις αυτήν δικαιουμένων τέκνων~ και\n(β) καταβάλλεται εις το πρόσωπον ή τα πρόσωπα και κατά τοιαύτα τμήματα ως ο Υπουργός ήθελεν ορίσει~ και\n(γ) το πρόσωπον εις το οποίον άπασα ή οιονδήποτε τμήμα αυτής καταβάλλεται χρησιμοποιεί το εις αυτό καταβληθέν ποσόν, άνευ διακρίσεως, προς όφελος απάντων των τέκνων τα οποία δικαιούνται εις αυτήν ή προς όφελος εκείνων εξ αυτών ως ο Υπουργός ήθελεν ορίσει.\n(2) Όταν ο αποθανών καταλείπει χήρα, το ποσοστό της σύνταξης τέκνων κατά τη διάρκεια της ζωής αυτής είναι το 16.67% της σύνταξης της χήρας αναφορικά με κάθε δικαιούχο τέκνο, με ανώτατο όριο τη σύνταξη για δύο τέκνα.\n(3) Όταν ο αποθανών δεν καταλείπει χήρα ή, εάν καταλείπει χήρα, μετά το θάνατο της, το ποσοστό σύνταξης τέκνων είναι το 44.44% της σύνταξης η οποία θα κατεβάλλετο στη χήρα, αναφορικά με κάθε δικαιούχο τέκνο, με ανώτατο όριο τη σύνταξη για τρία τέκνα.\n(4) Όταν η χήρα τελέσει νέο γάμο το ποσοστό της σύνταξης τέκνων είναι το 22.22% της σύνταξης η οποία θα κατεβάλλετο στη χήρα με ανώτατο όριο τη σύνταξη για τρία τέκνα.\n(5) Για την αναφερόμενη στα εδάφια (3) και (4) σύνταξη η οποία θα κατεβάλλετο στη χήρα και την αναφερόμενη στο εδάφιο (2) σύνταξη που είναι καταβλητέα στη χήρα εφαρμόζονται οι διατάξεις του εδαφίου (3) του άρθρου 23 αναφορικά με την ελάχιστη σύνταξη χήρας."
+    },
+    {
+      "provision_ref": "sec62I",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Η",
+      "title": "Άρθρο 62Η: Περιοδικαί εισφοραί",
+      "content": "62Η.-(1) Τα ακόλουθα πρόσωπα (εν τοις εφεξής αναφερόμενα ως “εισφορείς”) καταβάλλουσιν εισφοράς δυνάμει του παρόντος άρθρου (εν τοις εφεξής αναφερομένας ως “περιοδικαί εισφοραί”):\n(α) πας διδάσκαλος ο οποίος κατά την ορισθείσαν ημέραν ήτο συντάξιμος διδάσκαλος και ο οποίος δεν ασκεί το δικαίωμα εκλογής όπως μη υπαχθή εις τας διατάξεις του παρόντος Νόμου~\n(β) πας διδάσκαλος εν τη υπηρεσία (είτε κατά την ορισθείσαν ημέραν είτε μετά ταύτην) ο οποίος καθίσταται συντάξιμος διδάσκαλος καθ’ οιονδήποτε χρόνον μετά την ορισθείσαν ημέραν.\n(2) Αι περιοδικαί εισφοραί υπό εισφορέως δυνάμει του παρόντος άρθρου είναι προς εν και τρία τέταρτα τοις εκατόν του εκάστοτε μισθού αυτού και καταβάλλονται-\n(α) εν τη περιπτώσει εισφορέως ο οποίος διετέλει εν τη υπηρεσία κατά την ορισθείσαν ημέραν, από της ορισθείσης ημέρας μέχρις ότου παύση να είναι διδάσκαλος~\n(β) εν τη περιπτώσει εισφορέως ο οποίος καθίσταται εισφορεύς καθ’ οιονδήποτε χρόνον μετά την ορισθείσαν ημέραν, από της ημέρας κατά την οποίαν καθίσταται συντάξιμος διδάσκαλος μέχρις ότου παύση να είναι διδάσκαλος.\n(3) Αι περιοδικαί εισφοραί υπολογίζονται επί του μηνιαίου μισθού του εισφορέως κατά προσέγγισιν του πλησιεστέρου πολλαπλασίου των πέντε μιλς.\n(4) Εάν εισφορέας διατελεί με άδεια με ελαττωμένες απολαβές ή διατελεί σε διαθεσιμότητα ή διατελεί με άδεια χωρίς απολαβές η οποία λογίζεται ως συντάξιμη υπηρεσία δυνάμει του εδαφίου (2) του άρθρου 49 εισφέρει κατά το ποσοστό που καθορίζεται στο εδάφιο (2). Εάν εισφορέας διατελεί με άδεια χωρίς απολαβές η οποία δεν λογίζεται ως συντάξιμη υπηρεσία δυνάμει του πιο πάνω εδαφίου, αυτός δεν καταβάλλει οποιαδήποτε εισφορά.\n(5) Η υποχρέωσις διά περιοδικάς εισφοράς δημιουργείται ημερησίως και αι εισφοραί αύται αφαιρούνται εκ των υστέρων μηνιαίως εκ των απολαβών του εισφορέως, εάν δε διαρκούσης χρονικής περιόδου αδείας άνευ απολαβών εισφορεύς δεν καταβάλη τας εισφοράς του, το ποσόν των καθυστερημένων εισφορών του αφαιρείται εκ των καταβλητέων εις αυτόν κατόπιν της τοιαύτης αδείας απολαβών εις τοιαύτας δόσεις οίας ο Γενικός Λογιστής ήθελεν εις εκάστην περίπτωσιν ορίσει.\n(6) Ανεξαρτήτως των διατάξεων του εδαφίου (2) ουδείς εισφορεύς υποχρεούται να καταβάλη ποσόν αντιπροσωπεύον περισσοτέρας των τετρακοσίων μηνιαίων εισφορών, λαμβανομένων υπ’ όψιν και οιωνδήποτε εισφορών καταβληθεισών δυνάμει του άρθρου 62Θ."
+    },
+    {
+      "provision_ref": "sec62Th",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Θ",
+      "title": "Άρθρο 62Θ: Εισφοραί διά προηγουμένην υπηρεσίαν",
+      "content": "62Θ.-(1) Πας εισφορεύς εν τη υπηρεσία κατά την ορισθείσαν ημέραν όστις είχε προηγουμένην συντάξιμον υπηρεσίαν δύναται, εάν επιθυμή τούτο, να ασκήση ανεκκλήτως δικαίωμα εκλογής όπως καταβάλη τας πληρωτέας εισφοράς δι’ οιανδήποτε χρονικήν περίοδον συμπεπληρωμένων μηνών τοιαύτης προηγουμένης υπηρεσίας, εν τοιαύτη δε περιπτώσει η σύνταξις διά την προηγουμένην ταύτην υπηρεσίαν υπολογίζεται επί τη βάσει του εν τη παραγράφω (α) του εδαφίου (1) του άρθρου 62Ε καθοριζομένου ποσοστού.\n(2) Το εν τω εδαφίω (1) αναφερόμενον δικαίωμα εκλογής ασκείται εντός χρονικής περιόδου τριών μηνών από της ορισθείσης ημέρας δι’ εγγράφου απευθυνομένου προς τον Γενικόν Λογιστήν και καθορίζοντος την χρονικήν περίοδον υπηρεσίας διά την οποίαν ο διδάσκαλος επιθυμεί να καταβάλη τας πληρωτέας εισφοράς και την μέθοδον διά της οποίας επιθυμεί να καταβάλη τας εισφοράς ταύτας.\nΝοείται ότι εις περίπτωσιν διδασκάλου όστις αφυπηρετεί μετά την ορισθείσαν ημέραν δυνάμει της παραγράφου (στ) του εδαφίου (1) του άρθρου 51 ίνα αναλάβη δημόσιον λειτούργημα ασυμβίβαστον προς το αξίωμα ή την θέσιν ην κατέχει εν τη δημοσία εκπαιδευτική υπηρεσία, και όστις δεν έχει ασκήσει το εν τω παρόντι εδαφίω αναφερόμενον δικαίωμα εκλογής, το Υπουργικόν Συμβούλιον δύναται να επιτρέψη εις αυτόν όπως, εντός τακτής προθεσμίας, ασκήση δικαίωμα εκλογής όπως καταβάλη τας πληρωτέας εισφοράς δι’ οιανδήποτε χρονικήν περίοδον συμπεπληρωμένων μηνών προηγουμένης υπηρεσίας αυτού προ της ορισθείσης ημέρας.\n(3) Αι διά προηγουμένην υπηρεσίαν εισφοραί είναι προς εν και τρία τέταρτα τοις εκατόν του κατά τον χρόνον της καταβολής μισθού του εισφορέως δι’ έκαστον συμπεπληρωμένον έτος προηγουμένης υπηρεσίας και κατ’ αναλογίαν δι’ έκαστον συμπεπληρωμένον μήνα προηγουμένης υπηρεσίας διά τους οποίους ούτος επιθυμεί να καταβάλη εισφοράς. Αι εισφοραί αύται δύνανται να καταβληθώσι διά πληρωμής εφ’ άπαξ, είτε κατά τον χρόνον της ασκήσεως του δικαιώματος εκλογής (εν τοις εφεξής αναφερομένης ως “αρχική εισφορά”) είτε δι’ αφαιρέσεως εκ του εφ’ άπαξ επί της συντάξεως φιλοδωρήματος κατά τον χρόνον της αφυπηρετήσεως ή του θανάτου (εν τοις εφεξής αναφερομένης ως “τελική εισφορά”).\n(4) Εάν διδάσκαλος ο οποίος κατά την ορισθείσαν ημέραν ήτο συντάξιμος διδάσκαλος αποθάνη εντός χρονικής περιόδου τριών μηνών από της εν λόγω ημέρας χωρίς να έχη ασκήσει δικαίωμα εκλογής δυνάμει του εδαφίου (2), θεωρείται ούτος ως ασκήσας το τοιούτο δικαίωμα διά το σύνολον της προηγουμένης συνταξίμου υπηρεσίας του και αι καταβλητέαι εισφοραί αφαιρούνται εκ του δυνάμει του άρθρου 61 καταβλητέου εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού φιλοδωρήματος.\n(5) Πας διδάσκαλος έχων προηγουμένην υπηρεσίαν δυναμένην να λογισθή διά σκοπούς συντάξεως ο οποίος εν τω μέλλοντι καθίσταται συντάξιμος διδάσκαλος και ο οποίος επιθυμεί να καταβάλη εισφοράς δι’ οιανδήποτε χρονικήν περίοδον συμπεπληρωμένων μηνών τοιαύτης προηγουμένης υπηρεσίας δύναται, εντός ενός μηνός αφ’ ότου καθίσταται συντάξιμος διδάσκαλος ή εντός τοσαύτης περαιτέρω χρονικής περιόδου όσην ο Υπουργός ήθελεν εν οιαδήποτε ειδική περιπτώσει επιτρέψει, να ασκήση ανεκκλήτως δικαίωμα εκλογής όπως καταβάλη τας καθωρισμένας εισφοράς διά την υπηρεσίαν ταύτην, εν τοιαύτη δε περιπτώσει αι καθωρισμέναι εισφοραί καταβάλλονται κατά τον αυτόν τρόπον και χρόνον ως διαλαμβάνει το εδάφιον (3) και η σύνταξις διά την προηγουμένην ταύτην υπηρεσίαν υπολογίζεται επί τη βάσει του εν τη παραγράφω (α) του εδαφίου (1) του άρθρου 62Ε καθοριζομένου ποσοστού. Η τοιαύτη εκλογή γίνεται κατά τον αυτόν τρόπον ως η δυνάμει του εδαφίου (2) εκλογή."
+    },
+    {
+      "provision_ref": "sec62Tha",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Θα",
+      "title": "Άρθρο 62Θα: Εισφορές για προϋπηρεσία σε δημόσια σχολεία στην Ελλάδα",
+      "content": "62Θα.-(1) Τηρουμένων των διατάξεων των εδαφίων (2), (3) και (4), τα άρθρα 62Θ και 62Ια, (τα οποία εκτίθενται στον περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικό) Νόμο του 1967 και στον περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικό) Νόμο του 1990, αντίστοιχα) και τα οποία προβλέπουν την καταβολή εισφορών για προηγούμενη υπηρεσία, εφαρμόζονται από την ορισθείσα ημέρα και σε εισφορείς που έχουν προϋπηρεσία σε δημόσια σχολεία στην Ελλάδα, η οποία θεωρείται συντάξιμη δυνάμει της παραγράφου (δ) του εδαφίου (2) του άρθρου 49 του βασικού νόμου, όπως αυτό τροποποιείται με το άρθρο 2 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1996.\n(2) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα άρθρα 62Θ και 62Ια του βασικού νόμου ορισθείσα ημέρα σημαίνει την ημερομηνία δημοσίευσης του ως προείρηται Τροποποιητικού Νόμου.\n(3) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα εδάφια (2) και (4) του άρθρου 62Θ του βασικού νόμου προθεσμία των τριών μηνών θεωρείται ότι λήγει εντός έξι μηνών από την ημερομηνία δημοσίευσης του ως προείρηται Τροποποιητικού Νόμου.\n(4) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα άρθρα 62Θ και 62Ια του βασικού νόμου προηγούμενη υπηρεσία σημαίνει την προϋπηρεσία σε δημόσια σχολεία στην Ελλάδα."
+    },
+    {
+      "provision_ref": "sec62Thv",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Θβ",
+      "title": "Άρθρο 62Θβ: Εισφορές για προϋπηρεσία σε αρμένικα δημοτικά σχολεία",
+      "content": "62Θβ.-(1) Τηρουμένων των διατάξεων των εδαφίων (2), (3) και (4), τα άρθρα 62Θ και 62Ια, (τα οποία εκτίθενται στον περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικό) Νόμο του 1967 και στον περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικό) Νόμο του 1990, αντίστοιχα), τα οποία προβλέπουν την καταβολή εισφορών για προηγούμενη υπηρεσία, εφαρμόζονται από την ορισθείσα ημέρα και σε εισφορείς που έχουν προϋπηρεσία σε αρμένικα δημοτικά σχολεία της Κύπρου, η οποία θεωρείται συντάξιμη δυνάμει του εδαφίου (3Α) του άρθρου 49 του βασικού νόμου, όπως αυτό τροποποιείται από το άρθρο 3 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 2) Νόμου του 1996.\n(2) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα άρθρα 62Θ και 62Ια του βασικού νόμου ορισθείσα ημέρα σημαίνει την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 2) Νόμου του 1996.\n(3) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα εδάφια (2) και (4) του άρθρου 62Θ του βασικού νόμου προθεσμία των τριών μηνών θεωρείται ότι λήγει μέσα σε έξι μήνες από την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) (Αρ. 2) Νόμου του 1996.\n(4) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα άρθρα 62Θ και 62Ια του βασικού νόμου προηγούμενη υπηρεσία σημαίνει την προϋπηρεσία σε αρμένικα δημοτικά σχολεία της Κύπρου."
+    },
+    {
+      "provision_ref": "sec62I_2",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Ι",
+      "title": "Άρθρο 62Ι: Επιστροφή εισφορών",
+      "content": "62Ι.-(1) Εάν-\n(α) εισφορεύς, ο οποίος κατέβαλε περιοδικάς εισφοράς, αποθάνη ή παύση να είναι διδάσκαλος και δεν είχε νυμφευθή καθ’ όλην την χρονικήν περίοδον της υπηρεσίας του διά την οποίαν κατεβλήθησαν εισφοραί~ ή\n(β) εισφορεύς ο οποίος κατέβαλε περιοδικάς εισφοράς, αποθάνη ή παύση να είναι διδάσκαλος υπό τοιαύτας συνθήκας ώστε να μη δικαιούται εις την χορήγησιν συντάξεως δυνάμει του Μέρους V,\nτο σύνολον των περιοδικών εισφορών του και πάσα αρχική εισφορά την οποίαν κατέβαλεν επιστρέφονται εις αυτόν ή, αναλόγως της περιπτώσεως, εις τον νόμιμον προσωπικόν αντιπρόσωπον αυτού.\n(2) Αν η/ο σύζυγος εισφορέα, που κατέβαλε περιοδικές εισφορές, αποθάνει πριν από αυτόν/αυτή ή ο γάμος τους διαλυθεί με διαζύγιο και ο/η εισφορέας αποθάνει στην υπηρεσία ή αφυπηρετήσει χωρίς να συνάψει άλλο γάμο, οι περιοδικές εισφορές που καταβλήθηκαν, καθώς και κάθε αρχική εισφορά που καταβλήθηκε, επιστρέφονται σ’ αυτόν/αυτή ή, ανάλογα με την περίπτωση, στο νόμιμο προσωπικό αντιπρόσωπο αυτού/αυτής:\nΝοείται ότι, σε περίπτωση που κατά την αφυπηρέτηση ή το θάνατο εισφορέα υπάρχουν δικαιούχα τέκνα, όπως ο όρος ερμηνεύεται στον παρόντα Νόμο, οι εισφορές που αναφέρονται στο παρόν εδάφιο δεν επιστρέφονται.\n(3) Όταν διά προηγουμένην υπηρεσίαν εισφορέως θα κατεβάλλετο τελική εισφορά δι’ αφαιρέσεως εκ του εφ’ άπαξ επί της συντάξεως φιλοδωρήματος επί τω θανάτω του εν τη υπηρεσία ή επί τη αφυπηρετήσει του επί συντάξει, δεν καταβάλλεται τοιαύτη τελική εισφορά όταν ούτος είναι άγαμος κατά τον χρόνον του θανάτου ή της αφυπηρετήσεως του ή όταν σύνταξις εις την χήραν αυτού δεν είναι καταβλητέα.\n(4) Οσάκις οιαιδήποτε εισφοραί δέον να επιστραφώσι δυνάμει του παρόντος άρθρου επιστρέφονται αύται μεθ’ απλού τόκου προς τοσούτον επιτόκιον όσον ο Υπουργός ήθελεν εκάστοτε καθορίσει."
+    },
+    {
+      "provision_ref": "sec62Ia",
+      "chapter": "MEΡΟΣ VA ΣΥΝΤΑΞΕΙΣ ΕΙΣ ΧΗΡΑΣ ΚΑΙ ΤΕΚΝΑ",
+      "section": "62Ια",
+      "title": "Άρθρο 62Ια: Εφαρμογή του Μέρους VA και άλλων άρθρων του βασικού νόμου και σε δασκάλες και συνταξιούχες δασκάλες",
+      "content": "62Ια.-(1) Τηρουμένων των διατάξεων των εδαφίων (2) και (3), το Μέρος VA καθώς και οποιαδήποτε άλλα άρθρα του βασικού νόμου τα οποία προβλέπουν για σύνταξη χήρας και τέκνων εφαρμόζονται, από την ορισθείσα ημέρα και σε δασκάλες που κατέχουν συντάξιμη θέση και σε συνταξιούχες δασκάλες. Οποιαδήποτε αναφορά στις λέξεις “διδάσκαλος”, “συνταξιούχος”, “αποθανών”, “χήρα”, “η σύζυγος”, ‘εισφορεύς”, ερμηνεύεται ότι περιλαμβάνει “διδασκάλισσαν”, “συνταξιούχον διδασκάλισσαν”, “αποθανούσαν”, “χήρον”, “τον σύζυγον”, “διδασκάλισσαν εισφορέα” και οποιαδήποτε αναφορά σε τέκνα ερμηνεύεται ότι περιλαμβάνει και τα τέκνα δασκάλας ή συνταξιούχου δασκάλας.\n(2) Για τους σκοπούς του παρόντος άρθρου η αναφερόμενη στο Μέρος VA του βασικού νόμου “ορισθείσα ημέρα” σημαίνει την 1η Ιανουαρίου 1990.\n(3) Για τους σκοπούς του παρόντος άρθρου, η αναφερόμενη στα εδάφια (2) και (4) του άρθρου 62Θ του Μέρους VA του βασικού νόμου προθεσμία των τριών μηνών λήγει εντός έξι μηνών από την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1992.\n(4) Οι δυνάμει του άρθρου 62Η του βασικού νόμου καταβλητέες περιοδικές εισφορές είναι προς 0.75% των εκάστοτε συντάξιμων απολαβών των δασκάλων εισφορέων μέχρι ποσού ίσου προς τις ασφαλιστέες αποδοχές αυτών και προς 1.75% των εκάστοτε συντάξιμων απολαβών πέραν των ασφαλιστέων αποδοχών αυτών. Οι δυνάμει του άρθρου 62Θ καταβλητέες εισφορές για προηγούμενη υπηρεσία είναι προς 1.75% των εκάστοτε συντάξιμων απολαβών αυτών μέχρι την 5η Οκτωβρίου 1980 και μετά την 5η Οκτωβρίου 1980 είναι προς 0.75% των εκάστοτε συντάξιμων απολαβών αυτών μέχρι ποσού ίσου προς τις ασφαλιστέες αποδοχές αυτών και προς 1.75% των εκάστοτε συντάξιμων απολαβών αυτών πέραν των ασφαλιστέων αποδοχών αυτών. Το ύψος των εκάστοτε ασφαλιστέων αποδοχών καθορίζεται βάσει των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 έως 1990 ή κάθε Νόμου που τροποποιεί ή αντικαθιστά αυτούς.\nΝοείται ότι εάν δασκάλα, που ήταν στην υπηρεσία στις 25.5.1990, άσκησε εκλογή για καταβολή εισφορών για προηγούμενη υπηρεσία, οι καταβλητέες εισφορές αναφορικά με υπηρεσία πριν από την 1.4.1967 υπολογίζονται πάνω στις συντάξιμες απολαβές της κατά την 1.4.1967 εάν κατείχε συντάξιμη θέση την ημερομηνία αυτή και αναφορικά με υπηρεσία είτε πριν είτε μετά την 1.4.1967 πάνω στις συντάξιμες απολαβές της κατά την ημερομηνία διορισμού σε μόνιμη θέση αν κατά την 1.4.1967 δεν κατείχε συντάξιμη θέση."
+    },
+    {
+      "provision_ref": "sec63",
+      "chapter": "ΜΕΡΟΣ VB ΤΙΜΑΡΙΘΜΙΚΗ ΑΥΞΗΣΙΣ ΣΥΝΤΑΞΕΩΝ",
+      "section": "63",
+      "title": "Άρθρο 63: Εξουσίαι διά τιμαριθμικήν αύξησιν συντάξεων και τρόπος καθορισμού αυτών",
+      "content": "63.-(1) Ανεξάρτητα από τις διατάξεις των Μέρων V και VA του παρόντος Νόμου, ο Υπουργός Οικονομικών, εφόσον υφίσταται και λειτουργεί σύστημα τιμαριθμικών αναπροσαρμογών των μισθών, έχει εξουσία όπως, με απόφαση του που δημοσιεύεται στην Επίσημη Εφημερίδα της Δημοκρατίας, καθορίζει εκάστοτε το ύψος της αύξησης, λόγω της διακύμανσης του τιμαριθμικού δείκτη που θα δίδεται στις συντάξεις των συνταξιούχων δασκάλων οι οποίοι αφυπηρέτησαν πριν από την 1η Ιανουαρίου ή την 1η Ιουλίου του έτους εντός του οποίου δημοσιεύεται η απόφαση ή στις συντάξεις εξαρτωμένων από δασκάλους ή συνταξιούχους, οι οποίοι αποβίωσαν πριν από την 1η Ιανουαρίου ή την 1η Ιουλίου του εν λόγω έτους.\n(2) Το ύψος της αύξησης αυτής θα καθορίζεται με βάση την εκατοστιαία αύξηση του μέσου όρου του τιμαριθμικού δείκτη του εξαμήνου που πέρασε σε σύγκριση με το μέσο όρο του τιμαριθμικού δείκτη του αμέσως προηγούμενου αυτού εξαμήνου και θα αρχίσει να καταβάλλεται από την πρώτη ημέρα του εξαμήνου εντός του οποίου δημοσιεύεται η απόφαση:\nΝοείται ότι σε περιπτώσεις αφυπηρέτησης ή θανάτου κατά τη διάρκεια του εξαμήνου που πέρασε θα λαμβάνεται υπόψη, για σκοπούς καθορισμού του ύψους της αύξησης αυτής, το τιμαριθμικό επίδομα το οποίο λήφθηκε υπόψη κατά τον υπολογισμό της σύνταξης του συνταξιούχου δασκάλου ή της σύνταξης των εξαρτωμένων.\n(3) Διά τους σκοπούς του παρόντος άρθρου-\n“εξάμηνο που πέρασε” σημαίνει το εξάμηνο που έληξε την προηγούμενη της πρώτης ημέρας του εξαμήνου εντός του οποίου δημοσιεύεται η απόφαση του Υπουργού Οικονομικών~\n“συνταξιούχος” σημαίνει πρόσωπον το οποίον κατά την ημερομηνίαν της δημοσιεύσεως του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1979 είναι πολίτης της Δημοκρατίας και εις το οποίον εχορηγήθη σύνταξις δυνάμει του περί Στοιχειώδους Εκπαιδεύσεως Νόμου~\n“σύνταξις εξαρτωμένων” σημαίνει σύνταξιν καταβαλλομένην δυνάμει του περί Στοιχειώδους Εκπαιδεύσεως Νόμου εις την χήραν και ή τα τέκνα αποβιώσαντος συνταξιούχου ή αποβιώσαντος διδασκάλου~\n“τιμαριθμικός δείκτης” σημαίνει τον εκάστοτε εν ισχύϊ Δείκτην Τιμών Λιανικής Πωλήσεως~\n“τιμαριθμικόν επίδομα” σημαίνει το εκάστοτε καταβαλλόμενον τιμαριθμικόν επίδομα το οποίον περιλαμβάνεται εις τας συνταξίμους απολαβάς."
+    },
+    {
+      "provision_ref": "sec64",
+      "chapter": "ΜΕΡΟΣ VB ΤΙΜΑΡΙΘΜΙΚΗ ΑΥΞΗΣΙΣ ΣΥΝΤΑΞΕΩΝ",
+      "section": "64",
+      "title": "Άρθρο 64: Ειδικές διατάξεις σε σχέση με την εφαρμογή των άρθρων 5 και 88 των περί Κοινωνικών Ασφαλίσεων Νόμων σε ορισμένους δασκάλους και συνταξιούχους",
+      "content": "64.-(1) Τηρουμένων των διατάξεων του εδαφίου (2), δάσκαλος ο οποίος πριν από την αφυπηρέτηση του συμπληρώνει συντάξιμη υπηρεσία όχι λιγότερη από 400 μήνες, παύει, από την ημερομηνία που συμπληρώνει την εν λόγω υπηρεσία, να θεωρείται ότι υπάγεται σε επαγγελματικό σχέδιο συντάξεων και οι διατάξεις της επιφύλαξης του εδαφίου (1) του άρθρου 5 και του εδαφίου (3) του άρθρου 88 των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 έως 1990 παύουν να εφαρμόζονται στην περίπτωση του από την πρώτη του μήνα ο οποίος ακολουθεί την ημερομηνία αυτή.\n(2) Δάσκαλος ο οποίος βρισκόταν στην υπηρεσία την 1η Ιανουαρίου 1988 και συμπλήρωσε μέχρι την ημερομηνία έναρξης της ισχύος του παρόντος Νόμου συντάξιμη υπηρεσία 400 τουλάχιστο μηνών θεωρείται ότι από την ημερομηνία συμπλήρωσης της εν λόγω συντάξιμης υπηρεσίας δεν υπαγόταν σε επαγγελματικό σχέδιο συντάξεων και οι διατάξεις της επιφύλαξης του εδαφίου (1) του άρθρου 5 και του εδαφίου (3) του άρθρου 88 των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 έως 1990 θεωρούνται ότι έπαυσαν να εφαρμόζονται στην περίπτωση του από την πρώτη του μήνα ο οποίος ακολουθεί την ημερομηνία αυτή:\nΝοείται ότι δάσκαλος ο οποίος είχε συμπληρώσει την εν λόγω συντάξιμη υπηρεσία πριν από την 1η Ιανουαρίου 1988 δικαιούται να εκλέξει, εντός έξι μηνών από την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1992, όπως οι διατάξεις του παρόντος εδαφίου εφαρμοστούν στην περίπτωση του αναδρομικά από την πρώτη του μήνα ο οποίος ακολουθεί την ημερομηνία που συμπλήρωσε συντάξιμη υπηρεσία 400 μηνών, ή την 6η Οκτωβρίου 1980, οποιαδήποτε από τις ημερομηνίες αυτές είναι μεταγενέστερη.\n(3) Συνταξιούχος ο οποίος αφυπηρέτησε κατά την περίοδο μεταξύ 6.10.1980 και 31.12.1987 και ο οποίος πριν από την αφυπηρέτηση του είχε συμπληρώσει συντάξιμη υπηρεσία υπερβαίνουσα τους 440 μήνες, δικαιούται, εντός έξι μηνών από την ημερομηνία δημοσίευσης του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού) Νόμου του 1992, να εκλέξει όπως θεωρηθεί ότι δεν υπαγόταν στις διατάξεις της επιφύλαξης του εδαφίου (1) του άρθρου 5 των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 έως 1990, από την πρώτη του μήνα ο οποίος ακολουθεί την ημερομηνία που συμπλήρωσε την υπηρεσία των 440 μηνών, ή την 6η Οκτωβρίου 1980, οποιαδήποτε από τις ημερομηνίες αυτές είναι η μεταγενέστερη.\n(4) Οποιαδήποτε εισφορά κοινωνικών ασφαλίσεων η οποία θα ήταν καταβλητέα αναδρομικά από δάσκαλο ή συνταξιούχο επί του οποίου εφαρμόζονται οι διατάξεις των εδαφίων (2) και (3) του παρόντος άρθρου καταβάλλεται στο Πάγιο Ταμείο της Δημοκρατίας κατά τον τρόπο και χρόνο που ήθελε ορίσει ο Υπουργός Οικονομικών.\n(5) Στις περιπτώσεις δασκάλων και συνταξιούχων στους οποίους εφαρμόζονται οι διατάξεις των εδαφίων (1) και (3) του παρόντος άρθρου δεν τυγχάνουν εφαρμογής οι διατάξεις του εδαφίου (1) του άρθρου 88 των περί Κοινωνικών Ασφαλίσεων Νόμων του 1980 έως 1990 αναφορικά με οποιαδήποτε συντάξιμη υπηρεσία κατά την οποία θεωρούνται ότι δεν υπάγονται σε επαγγελματικό σχέδιο συντάξεων."
+    },
+    {
+      "provision_ref": "sec65",
+      "chapter": "ΜΕΡΟΣ VB ΤΙΜΑΡΙΘΜΙΚΗ ΑΥΞΗΣΙΣ ΣΥΝΤΑΞΕΩΝ",
+      "section": "65",
+      "title": "Άρθρο 65: Ο εκτός υπηρεσίας χρόνος δε θεωρείται συντάξιμος",
+      "content": "65. Ανεξάρτητα από το τι προβλέπεται στο βασικό νόμο ή σε οποιοδήποτε άλλο νόμο, σε περίπτωση επαναπρόσληψης στην εκπαιδευτική υπηρεσία δασκάλου ο οποίος απολύθηκε δυνάμει των διατάξεων του περί Αναστολής της Διαδικασίας της Προνοουμένης υπό των περί Ωρισμένων Πειθαρχικών Παραπτωμάτων (Διεξαγωγή Ερεύνης και Εκδίκασις) Νόμων του 1977 έως 1988 Νόμου η χρονική περίοδος κατά την οποία ο εν λόγω δάσκαλος διατελούσε εκτός υπηρεσίας δε θα λογίζεται για σκοπούς συντάξεως ή καθορισμού της διάρκειας προϋπηρεσίας ή αρχαιότητας ή για σκοπούς καταβολής οποιουδήποτε άλλου ωφελήματος ή αποζημίωσης."
+    },
+    {
+      "provision_ref": "sec64_2",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "64",
+      "title": "Άρθρο 64: Repeal and saving",
+      "content": "64. This Part of this Law shall be deemed to have ceased on the 1st day of September, 1942:\nProvided that the provisions of this section shall not apply, subject to the provisions of section 62, to any teacher who made an election under, and in accordance with, the provisions of paragraph (a) of the proviso to section 49A of the Elementary Education Law, as enacted in section 23 of the Elementary Education (Amendment) Law, 1944."
+    },
+    {
+      "provision_ref": "sec65_2",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "65",
+      "title": "Άρθρο 65: Definitions",
+      "content": "65. For the purposes of this Part of this Law-\n“gratuity” means any gratuity granted under this Part of this Law;\n“salary” has the same meaning as in section 45 of this Law."
+    },
+    {
+      "provision_ref": "sec66",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "66",
+      "title": "Άρθρο 66: Age of retirement",
+      "content": "66.-(1) Every male teacher on the Permanent Staff Register who attains the age of sixty years and every female teacher on the Permanent Staff Register who attains the age of fifty-five years after the coming into operation of this Law shall retire and cease to be a teacher on the Permanent Staff Register, and the name of such teacher shall be removed from the Permanent Staff Register:\nProvided that if-\n(a) any male teacher attains the age of sixty years, or\n(b) any female teacher attains the age of fifty-five years, after the commencement but before the end of the school year in which the teacher is employed, such teacher may, with the permission of the Director, continue to be employed as, and receive the salary of, a teacher and the name of such teacher shall remain on the Permanent Staff Register until the end of such school year as if such teacher had not attained such age, and the service of such teacher during any period of such continued employment shall be treated as service under this Law and shall be taken into account in the computation of any gratuity, benevolent grant or additional grant:\nProvided further that the Governor may, at any time require or permit any female teacher on the Permanent Staff Register who becomes married to retire and cease to be a teacher on such register and thereupon the name of such teacher shall be removed from the Permanent Staff Register.\n(2) The Director may at any time require any teacher on the Permanent Staff Register to produce to him proof of age in such form as may be prescribed by the Governor, and the name of any teacher who shall fail to produce such proof to the satisfaction of the Director may, with the sanction of the Governor, be removed from the Permanent Staff Register.\n(3) Every female teacher on the Permanent Staff Register shall, on becoming married, forthwith notify the fact to the Director."
+    },
+    {
+      "provision_ref": "sec67",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "67",
+      "title": "Άρθρο 67: Gratuities on retirement",
+      "content": "67.-(1) Every male teacher so retired who has served for not less than fifteen years and every female teacher so retired who has served for not less than ten years shall on the certificate of the Director that such teacher has discharged the duties of his office with fidelity and zeal receive a gratuity of one month’s salary at the rate of the salary such teacher is then receiving for every year of service.\n(2) Every male teacher on the Permanent Staff Register who has served for not less then fifteen years and every female teacher on the Permanent Staff Register who has served for not less than ten years or has become married may be allowed to retire at his own desire and on the certificate of the Director that such teacher has discharged the duties of his office with fidelity and zeal shall, subject always to the provisions of section 68(2) of this Law, receive a gratuity of one month’s salary at the rate of the salary such teacher is then receiving for every year of service.\n(3) No male teacher who has served for less than fifteen years nor a female teacher who has served for less than ten years shall be entitled to a gratuity:\nProvided that a male teacher on the Permanent Staff Register who has served for less than fifteen years and a female teacher on the Permanent Staff Register who has served for less than ten years and who is being retired on medical evidence to the satisfaction of the Governor that such teacher is incapable by reason of some infirmity of mind or body of discharging the duties of his or her office, and that such infirmity is likely to be permanent may, with the approval of the Governor, receive a gratuity of one month’s salary at the rate of the salary such teacher is then receiving for every year of service after the date applicable to such teacher as in subsection (5) hereof prescribed.\n(4) If a teacher on the Permanent Staff Register though not suffering from any particular illness or infirmity of mind or body likely to be permanent becomes unfit in the opinion of the Governor on the advice of the Director for the discharge of the duties of his office although not of the prescribed age for retirement, the Governor may order the name of such teacher to be removed from the Permanent Staff Register, and if such unfitness is not attributable to misconduct or gross negligence and on the certificate of the Director that such teacher has discharged the duties of his office with fidelity and zeal, the Governor may authorise the payment of a gratuity to such teacher of one month’s salary at the rate of the salary such teacher is then receiving for every year of service.\n(5) The period of fifteen years of service in the case of male teachers and of ten years of service in the case of female teachers in this section prescribed shall in computing the gratuities of teachers who were serving as teachers in Greek-Orthodox schools on the 1st day of September, 1923, or as teachers in schools other than Greek-Orthodox on the 1st day of October, 1920, be deemed to have commenced-\n(a) for Greek-Orthodox teachers on the 1st day of September 1923, and\n(b) for teachers other than Greek-Orthodox on the 1st day of October, 1920."
+    },
+    {
+      "provision_ref": "sec68",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "68",
+      "title": "Άρθρο 68: Benevolent grants when prescribed age cannot be completed",
+      "content": "68.-(1) Teachers on the Permanent Staff Register who although not of the prescribed age for retirement at the coming into operation of this Law cannot by reason of age complete, before attaining the prescribed age for retirement, the prescribed length of service to entitle them to a gratuity may be recommended by the Director to the Governor to receive a benevolent grant according to the merits of each case.\n(2) Any female teacher on the Permanent Staff Register who, before completing ten years service to entitle her to a gratuity as in section 67(2) of this Law provided, is required or permitted by the Governor to retire on becoming married or at any time thereafter, may on the recommendation of the Director receive a benevolent grant according to the merits of her case.\n(3) Teachers whose names are removed from the Permanent Staff Register in consequence of the abolition of their post may be recommended by the Director to the Governor to receive a benevolent grant according to the merits of each case.\n(4) When a teacher dies while in the service, the Governor may, on the recommendation of the Director, make to his dependants a benevolent grant of an amount not exceeding one year’s salary according to the merits of each case to be distributed to them in such proportion as the Director, having regard to all circumstances, may deem fit.\nFor the purposes of this subsection,\nthe term “dependants” means such of the members of the family of a teacher as were wholly or in part dependent upon the earnings of the teacher at the time of his death."
+    },
+    {
+      "provision_ref": "sec69",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "69",
+      "title": "Άρθρο 69: Additional grant",
+      "content": "69. In addition to any gratuities or benevolent grants to teachers under this Part of this Law, any teacher who has served in any elementary school in the Δημοκρατία previously to the period in section 67(5) of this Law specified may, on retirement be recommended by the Director to the Governor to receive an additional grant according to and in respect of the period of years of such previous service:\nProvided that such additional grant shall in no case exceed one-half of one month’s salary at the rate of the salary such teacher is receiving on retirement for every year of such previous service."
+    },
+    {
+      "provision_ref": "sec70",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "70",
+      "title": "Άρθρο 70: Service for less than one year",
+      "content": "70. The Governor may declare that any period of continuous service by any teacher or class of teachers, being not less than nine months, may for the purposes of this Part of this Law be deemed to be a year of service, and any such period so declared shall accordingly be taken into account in the computation of any gratuity, benevolent grant or additional grant."
+    },
+    {
+      "provision_ref": "sec71",
+      "chapter": "PART VI RETIREMENT ETC., OF TEACHERS WHO HAVE MADE AN ELECTION UNDER SECTION 49A OF THE ELEMENTARY EDUCATION LAW, 1933",
+      "section": "71",
+      "title": "Άρθρο 71: Period of leave without pay to be treated as service",
+      "content": "71. Any period of absence on leave without salary of a teacher shall be treated as service and taken into account in the computation of any gratuity, benevolent grant or additional grant:\nProvided that no such period shall be treated as service if the leave without salary was not granted in the interests of elementary education and with the Governor’s approval."
+    },
+    {
+      "provision_ref": "sec72",
+      "chapter": "PART VII PRIVATE SCHOOLS",
+      "section": "72",
+      "title": "Άρθρο 72: Καταργήθηκε",
+      "content": "72. Καταργήθηκε από το άρθρο 15 του περί Ιδιωτικών Σχολείων Νόμου του 1962, (Ν.16/62, Ε.Κ.Σ.)\n(15.-(1) Το άρθρον 72 του περί Στοιχειώδους Εκπαιδεύσεως Νόμου, Κεφ. 166, καταργείται.\n(2) Οιαδήποτε διάταξις της εκπαιδευτικής νομοθεσίας αφορώσα εις τα ιδιωτικά σχολεία καταργείται εφ’ όσον συγκρούεται προς τον παρόντα Νόμον.)"
+    },
+    {
+      "provision_ref": "sec73",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "73",
+      "title": "Άρθρο 73: Καταργήθηκε",
+      "content": "73. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec74",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "74",
+      "title": "Άρθρο 74: Καταργήθηκε",
+      "content": "74. Καταργήθηκε από το άρθρο 18 του περί Σχολικών Εφορειών Νόμου του 1997, (Ν.108(Ι)/97)."
+    },
+    {
+      "provision_ref": "sec75",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "75",
+      "title": "Άρθρο 75: Οrder for compulsory provision of school premises",
+      "content": "75. Whenever it shall appear to the Governor on the report of the Director that it is desirable to permit, require or compel any Town Committee or Village Commission or Committee of Management to provide, erect, repair, extend, improve or develop any school buildings, premises, playgrounds, yards, gardens or teachers’ dwellings, the Governor may make an order to be published in the Gazette accordingly."
+    },
+    {
+      "provision_ref": "sec76",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "76",
+      "title": "Άρθρο 76: Estimates and plans",
+      "content": "76. Upon the publication of such Order the Town Committee or Village Commission or Committee of Management concerned shall cause estimates and plans to be prepared to the satisfaction of the Director and the Commissioner, for which purpose an architect or engineer may be employed if necessary and his remuneration included in the estimates."
+    },
+    {
+      "provision_ref": "sec77",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "77",
+      "title": "Άρθρο 77: Selection of new site of school and acquisition thereof when owner consents",
+      "content": "77. In case a new site is required the Director and the Commissioner shall, with the assistance of the Town Committee or Village Commission or Committee of Management concerned, proceed to select a suitable site for the establishment of school buildings, premises, playgrounds, yards, gardens or teachers’ dwellings, as the case may be, and upon the report of the Director of Medical Services or any Medical Officer deputed by him that the site is suitable from a sanitary point of view and if the owner of such site consents in writing to the acquisition of such site, the site shall at the instance of the Director be registered in the books of the District Lands Office as an elementary school site, and all right and title of the owner in and to the land, trees or buildings thereon shall thereupon cease and determine and the immovable property tax thereon shall from the day of registration be written off."
+    },
+    {
+      "provision_ref": "sec78",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "78",
+      "title": "Άρθρο 78: Acquisition of new site of school when owner does not consent and registration of title",
+      "content": "78. When any site has been so selected and the owner thereof does not consent to its acquisition, upon the certificate of the Commissioner that the site has been so selected and upon the report of the Director of Medical Services or any Medical Officer deputed by him that the site is suitable from a sanitary point of view, the Commissioner shall notify his sanction to the acquisition of the site by notice in the Gazette, and the site shall at the instance of the Director be registered in the books of the Districts Lands Office as an elementary school site, and all right and title of the owner or any other persons in and to the land, trees or buildings thereon shall thereupon cease and determine and the immovable property tax thereon shall from the day of registration be written off:\nProvided that-\n(a) no building used for religious observances or in connection therewith;\n(b) no land adjacent to any building used for religious observances and used in connection with such building;\n(c) no building land or tree belonging to any church, mosque or school of a religious community other than the religious community for the schools of which it is desired to acquire such building, land or tree,\nshall be compulsorily acquired under this Law."
+    },
+    {
+      "provision_ref": "sec79",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "79",
+      "title": "Άρθρο 79: Compensation",
+      "content": "79. In respect of any land, trees or buildings taken under this Law, compensation shall be paid to the owner thereof either-\n(a) at the rate to be agreed upon between him and the Director and the Commissioner, or\n(b) in case the compensation cannot be agreed upon, at a rate to be assessed as hereinafter prescribed."
+    },
+    {
+      "provision_ref": "sec80",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "80",
+      "title": "Άρθρο 80: Reference to District Court",
+      "content": "80. If within one month from the date of the notification of such sanction as aforesaid the persons interested do not agree with the Director and the Commissioner as to the compensation for the site so acquired (1) such compensation shall be determined in accordance with the provisions of any Law, in force for the time being, providing for the acquisition of land for public purposes."
+    },
+    {
+      "provision_ref": "sec81",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "81",
+      "title": "Άρθρο 81: Construction",
+      "content": "81. When the estimates have been approved and the site if any, has been acquired, the Town Committee or Village Commission or Committee of Management concerned shall proceed to carry out the works to the satisfaction of the Director and the Commissioner, and the cost of so doing shall be raised, collected and paid in the manner hereinafter provided:\nProvided that the Town Committee or Village Commission or Committee of Management concerned before proceeding to carry out the works aforesaid shall, if so required by the Director, call for public tenders in respect thereof and shall not, without the consent in writing of the Director, accept any such tender or enter into any contract or agreement relating to such works."
+    },
+    {
+      "provision_ref": "sec82",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "82",
+      "title": "Άρθρο 82: Form of estimates, etc.",
+      "content": "82. The Director shall have power to prescribe the form in which the estimates for works ordered under this Law shall be submitted and the accounts of the expenditure thereupon shall be kept. He shall also have power to prescribe for the due auditing of such accounts."
+    },
+    {
+      "provision_ref": "sec83",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "83",
+      "title": "Άρθρο 83: Power to accept gifts for educational purposes",
+      "content": "83. A Town Committee, Village Commission or Committee of Management shall be able and shall be deemed always to have been able to be constituted trustees for any endowment or charity for purposes connected with elementary education, whether the endowment or charity was established before or after the date of the coming into operation of this Law, and shall have power to accept any property given to them as an endowment or upon trust for any purposes connected with elementary education:\nProvided that no such property shall be so accepted without the prior consent in writing of the Director."
+    },
+    {
+      "provision_ref": "sec84",
+      "chapter": "PART VIII SCHOOL BUILDINGS AND PREMISES",
+      "section": "84",
+      "title": "Άρθρο 84: Vesting of property",
+      "content": "84.-(1) All property already acquired by or for any school under the provisions of any Law heretofore in force or that shall hereafter be acquired under the provisions of this Law or otherwise shall, if movable vest in, and if immovable vest in and be registered in, the names of the following persons to be held in trust for the school concerned-\n(a) for Greek-Orthodox and Moslem schools in towns, the Chairman of the Town Committee and in villages the Chairman of the Village Commission;\n(b) for schools of other religious communities, as the Governor may direct.\n(2) All such immovable property of every category shall be registered in the books of the District Lands Office in accordance with the preceding subsection unless the same has been acquired by gift or dedication in which case the property shall be held and registered in accordance with the terms of the deed of gift or dedication, if any.\n(3) No disposition of such immovable property shall hereafter be made without the authority of the Governor.\n(4) No such property whether movable or immovable shall be liable to be attached, seized, taken or sold in execution of any judgment.\n(5) No tax, rate or due whatsoever shall be leviable in respect of such property."
+    },
+    {
+      "provision_ref": "sec85",
+      "chapter": "PART IX FINANCIAL",
+      "section": "85",
+      "title": "Άρθρο 85: Provision for payment of teachers’ salaries",
+      "content": "85. The amount required for the payment of the salaries, pensions, duty allowances, special allowances, gratuities, benevolent grants, additional grants and bonuses to teachers shall, save as in sections 24 and 88(5) of this Law provided, be defrayed out of the general revenue of the Δημοκρατία."
+    },
+    {
+      "provision_ref": "sec86",
+      "chapter": "PART IX FINANCIAL",
+      "section": "86",
+      "title": "Άρθρο 86: Government grants for certain purposes",
+      "content": "86. Τhere shall be defrayed in every year, out of the general revenue of the Δημοκρατία, such amount as may be required for the payment of the grants set out in the Schedule to this Law, such grants to be calculated and paid in the manner and at the time set out in such Schedule and to be utilized for the purposes therein contained."
+    },
+    {
+      "provision_ref": "sec87",
+      "chapter": "PART IX FINANCIAL",
+      "section": "87",
+      "title": "Άρθρο 87: Education tax",
+      "content": "87.-(1) There shall be levied, assessed, collected and paid in every school year an additional tax (to be called “the Education tax”) on all immovable property which is subject to immovable property tax at the rate of four per thousand in towns and of one and a half per thousand in villages on the capital value of such property.\n(2) The Education tax shall be payable at the same time as the immovable property tax is payable and shall be paid, collected and recovered in the same manner as Government taxes are paid, collected and recovered."
+    },
+    {
+      "provision_ref": "sec88",
+      "chapter": "PART IX FINANCIAL",
+      "section": "88",
+      "title": "Άρθρο 88: Education funds",
+      "content": "88.-(1) To enable the Director to make loans for any of the purposes approved by the Governor as in section 74 of this Law prescribed, the following funds shall be established-\n(a) for Greek-Orthodox schools a fund to be called the Education (A) Fund;\n(b) for Moslem schools a fund to be called the Education (B) Fund;\n(c) for schools of other religious communities a fund to be called the Education (C) Fund.\n(2) The Education (A) Fund shall consist of-\n(a) all the assets and revenue of the Education (No. 1) Fund formed under the provisions of the Elementary Education Laws, 1929 to 1932, which said assets and revenue shall, on the coming into operation of this Law, be credited to and form part of the Education (A) Fund;\n(b) any sum which may from time to time be paid into the Education (A) Fund.\n(3) The Education (B) Fund shall consist of-\n(a) all the assets and revenue of the Education (No. 2) Fund formed under the provisions of the Elementary Education Laws, 1929 to 1932, which said assets and revenue shall, on the coming into operation of this Law, be credited to and form part of the Education (B) Fund;\n(b) any sum which may from time to time be paid into the Education (B) Fund.\n(4) The Education (C) Fund shall consist of-\n(a) all the assets and revenue of the Education (No. 3) Fund formed under the provisions of the Elementary Education Laws, 1929 to 1932, which said assets and revenue shall, on the coming into operation of this Law, be credited to and form part of the Education (C) Fund;\n(b) any sum which may from time to time be paid into the Education (C) Fund.\n(5) Notwithstanding anything in this section contained there may-\n(a) be paid out of the Education (A), (B) or (C) Funds, as the case may be, any amount credited to, or paid into, any such Fund for the purposes for which such amount is raised.\n(b) be paid on the recommendation of the Board of Education or the Director out of the Education (A) Fund or the Education (B) Fund such grants in special cases for any school purpose or education purpose as may be approved by the Governor;\n(c) be advanced out of the Education (A) Fund or the Education (B) Funds such sums of money as may be temporarily required for any of the purposes in section 24 of this Law prescribed:\nProvided that all sums of money so advanced shall be repaid to the education fund concerned;\n(d) be paid out of the Education (C) Fund such grants or expenses as may from time to time be approved by the Governor for the salaries of teachers of, or for any other educational purpose relating to, religious communities other than Greek-Orthodox or Moslem.\n(6) The Director shall, subject to the provisions of this Law, administer the education funds by this Law established and shall keep a separate account in such form as may from time to time be prescribed by the Governor of all moneys paid into and out of the said education funds respectively.\n(7) Notwithstanding anything in this section contained, it shall be lawful for the Director to utilize any moneys standing to the credit of any of the education funds established under subsection (1) for making loans for the purposes of any school belonging to a religious denomination other than that in respect of which such education fund was established:\nProvided that-\n(a) no such loan shall be made without the approval of the Governor first obtained;\n(b) every such loan shall be subject to such terms and conditions as the Governor may determine; and\n(c) the capital of any such loan and the interest accrued thereon shall, when recovered, be paid into the education fund out of which the loan was made.\n(8) Οι λογαριασμοί του Ταμείου θα ελέγχωνται υπό του Γενικού Ελεγκτού και θα δημοσιεύωνται εις την επίσημον εφημερίδα της Δημοκρατίας."
+    },
+    {
+      "provision_ref": "sec89",
+      "chapter": "PART IX FINANCIAL",
+      "section": "89",
+      "title": "Άρθρο 89: Amount required for provision, erection, etc., of school buildings, premises, etc., and recovery thereof",
+      "content": "89.-(1) When the Governor under section 75 of this Law shall have permitted, required, or ordered any Town Committee or Village Commission or Committee of Management to provide, erect, repair, extend, improve or develop any school buildings, premises, playgrounds, yards, gardens or teachers’ dwellings in any town or village, and the expense has been estimated as provided in section 76 of this Law or otherwise to the satisfaction of the Governor, the Governor may by notice in the Gazette order the sum required, or if the sum required has been raised by a loan, the annual interest and sinking fund for that loan, to be recovered-\n(a) for schools situated in any village in the manner in section 90 of this Law provided;\n(b) for schools situated in any town in the manner in section 95 of this Law provided.\n(2) The interest and sinking fund on any loans made under the provisions of this Law or of any Law relating to Elementary Education previously in force shall likewise be provided in the manner in section 90 or 95 of this Law provided, as the case may be, or in such other manner as the Governor may in any special case direct."
+    },
+    {
+      "provision_ref": "sec90",
+      "chapter": "PART IX FINANCIAL",
+      "section": "90",
+      "title": "Άρθρο 90: Καταργήθηκε",
+      "content": "90. Καταργήθηκε."
+    },
+    {
+      "provision_ref": "sec91",
+      "chapter": "PART IX FINANCIAL",
+      "section": "91",
+      "title": "Άρθρο 91: No action to lie against the Government",
+      "content": "91. No action or other legal proceeding shall lie in any Court against the Government of the Δημοκρατία in respect of any sum assessed and recovered under the provisions of section 90 of this Law or the corresponding section of any former Law relating to elementary education."
+    },
+    {
+      "provision_ref": "sec92",
+      "chapter": "PART IX FINANCIAL",
+      "section": "92",
+      "title": "Άρθρο 92: Actions for illegal assessments and refund of sum illegally assessed",
+      "content": "92.-(1) Any action or other legal proceeding by any person for the refund of any sum assessed and recovered under the provisions of section 90 of this Law or the corresponding section of any former Law relating to elementary education on the ground that such sum has been illegally assessed upon and recovered from such person which but for the enactment of this Law would have lain against the Government of the Δημοκρατία may be brought against the Village Commission or Committee of Management of the village, as the case may be, for the educational requirements of which the assessment was made.\n(2) Any sum adjudged by any Court to be refunded to any person in any action or other legal proceeding brought against the Village Commission or Committee of Management as in subsection (1) hereof provided, together with any costs ordered by the Court to be paid to such person and any costs properly incurred in defending any such action or legal proceeding shall be paid out of the Education (A), (B) or (C) Funds, as the case may be."
+    },
+    {
+      "provision_ref": "sec93",
+      "chapter": "PART IX FINANCIAL",
+      "section": "93",
+      "title": "Άρθρο 93: Payments out of Education (A), (B) or (C) Funds for illegal assessments to be recoverable from village concerned",
+      "content": "93. Where a payment out of the Education (A), (B) or (C) Funds is made as in section 91 of this Law provided, the Director shall notify the Chairman of the Village Commission or the Committee of Management of the village for the educational requirements of which the assessment was made, and the Commission or Committee shall thereupon assess the amount so paid out of the aforementioned Education Funds, in the same manner as in the case of amounts which had been written off as irrecoverable from past assessments and such amount when recovered shall be repaid to the Education (A), (B) or (C) Funds, as the case may be."
+    },
+    {
+      "provision_ref": "sec94",
+      "chapter": "PART IX FINANCIAL",
+      "section": "94",
+      "title": "Άρθρο 94: Limitation of actions..",
+      "content": "94. No claim for the refund of any amount on the ground that such amount has been illegally assessed upon and recovered from any person shall be entertained in any Court unless proceedings are commenced therefor within three months from the date of payment of the amount assessed."
+    },
+    {
+      "provision_ref": "sec95",
+      "chapter": "PART IX FINANCIAL",
+      "section": "95",
+      "title": "Άρθρο 95: Increase of education tax for schools situate in towns",
+      "content": "95.-(1) The total amount required in any one year under sections 24(3) and 89 of this Law in respect of all schools in any town shall be provided by an increase of the Education tax, payable in towns (as imposed by section 87 of this Law) by such further percentage in each town as shall be sufficient to provide for the amount so required in respect of all schools in such town for that particular year.\n(2) The increase of the Education tax as in subsection (1) provided shall be payable at the same time as the Education tax is payable and shall be paid, collected and recovered in the same manner as Government taxes are paid, collected and recovered and, when recovered, shall be credited to the Education (A), (B) or (C) Funds, as the case may be, for the purpose for which it is raised."
+    },
+    {
+      "provision_ref": "sec96",
+      "chapter": "PART IX FINANCIAL",
+      "section": "96",
+      "title": "Άρθρο 96: Effect of increases of immovable property tax on the Rent (Control) Law",
+      "content": "96. The Education tax and every increase thereof as in this Law provided shall, for the purposes of paragraph (b)(i) of subsection (1) of section 7 of the Rent (Control) Law, be deemed to be and be treated in the same manner and to the same effect as an increase of the immovable property tax as therein provided."
+    },
+    {
+      "provision_ref": "sec97",
+      "chapter": "PART X COMPULSORY EDUCATION",
+      "section": "97",
+      "title": "Άρθρο 97: Το Μέρος Χ καταργήθηκε από το άρθρο 7 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού περί Υποχρεωτικής Εκπαιδεύσεως) Νόμου του 1962, (Ν.14/62, Ε.Κ.Σ.) PART XI - ELEMENTARY EDUCATION TO BE FREE OF CHARGE 103. Children entitled to attend school free of charge",
+      "content": "97. Το Μέρος Χ καταργήθηκε από το άρθρο 7 του περί Στοιχειώδους Εκπαιδεύσεως (Τροποποιητικού περί Υποχρεωτικής Εκπαιδεύσεως) Νόμου του 1962, (Ν. 14/62, Ε.Κ.Σ.)"
+    },
+    {
+      "provision_ref": "sec103",
+      "chapter": "PART XI ELEMENTARY EDUCATION TO BE FREE OF CHARGE",
+      "section": "103",
+      "title": "Άρθρο 103: Children entitled to attend school free of charge",
+      "content": "103.-(1) Subject to the provisions of this Law or any Regulations, all children belonging to the religious community for which a school has been prescribed and inhabiting the town or village in which the school is in operation shall be entitled to attend such school and receive elementary instruction therein free of charge.\n(2) Children belonging to a religious community other than that for which a school has been prescribed may be permitted by the Director at his discretion to attend such school and receive elementary instruction therein free of charge:\nProvided that the parent of a child belonging to a religious community other than the community for which the school is prescribed who sends his child to the school shall be liable to assessment as if he were a member of the religious community concerned."
+    },
+    {
+      "provision_ref": "sec104",
+      "chapter": "PART XI ELEMENTARY EDUCATION TO BE FREE OF CHARGE",
+      "section": "104",
+      "title": "Άρθρο 104: Fees, charges, etc.",
+      "content": "104.-(1) No fee or charge of any kind shall be imposed on or taken from any child or the parent of such child in respect of elementary instruction or in connection therewith by any Town Committee or Village Commission or teacher.\n(2) Any Committee of Management may, with the approval of the Director previously obtained, impose and take fees in schools under their management and supervision.\n(3) Every Town Committee, Village Commission or Committee of Management of any religious community shall provide free of charge for every child belonging to the same religious community and attending a school of which the said Committee or Commission has the general management or supervision under this Law all books precribed by Regulations to be used in schools and all other books and writing materials which in the opinion of the Director are required for the efficient instruction of pupils at such schools.\nProvided that any Town Committee, Village Commission or Committee of Management may charge for books and writing materials supplied to pupils whose parents, in the opinion of the Committee or Commission, are in a position to pay for the same."
+    },
+    {
+      "provision_ref": "sec105",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "105",
+      "title": "Άρθρο 105: Power to Governor to perform duties of Boards",
+      "content": "105. In the event of any Board of Education neglecting of refusing or being unable or unwilling for any reason to perform all or any of the duties vested in them by this Law or any Regulations, the Governor may perform all or any of such duties in accordance with the provisions of this Law or any Regulations or as nearly as circumstances shall admit, and anything done by the Governor in pursuance of the powers conferred on him by this section shall be deemed to be as duly done as if done by the Board of Education concerned:\nProvided that the Governor may delegate all or any of the powers conferred upon him under this section to the Administrative Secretary or the Director, and may at any time revoke any such delegation."
+    },
+    {
+      "provision_ref": "sec106",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "106",
+      "title": "Άρθρο 106: Casting vote to Chairman",
+      "content": "106. At any meeting of any Board of Education or Town Committee or Village Commission or Committee of Management under this Law, when the votes are equal the Chairman shall have a casting vote in addition to his own vote."
+    },
+    {
+      "provision_ref": "sec107",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "107",
+      "title": "Άρθρο 107: Limitation of scope of Boards, etc.",
+      "content": "107.-(1) The Board of Education, the Town Committees and the Village Commissions for Greek-Orthodox schools shall take cognizance of matters connected with Greek-Orthodox elementary education and of no others.\n(2) The Board of Education, the Town Committees and the Village Commissions for Moslem schools shall take cognizance of matters connected with Moslem elementary education and of no others.\n(3) The Board of Education and the Village Commission for Maronite Schools shall take cognizance of matters connected with Maronite elementary education and of no others.\n(4) The Director in the performance of the duties and the exercise of the powers of a Board of Education for the schools of any religious community in the Δημοκρατία other than Greek-Orthodox or Moslem or the Committee of Management for such schools shall take cognizance of matters connected with the elementary education of such religious communities and of no others."
+    },
+    {
+      "provision_ref": "sec108",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "108",
+      "title": "Άρθρο 108: Teachers not public officers..",
+      "content": "108. No teacher employed under this Law shall be deemed to be a public officer in the service of the Δημοκρατία."
+    },
+    {
+      "provision_ref": "sec109",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "109",
+      "title": "Άρθρο 109: Offences and penalties",
+      "content": "109. Αny person acting in contravention of any Regulations relating to or affecting such person shall be guilty of an offence and shall be liable on summary conviction to the penalties therein prescribed."
+    },
+    {
+      "provision_ref": "sec110",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "110",
+      "title": "Άρθρο 110: Power to Director or Commissioner to compound offences",
+      "content": "110. Notwithstanding anything in any other Law contained it shall be lawful for the Director or the Commissioner to compound, if so authorized by the Governor either generally or specifically, all or any offences committed against this Law or any Regulations, in the manner provided by the Compounding of Offences Law."
+    },
+    {
+      "provision_ref": "sec111",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "111",
+      "title": "Άρθρο 111: Appeals to Governor",
+      "content": "111. Any person who considers himself aggrieved by the manner in which the Director has exercised any power conferred upon him by this Law or any Regulations or delegated to him by the Governor may appeal in writing to the Governor who shall finally determine the matter and give such directions therein as he may think fit."
+    },
+    {
+      "provision_ref": "sec112",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "112",
+      "title": "Άρθρο 112: Bar of actions",
+      "content": "112. No action or other civil proceeding shall lie in any Court against the Governor in respect of-\n(a) any action taken by him under section 31 or 43 of this Law; or\n(b) any decision given by him in exercise of the powers vested in him under section 111 of this Law."
+    },
+    {
+      "provision_ref": "sec113",
+      "chapter": "PART XII MISCELLANEOUS",
+      "section": "113",
+      "title": "Άρθρο 113: Savings Boards of Education, Town Committees and Committees of Management. Regulations",
+      "content": "113.-(1) All Boards of Education, Town Committees and Committees of Management in office by virtue of the provisions of any of the Laws repealed by this Law* shall continue in office until replaced by Boards of Education, Town Committees and Committees of Management appointed under this Law, and shall during the period aforesaid perform their duties as if this Law had not been passed.\n(2) All Regulations made by virtue of any of the Laws hereby repealed* shall be valid and effective and shall continue in force until replaced by Regulations made under this Law."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cy-law-1959-1-16",
+  "type": "statute",
+  "title": "Ο περί Πυροβόλων Όπλων (Προσωριναί Διατάξεις) Νόμος του 1959 (16/1959)",
+  "short_name": "Ν. 1959/1/16",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1959_1_16/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Firearms (Temporary Provisions) Law, 1959."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Registration and licensing of returned firearms",
+      "content": "2. Where a person surrendered any firearm in consequence of an Order made under Regulation 5I of the Emergency Powers (Public Safety and Order) Regulations, 1955 to (No. 2) 1959, and by virtue of the variation, amendment or revocation of any such Order a firearm may again be lawfully possessed by such person-\n(a) the certificate of registration of such firearm shall be deemed to be cancelled and any police officer authorized by the Chief Constable to return any such firearm to any such person may, without payment of fee, issue to such person a certificate of registration in the form C in the Schedule to the Firearms Law and re-register such firearm in accordance with the provisions of sub-section (5) of section 8 of the Firearms Law aforesaid and such certificate of registration and such re-registration shall have effect as a certificate of registration and as a registration issued or effected under the provisions of section 8 of the Firearms Law; and\n(b) notwithstanding the provisions of section 6 of the Firearms Law any firearms licence issued to such person shall expire on the 31st July, 1960, irrespective of the fact that such licence may have been issued prior to the 31st July, 1959."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Surrender of cancelled certificate of registration",
+      "content": "3. A certificate or registration deemed to have been cancelled under the provisions of section 2 of this Law shall be surrendered to a police officer not below the rank of Sergeant and any person possessing such a certificate who fails or refuses to surrender such certificate shall be guilty of an offence and shall be liable on conviction to a fine not exceeding 125."
+    }
+  ],
+  "definitions": []
+}

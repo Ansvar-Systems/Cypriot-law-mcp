@@ -1,0 +1,91 @@
+{
+  "id": "cy-law-15",
+  "type": "statute",
+  "title": "Ο περί Παραγραφής Νόμος (ΚΕΦ.15)",
+  "short_name": "Ν. 15",
+  "status": "in_force",
+  "issued_date": "2002-07-12",
+  "in_force_date": "2002-07-12",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_15/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Limitation of Actions Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n“action” means civil proceedings before any Court and includes arbitration proceedings;\n“period of limitation” means the several periods of limitation as prescribed by this Law."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Period of limitation",
+      "content": "3.-(1) Subject to the provisions of this Law, no action shall be brought upon, for or in respect of-\n(a) any bond in customary form or any mortgage, after the expiration of fifteen years from the date on which the cause of action accrued;\n(b) any judgment, after the expiration of fifteen years from the date on which judgment became enforceable;\n(c) any claim to the estate of a deceased person or to any share or interest therein, whether under a will or on intestacy, after the expiration of twelve years from the date when the claim to the estate or the right to receive the share or interest therein accrued;\n(d) any book debt due to or from a bank, after the expiration of six years from the date on which the cause of action accrued;\n(e) any remuneration, fee or charge of any advocate, medical practitioner, dentist, midwife or teacher, after the expiration of three years from the date on which the cause of action accrued;\n(f) any goods sold and delivered, shop bill, hotel bill, book debt, (other than a book debt as mentioned in paragraph (d) hereof) work and labour done, wages of artisans, labourers or servants, after the expiration of three years from the date on which the cause of action acrrued.\n(2) For the purposes of paragraph (a) of subsection (1) of this section-\n(a) “bond in customary form” means a bond as defined by section 78 of the Contract Law;\n(b) any proceedings taken under the provisions of the Sale of Mortgaged Property Law, shall be deemed to be an action.\n(3) for the purposes of paragraph (d) of subsection (1) of this section-\n“bank” means any company having banking business in the Colony;\n“company” includes every company formed and registered under the provisions of the Companies Law, or any Law amending or substituted for the same, and every company incorporated outside the Colony which establishes or has established a place of business within the Colony."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Limitation of actions relating to Vakf property",
+      "content": "4.-(1) Save as in subsection (2) of this section provided, no action in respect of, or relating to, any Vakf property shall be brought after the expiration of fifteen years from the date on which the cause of action accrued.\n(2) No action in respect of the corpus of any Vakf property shall be brought after the expiration of thirty-six years from the date on which the cause of action accrued."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Άρθρο 5: Term in case of actions not otherwise provided for",
+      "content": "5. No action shall be brought upon, for, or in respect of, any cause of action not expressly provided for in this Law, or expressly exempted from the operation of this Law, after the expiration of six years from the date when such cause of action accrued."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Άρθρο 6: Acknowledgment of claims",
+      "content": "6.-(1) Where a right of action has accrued and the person liable or accountable therefor acknowledges the claim, the right shall be deemed to have accrued on and not before the date of the acknowledgment.\n(2) Every acknowledgment as in subsection (1) of this section provided shall be in writing and signed by the person making the acknowledgment or his authorised agent."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Άρθρο 7: Fraud or mistake",
+      "content": "7. Where, in the case of any action for which a period of limitation is prescribed by this Law-\n(a) the right of action is concealed by the fraud of the defendant or his agent or of any person through whom he claims or his agent;\n(b) the action is for relief from the consequences of a mistake,\nthe period of limitation shall not begin to run until the plaintiff has discovered the fraud or mistake, as the case may be, or could, with reasonable diligence, have discovered it:\nProvided that nothing in this section shall enable any action to be brought to recover, or enforce any charge against, or set aside any transaction affecting, any property which-\n(a) in the case of fraud, has been purchased for valuable consideration by a person who was not a party to the fraud and did not at the time of the purchase know or have reason to believe that any fraud had been committed; or\n(b) in the case of mistake, has been purchased for valuable consideration, subsequently to the transaction in which the mistake was made, by a person who did not know or have reason to believe that the mistake had been made."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Άρθρο 8: Computation of period of limitation in certain cases",
+      "content": "8. In computing the period of limitation, any time during which the person against whom the period of limitation runs is under the age of eighteen or is of unsound mind or is prohibited from the management or administration of his affairs or is absent from the Colony, shall be excluded from such period."
+    },
+    {
+      "provision_ref": "sec8A",
+      "section": "8Α",
+      "title": "Άρθρο 8Α: Μη εφαρμογή της παραγραφής σε ορισμένες περιπτώσεις",
+      "content": "8Α. Σε οποιαδήποτε αγωγή, στην οποία η αξίωση αφορά αποζημιώσεις για πρόκληση σωματικής βλάβης ή και θανάτου ένεκα αστικού αδικήματος, το Δικαστήριο μπορεί να αποφασίσει, ότι είναι δίκαιο και ορθό, να μην εφαρμοστούν οι πρόνοιες παραγραφής της αξίωσης για αποζημιώσεις, αφού λάβει υπόψη τους λόγους και το χρόνο καθυστέρησης στην καταχώρηση της αγωγής και τη διάρκεια της ανικανότητας του ενάγοντα να χειριστεί την υπόθεσή του, περιλαμβανομένου και του αποβιώσαντα, εάν η αγωγή αφορά θάνατο, τη συμπεριφορά του ενάγοντα στην προσπάθεια για εξασφάλιση των απαραίτητων σχετικών στοιχείων και του εναγομένου σ' αυτή την προσπάθεια και τις συνέπειες της καθυστέρησης σε σχέση με τη διασφάλιση ή και την αξιοπιστία της μαρτυρίας:\nΝοείται ότι η πιο πάνω διακριτική ευχέρεια του Δικαστηρίου δε θα ασκείται μετά την πάροδο πέντε ετών από την ημερομηνία παραγραφής της αξίωσης."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Άρθρο 9: Counterclaim",
+      "content": "9. For the purposes of this Law, any claim by way of counter-claim shall be deemed to be a separate action and to have been commenced on the same date as the action in which the counter-claim is pleaded."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Άρθρο 10: Saving of other limitation Laws, etc.",
+      "content": "10. Nothing in this Law shall-\n(a) enable any action to be brought which was barred before the commencement of this Law by an enactment repealed by this Law*;\n(b) affect any action commenced before the commencement of this Law or the title to any property which is the subject of any such action;\n(c) affect any proceedings which, but for the provisions of this Law, could have been taken under the provisions of the Sale of Mortgaged Property Law in respect of any mortgage effected before the commencement of this Law:\nProvided that no such proceedings shall be taken after the expiration of two years from the commencement of this Law;\n(d) affect any provision in any other Law relating to the limitation of any action under such Law."
+    },
+    {
+      "provision_ref": "sec11",
+      "section": "11",
+      "title": "Άρθρο 11: Αναστολή της εφαρμογής των διατάξεων του παρόντος Νόμου",
+      "content": "11. Η εφαρμογή των διατάξεων του παρόντος Νόμου αναστέλλεται μέχρι την 30ή Ιουνίου 2012."
+    },
+    {
+      "provision_ref": "sec12",
+      "section": "12",
+      "title": "Άρθρο 12: Έναρξη της ισχύος του Νόμου 28(Ι) του 2008",
+      "content": "12. Η ισχύς του περί Παραγραφής (Τροποποιητικού) Νόμου του 2008 θεωρείται ότι άρχισε την 30ή Μαΐου 2008."
+    }
+  ],
+  "definitions": []
+}

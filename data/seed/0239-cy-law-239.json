@@ -1,0 +1,35 @@
+{
+  "id": "cy-law-239",
+  "type": "statute",
+  "title": "Ο περί Επαρχιακών Συμβουλίων (Mejlisses Idare) Νόμος (ΚΕΦ.239)",
+  "short_name": "Ν. 239",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_239/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the District Councils (Mejlisses Idare) Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Composition of District Councils (Mejlisses Idare)",
+      "content": "2.-(1) There shall be for each district a District Council (Mejlis Idare) composed as follows-\n(a) the Commissioner, as Chairman;\n(b) the Judge of the Turkish Family Court for the district;\n(c) a person to represent the Greek-Christian community in the district, nominated-\n(i) by the Metropolitan of the Diocese; or\n(ii) in the case of the Diocese of Nicosia and Famagusta, by the Archbishop of Cyprus; or\n(iii) in the absence of the Metropolitan or Archbishop, as the case may be, by his representative residing in the district,\nand approved by the Governor by an instrument in writing under his hand;\n(d) a Clerk in the office of the Commissioner of the district;\n(e) not more than six persons at any one time, being British subjects, to be appointed by the Governor by an instrument in writing under his hand.\n(2) Every person appointed under paragraph (e) of subsection (1) shall hold office for a period of two years from the date of his appointment:\nProvided that the Governor may, if he deems it expedient, revoke at any time the appointment of any such person and appoint any other person in his place."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Abolition of Central Mejlis Idare",
+      "content": "3. The Central Mejlis Idare is hereby abolished."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: District Council (Mejlis Idare) to be read for Mejlis Idare",
+      "content": "4. Whenever in any Law, public instrument or book or document whatsoever used in any Department, the words “Mejlis Idare of the Qaza” or “District Mejlis Idare” occur, the words “District Council (Mejlis Idare)” shall be read in place and stead thereof."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1960-1-9",
+  "type": "statute",
+  "title": "Ο περί Καταργήσεως των περί Ειδικών Δικαστηρίων Νόμων, Νόμος του 1960 (9/1960)",
+  "short_name": "Ν. 1960/1/9",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1960_1_9/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title and commencement",
+      "content": "1. This Law may be cited as the Special Court Laws (Repeal) Law, 1960, and shall come into operation on the 27th July, 1960."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Repeal",
+      "content": "2. The Special Court Laws, 1955 to 1959, are hereby repealed."
+    }
+  ],
+  "definitions": []
+}

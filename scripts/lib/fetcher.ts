@@ -6,7 +6,7 @@
  */
 
 const USER_AGENT = 'Ansvar-Law-MCP/1.0 (+https://github.com/Ansvar-Systems/Cypriot-law-mcp)';
-const MIN_DELAY_MS = 1200;
+const MIN_DELAY_MS = 1000;
 const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
 
 let lastRequestAt = 0;

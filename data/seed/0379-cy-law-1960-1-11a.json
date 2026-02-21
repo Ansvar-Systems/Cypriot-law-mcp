@@ -1,0 +1,53 @@
+{
+  "id": "cy-law-1960-1-11a",
+  "type": "statute",
+  "title": "Ο περί Επενδύσεως υπό Επιτρόπων (Trustees) εις Αξιόγραφα της Κυπριακής Κυβερνήσεως Νόμος του 1960 (Α11/1960)",
+  "short_name": "Ν. 1960/1/11A",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1960_1_A11/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title and commencement",
+      "content": "1. This Law may be cited as the Trustee Investment in Cyprus Government Securities Law, 1960, and shall come into force on the 15th day of August, 1960."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n“Colonial Stock Acts” means the Acts of the Parliament of the United Kingdom known as the Colonial Stock Acts, 1877 to 1948, as from time to time amended."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Application of Law",
+      "content": "3. This Law shall apply to all securities heretofore or hereafter created or issued on behalf of the Government of the Colony of Cyprus to which for the time being the Colonial Stock Acts apply, and which are for the time being registered in the United Kingdom in accordance with the provisions of those Acts, each and all of which securities are hereinafter referred to as “Cyprus Government Securities”."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Provisions for payment of money due to stockholders",
+      "content": "4.-(1) Whenever by the final judgement, decree, rule or order of any court of competent jurisdiction in the United Kingdom any sum of money is adjudged or declared to be payable by the Government of the Colony of Cyprus in respect of any Cyprus Government Securities, that sum shall, without further appropriation than this Law, be paid out of the revenues of the Colony of Cyprus, and adequate funds (as and when required) shall be made available in the United Kingdom by the Government of the Colony of Cyprus to meet any such final judgement, decree, rule or order.\n(2) For the purposes of this section “final judgement, decree, rule or order” means in case of appeal the final judgement, decree, rule or order of the ultimate court hearing the appeal."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Άρθρο 5: Certificate by paying agent",
+      "content": "5. A certificate specifying the sum paid under order of any such court as aforesaid to satisfy any such final judgement, decree, rule or order and issued by the agent in the United Kingdom of the Government of the Colony of Cyprus authorized to make such payment shall be sufficient authority to the Auditor-General or other officer having the auditing of the accounts of such agent for passing such sum without further appropriation."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Άρθρο 6: Certain legislation to be agreed with the United Kingdom Government",
+      "content": "6. Legislation which appears to Her Majesty’s Government in the United Kingdom to alter any of the provisions affecting Cyprus Government Securities to the injury of the holders thereof or to involve a departure from the original contract in regard to those securities shall not become law except after agreement with Her Majesty’s Government in the United Kingdom, and if attention is drawn to such legislation after the passing thereof, all necessary steps will be taken to ensure such amendment as may be requested by Her Majesty’s Government in the United Kingdom."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Άρθρο 7: Repeal",
+      "content": "7. The Trustee Investment in Cyprus Government Securities Law is hereby repealed."
+    }
+  ],
+  "definitions": []
+}

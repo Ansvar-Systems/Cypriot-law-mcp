@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1995-1-47",
+  "type": "statute",
+  "title": "Ο περί Αλλοδαπών Λιποτακτών (Καταργητικός) Νόμος του 1995 (47(I)/1995)",
+  "short_name": "Ν. 1995/1/47",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1995_1_47/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Συvoπτικός τίτλoς",
+      "content": "CONTENT_HERE"
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Κατάργηση τoυ Κεφ. 290",
+      "content": "CONTENT_HERE"
+    }
+  ],
+  "definitions": []
+}

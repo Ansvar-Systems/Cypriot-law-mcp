@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1994-1-25",
+  "type": "statute",
+  "title": "Ο περί Κατάργησης Ορισμένων Νόμων Νόμος του 1994 (25(I)/1994)",
+  "short_name": "Ν. 1994/1/25",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1994_1_25/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Συνοπτικός τίτλος",
+      "content": "1. Ο παρών Νόμος θα αναφέρεται ως ο περί Κατάργησης Ορισμένων Νόμων Νόμος του 1994."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Κατάργηση Νόμων",
+      "content": "2. Οι Νόμοι οι οποίοι εκτίθενται στον Πίνακα καταργούνται:"
+    }
+  ],
+  "definitions": []
+}

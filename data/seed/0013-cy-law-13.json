@@ -1,0 +1,35 @@
+{
+  "id": "cy-law-13",
+  "type": "statute",
+  "title": "Ο περί Νομικής Εκπροσωπήσεως Μελών των Δυνάμεων Νόμος (ΚΕΦ.13)",
+  "short_name": "Ν. 13",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_13/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This Law may be cited as the Legal Representation of Members of Her Majesty’ s Forces Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Special provision for defence of members of Her Majesty’ s Forces is inferior Courts",
+      "content": "2. Notwithstanding any provision of the Advocates Law or any other Law amending or substituted for the same or of any other Law in force for the time being, any member of Her Majesty’ s Forces who is entitled to practise as a barrister-at-law in England, Northern Ireland or as an advocate in Scotland or as such in the Supreme Court or High Court of any part of Her Majesty’ s dominions or who has been admitted to practise as a solicitor in England, Northern Ireland, or as a law agent in Scotland or as a solicitor in any Dominion, may appear and plead before any Court exercising criminal jurisdiction in any summary trial on behalf of any member of Her Majesty’ s Forces or before any coroner at an inquest in which any such member may be an interested party, as if he were an advocate duly admitted, enrolled and authorized to practise under the provisions of the Advocates Law or any other Law amending or substituted for the same:\nProvided that no such member of Her Majesty’ s Forces shall be entitled to claim, or shall receive any fee or reward for or in connection with any such appearance."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Certificate to practice",
+      "content": "3. A certificate purporting to be signed by or on behalf of any Flag Officer, General Officer or Air Officer in Her Majesty’ s Forces certifying that any person is a member of Her Majesty’ s Forces and is qualified in accordance with the provisions of section 2 shall be sufficient evidence of the facts certified in such certificate."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Modification of the Advocates Law",
+      "content": "4. The provisions of the Advocates Law or of any other Law amending or substituted for the same shall be deemed to be modified and amended only so far as may be necessary to give effect to this Law."
+    }
+  ],
+  "definitions": []
+}

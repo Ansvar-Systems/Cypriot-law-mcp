@@ -1,0 +1,23 @@
+{
+  "id": "cy-law-1962-1-8",
+  "type": "statute",
+  "title": "Ο περί Απαγορεύσεως Οικοδομών (Σεισμός Πάφου) (Καταργητικός) Νόμος του 1962 (8/1962)",
+  "short_name": "Ν. 1962/1/8",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/1962_1_8/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Συvoπτικός τίτλoς",
+      "content": "1. Ο παρώv Νόμoς δύvαται vα αvαφέρηται ως o περί Απαγoρεύσεως Οικoδoμώv (Σεισμός Πάφoυ) (Καταργητικός) Νόμoς τoυ 1962."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Κατάργησις",
+      "content": "2. Ο περί Απαγoρεύσεως Οικoδoμώv (Σεισμός Πάφoυ) Νόμoς, διά τoυ παρόvτoς καταργείται."
+    }
+  ],
+  "definitions": []
+}

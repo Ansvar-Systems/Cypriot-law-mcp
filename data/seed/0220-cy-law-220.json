@@ -1,0 +1,47 @@
+{
+  "id": "cy-law-220",
+  "type": "statute",
+  "title": "A LAW FOR THE PROTECTION OF THE CLAIMS OF ECCLESIASTICAL CORPORATIONS TO CERTAIN KINDS OF LAND (ΚΕΦ.220)",
+  "short_name": "Ν. 220",
+  "status": "in_force",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_220/full.html",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Άρθρο 1: Short title",
+      "content": "1. This law may be cited as the Ecclesiastical Properties Law."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Άρθρο 2: Interpretation",
+      "content": "2. In this Law-\n\"ecclesiastical corporation\" means every archbishop or bishop acting on behalf of his see, every abbot or other chief ecclesiastical functionary or governing body of any monastery acting on behalf of the monastery, and every church committee or other body of persons for the time being exercising the superintendence over and management of the affairs of any church."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Άρθρο 3: Evidence of title to cultivated land",
+      "content": "3. In any action brought by an ecclesiastical corporation in respect of any interference with or trespass upon any cultivated lands in the possession of the corporation, it shall not be necessary for the plaintiff to produce evidence of his title to such cultivated lands, but evidence of ten years possession alone shall be sufficient to enable the corporation to maintain the action against any person interfering with the lands, even if he is the registered owner in the books of the District Lands Office:\nProvided that the privileges conferred by this section shall not apply to any lands of which any such corporation has taken possession after the 22nd day of May, 1891."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Άρθρο 4: Waste land",
+      "content": "4. It shall not be lawful for any person to break up or pasture upon or cultivate or cut wood upon any waste land over which any ecclesiastical corporation has, between the years 1878 and 1893, exercised an exclusive right of pasturage and with respect to which it has lodged with the District Lands Office of the district in which such land is situate on or before the 1st day of December, 1893, a statement setting forth the boundaries, situation and approximate extent thereof."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Άρθρο 5: Law not to apply to mulk lands",
+      "content": "5. Nothing in this Law contained shall be deemed to apply to any land of the category known as mulk."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "ecclesiastical corporation",
+      "definition": "every archbishop or bishop acting on behalf of his see, every abbot or other chief ecclesiastical functionary or governing body of any monastery acting on behalf of the monastery, and every church committee or other body of persons for the time being exercising the superintendence over and management of the affairs of any church",
+      "source_provision": "sec2"
+    }
+  ]
+}
