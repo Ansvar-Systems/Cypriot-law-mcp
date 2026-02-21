@@ -308,6 +308,7 @@ export function parseCyLawHtml(fullHtml: string, target: TargetLaw, indexHtml?: 
 
   const provisions: ParsedProvision[] = [];
   const definitions: ParsedDefinition[] = [];
+  const provisionRefCounts = new Map<string, number>();
 
   for (let i = 0; i < starts.length; i++) {
     const start = starts[i];
@@ -324,7 +325,10 @@ export function parseCyLawHtml(fullHtml: string, target: TargetLaw, indexHtml?: 
 
     const header = cleanInlineText(headerHtml);
     const section = extractSectionNumber(content, header, i + 1);
-    const provisionRef = normalizeForProvisionRef(section, i + 1);
+    const baseProvisionRef = normalizeForProvisionRef(section, i + 1);
+    const nextRefCount = (provisionRefCounts.get(baseProvisionRef) ?? 0) + 1;
+    provisionRefCounts.set(baseProvisionRef, nextRefCount);
+    const provisionRef = nextRefCount === 1 ? baseProvisionRef : `${baseProvisionRef}_${nextRefCount}`;
     const chapter = findNearestDivisionHeader(mainHtml, start);
 
     const title = header.length > 0
