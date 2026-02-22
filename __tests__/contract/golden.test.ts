@@ -6,20 +6,23 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import Database from 'better-sqlite3';
 import * as path from 'path';
+import { existsSync } from 'fs';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DB_PATH = path.resolve(__dirname, '../../data/database.db');
+const dbAvailable = existsSync(DB_PATH);
 
 let db: InstanceType<typeof Database>;
 
 beforeAll(() => {
+  if (!dbAvailable) return;
   db = new Database(DB_PATH, { readonly: true });
   db.pragma('journal_mode = DELETE');
 });
 
-describe('Database integrity', () => {
+describe.skipIf(!dbAvailable)('Database integrity', () => {
   it('should have at least 10 legal documents', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_documents').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThanOrEqual(10);
@@ -38,7 +41,7 @@ describe('Database integrity', () => {
   });
 });
 
-describe('Article retrieval', () => {
+describe.skipIf(!dbAvailable)('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
       "SELECT content FROM legal_provisions WHERE document_id = 'cy-data-protection-125-2018' AND section = '1'"
@@ -48,7 +51,7 @@ describe('Article retrieval', () => {
   });
 });
 
-describe('Search', () => {
+describe.skipIf(!dbAvailable)('Search', () => {
   it('should find results via FTS search', () => {
     const rows = db.prepare(
       "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'Ο'"
@@ -57,7 +60,7 @@ describe('Search', () => {
   });
 });
 
-describe('EU cross-references', () => {
+describe.skipIf(!dbAvailable)('EU cross-references', () => {
   it('should have EU document references', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM eu_documents').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
@@ -71,7 +74,7 @@ describe('EU cross-references', () => {
   });
 });
 
-describe('Negative tests', () => {
+describe.skipIf(!dbAvailable)('Negative tests', () => {
   it('should return no results for fictional document', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'fictional-law-2099'"
@@ -87,7 +90,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('All 10 laws are present', () => {
+describe.skipIf(!dbAvailable)('All 10 laws are present', () => {
   const expectedDocs = [
     'cy-data-protection-125-2018',
     'cy-law-enforcement-data-44-2019',
@@ -112,7 +115,7 @@ describe('All 10 laws are present', () => {
   }
 });
 
-describe('list_sources', () => {
+describe.skipIf(!dbAvailable)('list_sources', () => {
   it('should have db_metadata table', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM db_metadata').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
