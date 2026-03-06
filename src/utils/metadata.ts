@@ -32,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (cylaw.org) — Government (State Chancellery of Cypriot)',
-    jurisdiction: 'EE',
+    data_source: 'Cyprus Law Commissioner (cylaw.org) — Law Commissioner of the Republic of Cyprus',
+    jurisdiction: 'CY',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Cypriot). ' +
-      'Always verify with the official Official Legal Database portal (cylaw.org).',
+      'This data is sourced from the Cyprus Law Commissioner portal (cylaw.org) under public domain. ' +
+      'The authoritative versions are maintained by the Law Commissioner of the Republic of Cyprus. ' +
+      'Always verify with the official Cyprus laws portal (cylaw.org).',
     freshness,
   };
 }
