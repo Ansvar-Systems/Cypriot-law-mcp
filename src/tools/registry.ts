@@ -85,7 +85,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_provision',
     description:
-      'Retrieve the full text of a specific provision (section) from an Cypriot statute. ' +
+      'Retrieve the full text of a specific provision (section) from a Cypriot statute. ' +
       'Specify a document_id (Act title, abbreviation, or internal ID) and optionally a section or provision_ref. ' +
       'Omit section/provision_ref to get ALL provisions in the statute (use sparingly — can be large). ' +
       'Subsection references like "13(1)" or "s29(2)(a)" resolve to the parent section. ' +
@@ -116,7 +116,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'validate_citation',
     description:
-      'Validate an Cypriot legal citation against the database — zero-hallucination check. ' +
+      'Validate a Cypriot legal citation against the database — zero-hallucination check. ' +
       'Parses the citation, checks that the document and provision exist, and returns warnings about status ' +
       '(repealed, amended). Use this to verify any citation BEFORE including it in a legal analysis. ' +
       'Supports formats: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13", "s 13".',
@@ -136,7 +136,7 @@ export const TOOLS: Tool[] = [
     description:
       'Build a comprehensive set of citations for a legal question by searching across all Cypriot statutes simultaneously. ' +
       'Returns aggregated results from multiple relevant provisions, useful for legal research on a topic. ' +
-      'Use this for broad legal questions like "What are the penalties for data breaches in Cypriot?" ' +
+      'Use this for broad legal questions like "What are the penalties for data breaches in Cyprus?" ' +
       'rather than looking up a specific known provision.',
     inputSchema: {
       type: 'object',
@@ -161,7 +161,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'format_citation',
     description:
-      'Format an Cypriot legal citation per standard conventions. ' +
+      'Format a Cypriot legal citation per standard conventions. ' +
       'Three formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
       '"short" (abbreviated, e.g., "Privacy Act 1988 s 13"), "pinpoint" (section reference only, e.g., "s 13").',
     inputSchema: {
@@ -181,7 +181,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'check_currency',
     description:
-      'Check whether an Cypriot statute or provision is currently in force, amended, repealed, or not yet in force. ' +
+      'Check whether a Cypriot statute or provision is currently in force, amended, repealed, or not yet in force. ' +
       'Returns the document status, issued date, in-force date, and warnings. ' +
       'Essential before citing any provision — always verify currency.',
     inputSchema: {
@@ -202,8 +202,8 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_eu_basis',
     description:
-      'Get the EU legal basis that an Cypriot statute references or aligns with. ' +
-      'Cypriot is an EU member state and Cypriot laws implement EU directives/regulations ' +
+      'Get the EU legal basis that a Cypriot statute references or aligns with. ' +
+      'Cyprus is an EU member state and Cypriot laws implement EU directives/regulations ' +
       'where applicable. ' +
       'Returns EU document identifiers, reference types, and implementation status.',
     inputSchema: {
@@ -224,7 +224,7 @@ export const TOOLS: Tool[] = [
     description:
       'Find all Cypriot statutes that reference or align with a specific EU directive or regulation. ' +
       'Given an EU document ID (e.g., "regulation:2016/679" for GDPR), returns matching Cypriot statutes. ' +
-      'Cypriot transposes EU directives into national law as an EU Member State.',
+      'Cyprus transposes EU directives into national law as an EU Member State.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -269,7 +269,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'get_provision_eu_basis',
     description:
-      'Get the EU legal basis for a SPECIFIC provision within an Cypriot statute. ' +
+      'Get the EU legal basis for a SPECIFIC provision within a Cypriot statute. ' +
       'More granular than get_eu_basis (which operates at the statute level). ' +
       'Use this for pinpoint EU alignment checks at the provision level.',
     inputSchema: {
@@ -284,10 +284,10 @@ export const TOOLS: Tool[] = [
   {
     name: 'validate_eu_compliance',
     description:
-      'Check EU alignment status for an Cypriot statute or provision. ' +
+      'Check EU alignment status for a Cypriot statute or provision. ' +
       'Detects references to EU directives, alignment status, and cross-references. ' +
       'Returns compliance status (compliant, partial, unclear, not_applicable) with warnings. ' +
-      'Cypriot is an EU Member State; this checks implementation status and cross-references.',
+      'Cyprus is an EU Member State; this checks implementation status and cross-references.',
     inputSchema: {
       type: 'object',
       properties: {
