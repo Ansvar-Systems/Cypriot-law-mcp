@@ -13,3 +13,4 @@ data/database.db-shm
 data/database.db-wal
 *-e
 *.bak
+scripts/logs/
