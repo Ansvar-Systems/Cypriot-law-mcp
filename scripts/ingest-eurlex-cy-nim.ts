@@ -179,12 +179,13 @@ function buildSparqlQuery(offset: number, limit: number): string {
     'WHERE {',
     '  ?nim cdm:resource_legal_id_celex ?celex .',
     '  FILTER(STRSTARTS(?celex, "7") && CONTAINS(?celex, "CYP"))',
-    '  ?nim cdm:resource_legal_title ?title .',
-    '  FILTER(LANG(?title) = "en" || LANG(?title) = "")',
-    '  ?nim cdm:resource_legal_based_on_resource_legal ?directive .',
-    '  ?directive cdm:resource_legal_id_celex ?directiveCelex .',
-    '  OPTIONAL { ?directive cdm:resource_legal_title ?directiveTitle . FILTER(LANG(?directiveTitle) = "en") }',
-    '  OPTIONAL { ?nim cdm:resource_legal_date_document ?date . }',
+    '  ?nim cdm:work_title ?title .',
+    '  OPTIONAL {',
+    '    ?nim cdm:measure_national_implementing_implements_directive ?directive .',
+    '    ?directive cdm:resource_legal_id_celex ?directiveCelex .',
+    '    OPTIONAL { ?directive cdm:work_title ?directiveTitle . FILTER(LANG(?directiveTitle) = "en") }',
+    '  }',
+    '  OPTIONAL { ?nim cdm:work_date_document ?date . }',
     '}',
     'ORDER BY ?celex',
     `OFFSET ${offset}`,
@@ -195,7 +196,7 @@ function buildSparqlQuery(offset: number, limit: number): string {
 interface SparqlBinding {
   celex: { value: string };
   title: { value: string };
-  directiveCelex: { value: string };
+  directiveCelex?: { value: string };
   directiveTitle?: { value: string };
   date?: { value: string };
 }
@@ -210,7 +211,7 @@ function parseBindings(bindings: SparqlBinding[]): NimRecord[] {
   return bindings.map(b => ({
     celex: b.celex.value,
     title: b.title.value,
-    directiveCelex: b.directiveCelex.value,
+    directiveCelex: b.directiveCelex?.value ?? '',
     directiveTitle: b.directiveTitle?.value ?? '',
     date: b.date?.value ?? null,
     eurLexUrl: `https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:${b.celex.value}`,
