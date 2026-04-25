@@ -35,6 +35,7 @@
     "build": "tsc",
     "build:db": "node --import tsx scripts/build-db.ts",
     "build:db:paid": "node --import tsx scripts/build-db-paid.ts",
+    "premium:cleanup": "node --import tsx scripts/cleanup-huggingface-contamination.ts",
     "ingest:cysec": "node --import tsx scripts/ingest-cysec-circulars.ts",
     "ingest:eurlex-cy": "node --import tsx scripts/ingest-eurlex-cy-nim.ts",
     "ingest:gdprhub-cy": "node --import tsx scripts/ingest-gdprhub-cy-decisions.ts",
