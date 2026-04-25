@@ -412,6 +412,9 @@ function buildPaidTier(): void {
 
   db.pragma('wal_checkpoint(TRUNCATE)');
   db.exec('ANALYZE');
+  // Switch back to DELETE journal mode so the shipped DB has no -shm/-wal
+  // sidecars and contract tests can open it readonly without write probes.
+  db.pragma('journal_mode = DELETE');
   db.close();
 
   const sizeAfter = fs.statSync(DB_PATH).size;
