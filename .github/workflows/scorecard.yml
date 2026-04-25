@@ -1,7 +1,8 @@
 name: OSSF Scorecard
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    # Monthly on the first Sunday at 06:00 UTC per Infrastructure Standard §5.2.
+    - cron: '0 6 1-7 * 0'
   push:
     branches: [main]
 
