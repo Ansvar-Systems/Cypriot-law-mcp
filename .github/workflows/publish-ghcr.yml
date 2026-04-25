@@ -1,0 +1,140 @@
+# =============================================================================
+# Publish GHCR Image
+# =============================================================================
+#
+# Conforms to MCP Infrastructure & Deployment Standard §4 + §5.1 + §5.1.1.
+#
+# Triggers on push to main / dev (path-filtered to image-relevant inputs) and
+# on manual dispatch. Builds the multi-stage Dockerfile (which itself runs
+# `npm run build:db` to produce a real DB from data/seed/*.json), pushes to
+# GHCR, then runs Trivy image scan as the post-merge audit step.
+#
+# Tagging:
+#   - main: :latest, :{semver from package.json}, :sha-XXXXXXX
+#   - dev:  :dev, :sha-XXXXXXX
+#
+# Trivy scan results land in the GitHub Security tab as SARIF. Critical/High
+# findings are flagged for the next PR cycle (post-merge audit, not a
+# pre-merge gate per §5.1.1).
+#
+# Watchtower on Hetzner polls GHCR every 6 hours and restarts containers
+# when a new :latest digest appears. No manual deploy step required.
+# =============================================================================
+
+name: Publish GHCR Image
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      - 'src/**'
+      - 'data/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+      - 'Dockerfile'
+      - '.github/workflows/publish-ghcr.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: cypriot-law-mcp
+
+permissions:
+  contents: read
+  packages: write
+  security-events: write   # SARIF upload from Trivy
+
+jobs:
+  build-and-push:
+    name: Build and Push
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read version from package.json
+        id: pkg
+        run: |
+          VERSION=$(node -e "console.log(require('./package.json').version)")
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/ansvar-systems/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+            type=raw,value=${{ steps.pkg.outputs.version }},enable=${{ github.ref == 'refs/heads/main' }}
+            type=raw,value=dev,enable=${{ github.ref == 'refs/heads/dev' }}
+            type=sha,prefix=sha-,format=short
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/amd64
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # Post-merge audit: Trivy image scan per §4.3 + §5.1.1.
+      # Pull the just-pushed image by digest and scan. Critical/High findings
+      # appear in GitHub Security tab; pre-merge gates (Semgrep + ci.yml +
+      # GHAS Code Security) catch most issues before merge.
+      - name: Trivy image scan
+        if: github.ref == 'refs/heads/main'
+        uses: aquasecurity/trivy-action@0.35.0
+        with:
+          image-ref: ${{ env.REGISTRY }}/ansvar-systems/${{ env.IMAGE_NAME }}:latest
+          format: sarif
+          output: trivy-image.sarif
+          severity: CRITICAL,HIGH
+          exit-code: '0'   # advisory only; do not fail the run
+          ignore-unfixed: true
+
+      - name: Upload Trivy SARIF
+        if: github.ref == 'refs/heads/main' && always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: trivy-image.sarif
+          category: trivy-image
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## GHCR Build"
+            echo ""
+            echo "| Field | Value |"
+            echo "|-------|-------|"
+            echo "| Image | \`${REGISTRY}/ansvar-systems/${IMAGE_NAME}\` |"
+            echo "| Tags  | \`$(echo "$TAGS" | tr '\n' ' ')\` |"
+            echo "| Branch | \`${REF_NAME}\` |"
+            echo "| Commit | \`${SHA}\` |"
+          } >> "$GITHUB_STEP_SUMMARY"
+        env:
+          REGISTRY: ${{ env.REGISTRY }}
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
+          TAGS: ${{ steps.meta.outputs.tags }}
+          REF_NAME: ${{ github.ref_name }}
+          SHA: ${{ github.sha }}
