@@ -1,7 +1,8 @@
 name: OSSF Scorecard
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    # Monthly on the first Sunday at 06:00 UTC per Infrastructure Standard §5.2.
+    - cron: '0 6 1-7 * 0'
   push:
     branches: [main]
 
@@ -21,7 +22,7 @@ jobs:
           persist-credentials: false
 
       - name: Run analysis
-        uses: ossf/scorecard-action@v2.4.0
+        uses: ossf/scorecard-action@v2.4.3
         with:
           results_file: results.sarif
           results_format: sarif
