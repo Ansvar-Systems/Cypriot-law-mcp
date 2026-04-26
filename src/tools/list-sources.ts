@@ -44,14 +44,28 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: '[REDACTED] (Cyprus Consolidated Legislation Portal)',
-          authority: 'Cyprus Bar Association (portal operator)',
-          url: 'https://www.[REDACTED]',
-          license: 'Portal terms: https://www.[REDACTED]/terms.html',
-          coverage:
-            'Consolidated Cyprus statutes published in HTML on [REDACTED], ' +
-            'including data protection, cybersecurity, e-commerce, communications, and open-data laws',
-          languages: ['el', 'en'],
+          name: 'EUR-Lex SPARQL (Cyprus NIM)',
+          authority: 'Publications Office of the European Union',
+          url: 'https://publications.europa.eu/webapi/rdf/sparql',
+          license: 'EU reuse policy (Commission Decision 2011/833/EU)',
+          coverage: 'Cyprus national implementation measures (CELEX sector 7, country code CYP)',
+          languages: ['en'],
+        },
+        {
+          name: 'CySEC Circulars',
+          authority: 'Cyprus Securities and Exchange Commission',
+          url: 'https://www.cysec.gov.cy/en-GB/public-info/circulars/',
+          license: 'Government publication',
+          coverage: 'CySEC supervisory circulars (metadata only)',
+          languages: ['en'],
+        },
+        {
+          name: 'GDPRhub Cyprus DPA decisions',
+          authority: 'noyb (community-curated mirror)',
+          url: 'https://gdprhub.eu/index.php?title=Category:Commissioner_(Cyprus)',
+          license: 'CC BY-SA 4.0 (MediaWiki content)',
+          coverage: 'Cyprus Data Protection Commissioner enforcement decisions (English summaries)',
+          languages: ['en'],
         },
       ],
       database: {

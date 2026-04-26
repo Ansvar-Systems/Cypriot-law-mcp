@@ -40,8 +40,7 @@ const ABOUT_TOOL: Tool = {
 const LIST_SOURCES_TOOL: Tool = {
   name: 'list_sources',
   description:
-    'Returns detailed provenance metadata for all data sources used by this server, ' +
-    'including the [REDACTED] (Cyprus Bar Association Legal Portal). ' +
+    'Returns detailed provenance metadata for all data sources used by this server. ' +
     'Use this to understand what data is available, its authority, coverage scope, and known limitations. ' +
     'Also returns dataset statistics (document counts, provision counts) and database build timestamp. ' +
     'Call this FIRST when you need to understand what Cypriot legal data this server covers.',
@@ -354,9 +353,9 @@ export const TOOLS: Tool[] = [
       'Returns matching judgments with court, case number, ECLI, decision date, and content snippet ' +
       'with >>> <<< markers around matched terms. ' +
       'Pass an exact ECLI to retrieve a specific case directly (skips full-text ranking). ' +
-      'NOTE: As of 2026-04-26 this index is being populated; [REDACTED] aggregator is not used (ToS) — ' +
-      'data is ingested directly from supremecourt.gov.cy and HUDOC. Empty results indicate the ' +
-      'corpus does not yet cover the requested topic, not that the topic has no jurisprudence.',
+      'NOTE: this index is populated from primary judiciary sources only ' +
+      '(supremecourt.gov.cy, HUDOC). Empty results indicate the corpus does not yet ' +
+      'cover the requested topic, not that the topic has no jurisprudence.',
     inputSchema: {
       type: 'object',
       properties: {

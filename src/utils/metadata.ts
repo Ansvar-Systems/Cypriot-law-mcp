@@ -33,12 +33,11 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Cyprus Law Commissioner ([REDACTED]) — Law Commissioner of the Republic of Cyprus',
+    data_source: 'Premium adapters (CySEC circulars, EUR-Lex SPARQL, GDPRhub MediaWiki) — primary-source-only',
     jurisdiction: 'CY',
     disclaimer:
-      'This data is sourced from the Cyprus Law Commissioner portal ([REDACTED]) under public domain. ' +
-      'The authoritative versions are maintained by the Law Commissioner of the Republic of Cyprus. ' +
-      'Always verify with the official Cyprus laws portal ([REDACTED]).',
+      'This data is sourced from primary government and EU portals. ' +
+      'Always verify with the original publisher of each cited document.',
     freshness,
   };
 }

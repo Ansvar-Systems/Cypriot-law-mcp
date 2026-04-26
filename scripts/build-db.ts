@@ -476,7 +476,7 @@ function buildDatabase(): void {
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
     insertMeta.run('jurisdiction', 'CY');
-    insertMeta.run('source', 'https://www.[REDACTED]');
+    insertMeta.run('source', 'primary-source-only (no aggregator)');
     insertMeta.run('licence', 'See sources.yml');
   });
   writeMeta();

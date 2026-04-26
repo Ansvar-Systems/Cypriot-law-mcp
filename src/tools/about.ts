@@ -42,9 +42,19 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
     stats,
     data_sources: [
       {
-        name: '[REDACTED]',
-        url: 'http://www.[REDACTED]',
-        authority: 'Supreme Court of Cyprus',
+        name: 'EUR-Lex SPARQL (Cyprus NIM)',
+        url: 'https://publications.europa.eu/webapi/rdf/sparql',
+        authority: 'Publications Office of the European Union',
+      },
+      {
+        name: 'CySEC Circulars',
+        url: 'https://www.cysec.gov.cy',
+        authority: 'Cyprus Securities and Exchange Commission',
+      },
+      {
+        name: 'GDPRhub Cyprus DPA decisions',
+        url: 'https://gdprhub.eu',
+        authority: 'noyb (community-curated mirror of Cyprus DPA decisions)',
       },
     ],
     freshness: {
