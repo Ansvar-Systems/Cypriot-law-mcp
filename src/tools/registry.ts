@@ -22,6 +22,8 @@ import { getCypriotImplementations, type GetCypriotImplementationsInput } from '
 import { searchEUImplementations, type SearchEUImplementationsInput } from './search-eu-implementations.js';
 import { getProvisionEUBasis, type GetProvisionEUBasisInput } from './get-provision-eu-basis.js';
 import { validateEUCompliance, type ValidateEUComplianceInput } from './validate-eu-compliance.js';
+import { searchAgencyGuidance, type SearchAgencyGuidanceInput } from './search-agency-guidance.js';
+import { searchCaseLaw, type SearchCaseLawInput } from './search-case-law.js';
 import { listSources } from './list-sources.js';
 import { getAbout, type AboutContext } from './about.js';
 import { detectCapabilities, upgradeMessage } from '../capabilities.js';
@@ -298,6 +300,105 @@ export const TOOLS: Tool[] = [
       required: ['document_id'],
     },
   },
+  {
+    name: 'search_agency_guidance',
+    description:
+      'Premium tier — Search Cypriot regulatory agency guidance and decisions by keyword (FTS5 with BM25 ranking). ' +
+      'Currently indexes the Cyprus Data Protection Commissioner (DPA) decisions sourced from GDPRhub ' +
+      'and CySEC circulars (Cyprus Securities and Exchange Commission). ' +
+      'Returns matching documents with agency, title, document type, issued date, and content snippet ' +
+      'with >>> <<< markers around matched terms. ' +
+      'Use this to discover regulatory enforcement actions, supervisory expectations, and agency interpretations ' +
+      'of Cypriot law on a specific topic. For known decisions, prefer the agency\'s own portal via the URL field.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        query: {
+          type: 'string',
+          description:
+            'Search query in English. Supports FTS5 syntax: ' +
+            '"data minimisation" for exact phrase, breach* for prefix.',
+        },
+        agency: {
+          type: 'string',
+          description:
+            'Optional: filter by agency name (case-insensitive partial match). ' +
+            'Examples: "Commissioner", "CySEC", "Personal Data Protection".',
+        },
+        document_type: {
+          type: 'string',
+          description: 'Optional: filter by document type (e.g., "decision", "circular", "guidance").',
+        },
+        date_from: {
+          type: 'string',
+          description: 'Optional: ISO date YYYY-MM-DD. Earliest issued_date to include.',
+        },
+        date_to: {
+          type: 'string',
+          description: 'Optional: ISO date YYYY-MM-DD. Latest issued_date to include.',
+        },
+        limit: {
+          type: 'number',
+          description: 'Maximum results to return (default: 10, max: 50).',
+          default: 10,
+        },
+      },
+      required: ['query'],
+    },
+  },
+  {
+    name: 'search_case_law',
+    description:
+      'Premium tier — Search Cypriot court decisions by keyword (FTS5 with BM25 ranking). ' +
+      'Indexes case law from primary judiciary sources (Supreme Court, ECHR Cyprus respondent cases). ' +
+      'Returns matching judgments with court, case number, ECLI, decision date, and content snippet ' +
+      'with >>> <<< markers around matched terms. ' +
+      'Pass an exact ECLI to retrieve a specific case directly (skips full-text ranking). ' +
+      'NOTE: As of 2026-04-26 this index is being populated; [REDACTED] aggregator is not used (ToS) — ' +
+      'data is ingested directly from supremecourt.gov.cy and HUDOC. Empty results indicate the ' +
+      'corpus does not yet cover the requested topic, not that the topic has no jurisprudence.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        query: {
+          type: 'string',
+          description:
+            'Search query in English. Supports FTS5 syntax: ' +
+            '"unjust enrichment" for exact phrase, constitution* for prefix.',
+        },
+        ecli: {
+          type: 'string',
+          description:
+            'Optional: exact ECLI for direct retrieval (e.g., "ECLI:CY:AD:2018:123"). ' +
+            'When provided, query becomes secondary and ECLI lookup runs first.',
+        },
+        court: {
+          type: 'string',
+          description:
+            'Optional: filter by court name (case-insensitive partial match). ' +
+            'Examples: "Supreme Court", "ECHR", "Administrative".',
+        },
+        legal_field: {
+          type: 'string',
+          description: 'Optional: filter by legal field (e.g., "data protection", "competition", "contract").',
+        },
+        date_from: {
+          type: 'string',
+          description: 'Optional: ISO date YYYY-MM-DD. Earliest decision_date to include.',
+        },
+        date_to: {
+          type: 'string',
+          description: 'Optional: ISO date YYYY-MM-DD. Latest decision_date to include.',
+        },
+        limit: {
+          type: 'number',
+          description: 'Maximum results to return (default: 10, max: 50).',
+          default: 10,
+        },
+      },
+      required: ['query'],
+    },
+  },
 ];
 
 const EU_TOOL_NAMES = new Set([
@@ -308,11 +409,29 @@ const EU_TOOL_NAMES = new Set([
   'validate_eu_compliance',
 ]);
 
+const PREMIUM_TOOL_NAMES = new Set<string>([
+  'search_agency_guidance',
+  'search_case_law',
+]);
+
+/**
+ * Maps a premium tool name to the row-count probe that decides whether
+ * to expose it. A tool stays hidden until its underlying table has at
+ * least one row — this prevents tools/list from advertising surfaces
+ * that would always return empty (which would silently break grounding
+ * checks downstream).
+ */
+const PREMIUM_TOOL_PROBES: Record<string, string> = {
+  search_agency_guidance: 'SELECT COUNT(*) as cnt FROM agency_guidance',
+  search_case_law: 'SELECT COUNT(*) as cnt FROM case_law',
+};
+
 export function buildTools(
   db?: InstanceType<typeof Database>,
   context?: AboutContext,
 ): Tool[] {
   let hasEuData = false;
+  const premiumAvailable = new Set<string>();
 
   if (db) {
     // Check if EU reference tables exist AND have data
@@ -322,10 +441,23 @@ export function buildTools(
     } catch {
       // Table doesn't exist — EU tools will be hidden
     }
+
+    // Premium tools: gate per-table on row count > 0 so we never advertise
+    // a tool that would always return empty (e.g. case_law before the
+    // Supreme Court adapter has run).
+    for (const [toolName, probeSql] of Object.entries(PREMIUM_TOOL_PROBES)) {
+      try {
+        const row = db.prepare(probeSql).get() as { cnt: number };
+        if (row.cnt > 0) premiumAvailable.add(toolName);
+      } catch {
+        // Table doesn't exist — leave tool hidden
+      }
+    }
   }
 
   const tools = TOOLS.filter(t => {
     if (EU_TOOL_NAMES.has(t.name) && !hasEuData) return false;
+    if (PREMIUM_TOOL_NAMES.has(t.name) && !premiumAvailable.has(t.name)) return false;
     return true;
   });
 
@@ -388,6 +520,12 @@ export function registerTools(
           break;
         case 'validate_eu_compliance':
           result = await validateEUCompliance(db, args as unknown as ValidateEUComplianceInput);
+          break;
+        case 'search_agency_guidance':
+          result = await searchAgencyGuidance(db, args as unknown as SearchAgencyGuidanceInput);
+          break;
+        case 'search_case_law':
+          result = await searchCaseLaw(db, args as unknown as SearchCaseLawInput);
           break;
         case 'list_sources':
           result = await listSources(db);
