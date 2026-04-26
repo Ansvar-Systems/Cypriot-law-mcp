@@ -103,7 +103,7 @@ jobs:
       # GHAS Code Security) catch most issues before merge.
       - name: Trivy image scan
         if: github.ref == 'refs/heads/main'
-        uses: aquasecurity/trivy-action@0.35.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: ${{ env.REGISTRY }}/ansvar-systems/${{ env.IMAGE_NAME }}:latest
           format: sarif
