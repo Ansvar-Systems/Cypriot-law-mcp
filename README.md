@@ -2,9 +2,17 @@
 
 Model Context Protocol (MCP) server for Cypriot legal compliance, sourced from primary government and EU portals only.
 
+## Out of scope: cylaw.org (CyLaw / KINOP / CyLII)
+
+**This server does not ingest, redistribute, or display content from `cylaw.org`** (the Cyprus Law Portal operated by the Cyprus Bar Association via KINOP / CyLII). CyLaw's terms of service prohibit bulk extraction, indexing, and redistribution of its compilation, and we respect those terms.
+
+Any future Cypriot statute corpus will come from primary government sources only — the Supreme Court of Cyprus's own publication channels, the Official Gazette of the Republic of Cyprus, and the parliamentary record at `parliament.cy`. We will not source statutes from CyLaw under any circumstance unless and until KINOP grants written authorisation.
+
+The previous version of this repository contained a CyLaw-derived statute seed corpus and a CyLaw scraper. Both were removed in 2026-04-26 (file deletion + git history rewrite + removal from all branches and tags). The current code path does not fetch from `cylaw.org`.
+
 ## Status (2026-04-26)
 
-This repository is being rebuilt around a primary-source-only ingestion model. The legacy seed corpus and related ingestion scripts were removed because the upstream aggregator's terms prohibited bulk redistribution. No replacement corpus is committed yet; `npm run build:db` produces an empty schema until primary-source adapters are wired in.
+This repository is being rebuilt around a primary-source-only ingestion model. No replacement statute corpus is committed yet; `npm run build:db` produces an empty schema until the primary-source adapters listed below are wired in.
 
 ## Data sources (active premium-tier adapters)
 
