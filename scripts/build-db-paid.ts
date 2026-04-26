@@ -411,11 +411,35 @@ function buildPaidTier(): void {
   updateMeta();
 
   db.pragma('wal_checkpoint(TRUNCATE)');
-  db.exec('ANALYZE');
+  db.prepare('ANALYZE').run();
   // Switch back to DELETE journal mode so the shipped DB has no -shm/-wal
   // sidecars and contract tests can open it readonly without write probes.
+  //
+  // The VACUUM below is required: `journal_mode = DELETE` changes only the
+  // in-memory mode; the on-disk file format header bytes 18/19 remain at
+  // 0x02/0x02 (WAL) until VACUUM rewrites the file. Production observed
+  // 2026-04-26: the cypriot container crashlooped at startup with
+  //   SQLite3Error: unable to open database file
+  // because node-sqlite3-wasm could not acquire a shared lock on a
+  // WAL-format DB through a read-only single-file bind mount. Skipping
+  // VACUUM here re-introduces that crashloop on the next deploy.
   db.pragma('journal_mode = DELETE');
+  db.prepare('VACUUM').run();
   db.close();
+
+  // Verify file format byte 18 is 0x01 (rollback). If still 0x02, the WAL
+  // header conversion failed — fail the build loudly rather than ship a
+  // DB that will crashloop in prod.
+  const fd = fs.openSync(DB_PATH, 'r');
+  const headerByte = Buffer.alloc(1);
+  fs.readSync(fd, headerByte, 0, 1, 18);
+  fs.closeSync(fd);
+  if (headerByte[0] !== 0x01) {
+    throw new Error(
+      `Build aborted: SQLite file format byte 18 is 0x${headerByte[0].toString(16).padStart(2, '0')}, ` +
+      `expected 0x01 (rollback). The DB will crashloop when bind-mounted RO into the container.`,
+    );
+  }
 
   const sizeAfter = fs.statSync(DB_PATH).size;
   console.log(
