@@ -13,8 +13,9 @@
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "rootDir": "./src"
   },
-  "include": ["src", "__tests__", "scripts", "api"],
-  "exclude": ["node_modules", "dist", "data"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "data", "scripts", "__tests__", "api"]
 }
