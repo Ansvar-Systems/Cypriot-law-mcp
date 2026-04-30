@@ -9,7 +9,7 @@ WORKDIR /app
 # Only in the builder stage — runtime uses @ansvar/mcp-sqlite (WASM) and
 # never imports better-sqlite3. Build:db scripts still use better-sqlite3
 # for ingestion-time work where native is faster.
-RUN apk add --no-cache python3 make g++
+RUN apk add --no-cache python3 make g++ curl
 
 COPY package*.json ./
 # --ignore-scripts skips better-sqlite3's prebuild-install; npm rebuild
@@ -22,6 +22,10 @@ COPY data ./data
 COPY scripts ./scripts
 
 RUN npm run build && npm run build:db && npm run build:db:paid
+
+# Adds ~12 min: hits EUR-Lex SPARQL, www.cysec.gov.cy, gdprhub.eu.
+# Prod cypriot-law has no bind-mounted DB so the image must carry data.
+RUN npm run ingest:paid
 
 # ── Stage 2: Runtime ────────────────────────────────────────────────────
 FROM node:20-alpine AS production
