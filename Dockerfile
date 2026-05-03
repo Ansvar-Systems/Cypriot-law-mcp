@@ -27,6 +27,14 @@ RUN npm run build && npm run build:db && npm run build:db:paid
 # Prod cypriot-law has no bind-mounted DB so the image must carry data.
 RUN npm run ingest:paid
 
+# Flip journal_mode WAL -> DELETE and VACUUM so the runtime WASM SQLite
+# can read the DB. ingest:paid leaves the DB in WAL mode by default;
+# WASM SQLite can only read DELETE-mode journals. Without this, runtime
+# crashes on first db.prepare() with "unable to open database file"
+# (byte 18 of the file = 0x02 instead of 0x01). Same flip lives in
+# build-db-paid.ts but ingest:paid runs after it and undoes the flip.
+RUN node scripts/finalise-db.cjs
+
 # ── Stage 2: Runtime ────────────────────────────────────────────────────
 FROM node:20-alpine AS production
 WORKDIR /app
