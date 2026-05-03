@@ -58,7 +58,7 @@ const RETRY_BACKOFF_MS = 2000;
 const USER_AGENT = 'Cypriot-Law-MCP/1.0.0 (premium-ingestion)';
 
 const SOURCE_URI = SPARQL_ENDPOINT;
-const LICENSE_ID = 'EU-2011-833';
+const LICENSE_ID = 'EU-Decision-2011-833';
 const PROVENANCE_TIER = 'blue';
 
 // ─────────────────────────────────────────────────────────────────────────────

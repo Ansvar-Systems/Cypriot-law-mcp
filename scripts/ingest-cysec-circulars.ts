@@ -66,7 +66,7 @@ const USER_AGENT = 'Cypriot-Law-MCP/1.0.0 (premium-ingestion)';
 const CURL_TIMEOUT_SECS = 30;
 
 const AGENCY_NAME = 'Cyprus Securities and Exchange Commission (CySEC)';
-const LICENSE_ID = 'government-publication';
+const LICENSE_ID = 'Cyprus-PSI';
 const PROVENANCE_TIER = 'amber';
 
 /**

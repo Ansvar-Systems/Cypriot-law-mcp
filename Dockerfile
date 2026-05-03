@@ -10,7 +10,7 @@
 #
 # Refreshing data and shipping a code change are independent operations.
 # A single EU outage cannot block code releases, and a code release no
-# longer hammers cysec.gov.cy / EUR-Lex / gdprhub.eu.
+# longer hammers cysec.gov.cy or EUR-Lex.
 
 # ── Data layer (pre-built, refreshed on a separate schedule) ────────────
 FROM ghcr.io/ansvar-systems/cypriot-law-mcp-data:latest AS data

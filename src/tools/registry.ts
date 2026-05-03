@@ -303,8 +303,7 @@ export const TOOLS: Tool[] = [
     name: 'search_agency_guidance',
     description:
       'Premium tier — Search Cypriot regulatory agency guidance and decisions by keyword (FTS5 with BM25 ranking). ' +
-      'Currently indexes the Cyprus Data Protection Commissioner (DPA) decisions sourced from GDPRhub ' +
-      'and CySEC circulars (Cyprus Securities and Exchange Commission). ' +
+      'Currently indexes CySEC circulars (Cyprus Securities and Exchange Commission). ' +
       'Returns matching documents with agency, title, document type, issued date, and content snippet ' +
       'with >>> <<< markers around matched terms. ' +
       'Use this to discover regulatory enforcement actions, supervisory expectations, and agency interpretations ' +

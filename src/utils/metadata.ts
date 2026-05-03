@@ -33,7 +33,7 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Premium adapters (CySEC circulars, EUR-Lex SPARQL, GDPRhub MediaWiki) — primary-source-only',
+    data_source: 'Premium adapters (CySEC circulars, EUR-Lex SPARQL) — primary-source-only',
     jurisdiction: 'CY',
     disclaimer:
       'This data is sourced from primary government and EU portals. ' +

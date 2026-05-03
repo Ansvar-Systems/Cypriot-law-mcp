@@ -1,10 +1,9 @@
 # Refresh the data-only image (cypriot-law-mcp-data) on a schedule.
 #
 # Builds Dockerfile.data, which runs the full ingestion pipeline against
-# cysec.gov.cy + EUR-Lex SPARQL + gdprhub.eu, and pushes the resulting
-# image to private GHCR. The main app Dockerfile then pulls this image
-# via COPY --from=...-data:latest so its own build never touches the
-# network.
+# cysec.gov.cy and EUR-Lex SPARQL, and pushes the resulting image to
+# private GHCR. The main app Dockerfile then pulls this image via
+# COPY --from=...-data:latest so its own build never touches the network.
 #
 # This is the only workflow allowed to hit EU public servers — and it
 # only runs weekly. See MCP Infrastructure Standard §3.4.4.
@@ -13,9 +12,9 @@ name: Refresh Data Image
 
 on:
   schedule:
-    # Weekly Sunday 03:00 UTC. cysec circulars and gdprhub decisions
-    # don't move fast enough to need a tighter cadence; EUR-Lex NIMs
-    # update daily but a one-week lag is acceptable for compliance use.
+    # Weekly Sunday 03:00 UTC. cysec circulars don't move fast enough
+    # to need a tighter cadence; EUR-Lex NIMs update daily but a
+    # one-week lag is acceptable for compliance use.
     - cron: '0 3 * * 0'
   workflow_dispatch:
     inputs:
