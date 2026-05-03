@@ -1,0 +1,49 @@
+# Cypriot Law MCP — data-only image
+#
+# Produces /database.db (~4.6 MB) with full premium content from
+# cysec.gov.cy + EUR-Lex SPARQL + gdprhub.eu. This is the ONLY place
+# in the build chain that hits external EU servers.
+#
+# Built and pushed by .github/workflows/refresh-data.yml on a weekly
+# schedule (or on workflow_dispatch). The main Dockerfile then pulls
+# this image via `COPY --from=...-data:latest /database.db` so its
+# build never touches the network.
+#
+# Conforms to MCP Infrastructure & Deployment Standard §3.4 / §3.4.4
+# (premium ingestion separated from image build) and the all-private-
+# GHCR policy. This image must be private on GHCR.
+
+# ── Stage 1: Build & ingest ─────────────────────────────────────────────
+FROM node:20-alpine AS builder
+WORKDIR /app
+
+# better-sqlite3 needs native build tools. curl is required by the cysec
+# adapter's IIS-header workaround.
+RUN apk add --no-cache python3 make g++ curl
+
+COPY package*.json ./
+RUN npm ci --ignore-scripts && npm rebuild better-sqlite3 && npm cache clean --force
+
+COPY tsconfig.json ./
+COPY src ./src
+COPY data ./data
+COPY scripts ./scripts
+
+RUN npm run build && npm run build:db && npm run build:db:paid
+
+# Heavy step: hits cysec.gov.cy (~30 min), EUR-Lex SPARQL (~10 min),
+# gdprhub.eu (~5 min). ingest-eurlex-cy-nim.ts soft-fails on upstream
+# 5xx so a single EU outage does not block the run; the resulting DB
+# may have an empty NIM table that gets backfilled on the next refresh.
+RUN npm run ingest:paid
+
+# WASM SQLite cannot read WAL-mode journals. ingest:paid writes via
+# better-sqlite3 in default WAL mode and undoes the build:db:paid VACUUM,
+# so we flip back to DELETE explicitly here. Idempotent.
+RUN node scripts/finalise-db.cjs
+
+# ── Stage 2: Output ─────────────────────────────────────────────────────
+# Just the DB file. The consuming Dockerfile copies it via
+# COPY --from=ghcr.io/.../cypriot-law-mcp-data:latest /database.db
+FROM scratch
+COPY --from=builder /app/data/database.db /database.db
