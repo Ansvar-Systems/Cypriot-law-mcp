@@ -1,8 +1,7 @@
 /**
  * search_agency_guidance — Full-text search across regulatory agency guidance.
  *
- * Currently indexed agencies (per the staging DB at /data/premium-dbs/cypriot-law/):
- *   - Commissioner for Personal Data Protection (Cyprus DPA) — 33 records via GDPRhub
+ * Currently indexed agencies:
  *   - Cyprus Securities and Exchange Commission (CySEC) — 943 circular metadata
  *
  * Adapter sources are documented in scripts/premium-ingestion/cypriot/sources.yml.

@@ -20,7 +20,6 @@ This repository is being rebuilt around a primary-source-only ingestion model. N
 |---|---|---|
 | EUR-Lex SPARQL (Cyprus NIM) | Publications Office of the EU | 6,377 NIM transposition measures |
 | CySEC Circulars | Cyprus Securities and Exchange Commission | 943 circular metadata records |
-| GDPRhub Cyprus DPA decisions | noyb (CC BY-SA 4.0) | 33 decision summaries |
 
 ## Data sources (planned, not yet ingested)
 

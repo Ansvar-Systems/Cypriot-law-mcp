@@ -1,8 +1,8 @@
 # Cypriot Law MCP — data-only image
 #
-# Produces /database.db (~4.6 MB) with full premium content from
-# cysec.gov.cy + EUR-Lex SPARQL + gdprhub.eu. This is the ONLY place
-# in the build chain that hits external EU servers.
+# Produces /database.db with full premium content from cysec.gov.cy
+# and EUR-Lex SPARQL. This is the ONLY place in the build chain that
+# hits external EU servers.
 #
 # Built and pushed by .github/workflows/refresh-data.yml on a weekly
 # schedule (or on workflow_dispatch). The main Dockerfile then pulls
@@ -31,10 +31,10 @@ COPY scripts ./scripts
 
 RUN npm run build && npm run build:db && npm run build:db:paid
 
-# Heavy step: hits cysec.gov.cy (~30 min), EUR-Lex SPARQL (~10 min),
-# gdprhub.eu (~5 min). ingest-eurlex-cy-nim.ts soft-fails on upstream
-# 5xx so a single EU outage does not block the run; the resulting DB
-# may have an empty NIM table that gets backfilled on the next refresh.
+# Heavy step: hits cysec.gov.cy (~30 min) and EUR-Lex SPARQL (~10 min).
+# ingest-eurlex-cy-nim.ts soft-fails on upstream 5xx so a single EU
+# outage does not block the run; the resulting DB may have an empty
+# NIM table that gets backfilled on the next refresh.
 RUN npm run ingest:paid
 
 # WASM SQLite cannot read WAL-mode journals. ingest:paid writes via
