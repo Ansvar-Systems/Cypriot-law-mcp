@@ -175,10 +175,10 @@ CREATE TRIGGER definitions_au AFTER UPDATE ON definitions BEGIN
   VALUES (new.id, new.term, new.definition);
 END;
 
--- EU Documents (directives and regulations)
+-- EU Documents (directives, regulations, and Cyprus National Implementing Measures)
 CREATE TABLE eu_documents (
   id TEXT PRIMARY KEY,
-  type TEXT NOT NULL CHECK (type IN ('directive', 'regulation')),
+  type TEXT NOT NULL CHECK (type IN ('directive', 'regulation', 'nim')),
   year INTEGER NOT NULL CHECK (year >= 1957 AND year <= 2100),
   number INTEGER NOT NULL CHECK (number > 0),
   community TEXT CHECK (community IN ('EU', 'EC', 'EEC', 'Euratom')),

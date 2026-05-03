@@ -374,7 +374,7 @@ function insertNims(
         source_uri, license_identifier, ingestion_timestamp,
         source_record_id, provenance_tier
       ) VALUES (
-        @id, 'decision', @year, @number, @celex_number, @title,
+        @id, 'nim', @year, @number, @celex_number, @title,
         @url_eur_lex, @last_updated,
         @source_uri, @license_identifier, @ingestion_timestamp,
         @source_record_id, @provenance_tier
@@ -391,7 +391,7 @@ function insertNims(
         source_uri, license_identifier, ingestion_timestamp,
         source_record_id, provenance_tier
       ) VALUES (
-        @id, 'NIM', @celex_number, @title, @url_eur_lex,
+        @id, 'nim', @celex_number, @title, @url_eur_lex,
         @source_uri, @license_identifier, @ingestion_timestamp,
         @source_record_id, @provenance_tier
       )
@@ -610,12 +610,29 @@ async function ingestEurLexCyNim(options: CliOptions): Promise<void> {
   log('Inserting NIM records...');
   const stats = insertNims(db, nims, ingestionTimestamp);
 
-  // ── Step 6: Optimize and close ────────────────────────────────────────────
+  // ── Step 6: Sanity check — detect silent INSERT failures ──────────────────
+  // INSERT OR IGNORE swallows CHECK / NOT NULL / schema-mismatch failures and
+  // returns changes=0, so stats.documents_skipped looks like "already there"
+  // when it actually means "every row was rejected." If we fetched records
+  // but eu_documents is still empty, the build is broken and the image must
+  // not ship. SPARQL-outage case (records_fetched=0) is already handled above.
+  const postCount = (db.prepare('SELECT COUNT(*) as n FROM eu_documents').get() as { n: number }).n;
+  if (stats.records_fetched > 0 && postCount === 0) {
+    db.close();
+    log('');
+    log('ERROR: Fetched NIM records but eu_documents is empty after ingest.');
+    log('       All inserts were silently dropped. Likely cause: CHECK');
+    log('       constraint violation, NOT NULL violation, or schema mismatch');
+    log('       swallowed by INSERT OR IGNORE. Inspect schema vs. INSERT.');
+    process.exit(1);
+  }
+
+  // ── Step 7: Optimize and close ────────────────────────────────────────────
   db.pragma('wal_checkpoint(TRUNCATE)');
   db.exec('ANALYZE');
   db.close();
 
-  // ── Step 7: Summary report ────────────────────────────────────────────────
+  // ── Step 8: Summary report ────────────────────────────────────────────────
   log('');
   log('='.repeat(70));
   log('EUR-Lex Cyprus NIM Ingestion Complete');
