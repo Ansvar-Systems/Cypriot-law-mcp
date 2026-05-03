@@ -522,6 +522,25 @@ async function ingestEurLexCyNim(options: CliOptions): Promise<void> {
   try {
     nims = await fetchAllNims(options.limit);
   } catch (error) {
+    // Distinguish upstream-unavailable (5xx, network failures) from code errors.
+    // EUR-Lex SPARQL has visible outages (e.g. sustained 502 on 2026-05-03 that
+    // blocked every cypriot-law-mcp release for ~30 min). Treating those as
+    // build-fatal couples our image production to EU infrastructure uptime.
+    // Real code errors (parse failure, schema mismatch, DB write failure)
+    // still exit 1 below — they indicate our bug, not theirs.
+    const msg = error instanceof Error ? error.message : String(error);
+    const isUpstreamUnavailable =
+      /^HTTP 5\d\d/.test(msg) ||
+      /fetch failed|ENOTFOUND|ECONNRESET|ECONNREFUSED|ETIMEDOUT|EAI_AGAIN/i.test(msg);
+    if (isUpstreamUnavailable) {
+      logError(
+        'EUR-Lex SPARQL endpoint unavailable after retries — skipping NIM ingestion for this build',
+        error as Error,
+      );
+      log('  Build continues. eu_documents will not include NIM records from this run.');
+      log('  Re-run the publish workflow once EUR-Lex SPARQL recovers to backfill.');
+      return;
+    }
     logError('Failed to fetch NIM records from SPARQL endpoint', error as Error);
     process.exit(1);
   }
