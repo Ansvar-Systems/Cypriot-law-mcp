@@ -1,39 +1,31 @@
 # Cypriot Law MCP — HTTP transport
-# Conforms to MCP Infrastructure & Deployment Standard §3 + §13.
+#
+# Two-image pattern (per MCP Infrastructure Standard §3.4.4):
+#
+#   * cypriot-law-mcp-data:latest   — populated SQLite DB. Built weekly
+#                                     by .github/workflows/refresh-data.yml
+#                                     using Dockerfile.data. Hits EU servers.
+#   * cypriot-law-mcp:latest        — this image. Pulls the DB from above.
+#                                     Build does NO external HTTP.
+#
+# Refreshing data and shipping a code change are independent operations.
+# A single EU outage cannot block code releases, and a code release no
+# longer hammers cysec.gov.cy / EUR-Lex / gdprhub.eu.
 
-# ── Stage 1: Build ──────────────────────────────────────────────────────
+# ── Data layer (pre-built, refreshed on a separate schedule) ────────────
+FROM ghcr.io/ansvar-systems/cypriot-law-mcp-data:latest AS data
+
+# ── Stage 1: Build code ─────────────────────────────────────────────────
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# better-sqlite3 needs native build tools to compile its bindings.
-# Only in the builder stage — runtime uses @ansvar/mcp-sqlite (WASM) and
-# never imports better-sqlite3. Build:db scripts still use better-sqlite3
-# for ingestion-time work where native is faster.
-RUN apk add --no-cache python3 make g++ curl
-
 COPY package*.json ./
-# --ignore-scripts skips better-sqlite3's prebuild-install; npm rebuild
-# triggers it explicitly so the native bindings exist for build:db scripts.
-RUN npm ci --ignore-scripts && npm rebuild better-sqlite3 && npm cache clean --force
+RUN npm ci --ignore-scripts && npm cache clean --force
 
 COPY tsconfig.json ./
 COPY src ./src
-COPY data ./data
-COPY scripts ./scripts
 
-RUN npm run build && npm run build:db && npm run build:db:paid
-
-# Adds ~12 min: hits EUR-Lex SPARQL, www.cysec.gov.cy, gdprhub.eu.
-# Prod cypriot-law has no bind-mounted DB so the image must carry data.
-RUN npm run ingest:paid
-
-# Flip journal_mode WAL -> DELETE and VACUUM so the runtime WASM SQLite
-# can read the DB. ingest:paid leaves the DB in WAL mode by default;
-# WASM SQLite can only read DELETE-mode journals. Without this, runtime
-# crashes on first db.prepare() with "unable to open database file"
-# (byte 18 of the file = 0x02 instead of 0x01). Same flip lives in
-# build-db-paid.ts but ingest:paid runs after it and undoes the flip.
-RUN node scripts/finalise-db.cjs
+RUN npm run build
 
 # ── Stage 2: Runtime ────────────────────────────────────────────────────
 FROM node:20-alpine AS production
@@ -46,7 +38,7 @@ COPY package*.json ./
 RUN npm ci --omit=dev --ignore-scripts && npm cache clean --force
 
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/data/database.db ./data/database.db
+COPY --from=data /database.db ./data/database.db
 
 RUN chown -R nodejs:nodejs /app/data
 USER nodejs

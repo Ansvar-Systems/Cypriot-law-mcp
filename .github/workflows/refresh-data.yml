@@ -1,0 +1,74 @@
+# Refresh the data-only image (cypriot-law-mcp-data) on a schedule.
+#
+# Builds Dockerfile.data, which runs the full ingestion pipeline against
+# cysec.gov.cy + EUR-Lex SPARQL + gdprhub.eu, and pushes the resulting
+# image to private GHCR. The main app Dockerfile then pulls this image
+# via COPY --from=...-data:latest so its own build never touches the
+# network.
+#
+# This is the only workflow allowed to hit EU public servers — and it
+# only runs weekly. See MCP Infrastructure Standard §3.4.4.
+
+name: Refresh Data Image
+
+on:
+  schedule:
+    # Weekly Sunday 03:00 UTC. cysec circulars and gdprhub decisions
+    # don't move fast enough to need a tighter cadence; EUR-Lex NIMs
+    # update daily but a one-week lag is acceptable for compliance use.
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      trigger_app_rebuild:
+        description: 'Trigger publish-ghcr after data refresh (default true)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  packages: write
+  actions: write
+
+concurrency:
+  # Don't run two ingestions at once — they'd hit EU servers in parallel.
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  build-data-image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push data image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.data
+          push: true
+          tags: |
+            ghcr.io/ansvar-systems/cypriot-law-mcp-data:latest
+            ghcr.io/ansvar-systems/cypriot-law-mcp-data:${{ github.sha }}
+          platforms: linux/amd64
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Trigger app image rebuild
+        if: ${{ inputs.trigger_app_rebuild != false }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Refreshed data -> rebuild the app image so :latest carries the
+          # new DB. publish-ghcr.yml accepts workflow_dispatch.
+          gh workflow run publish-ghcr.yml --repo "$REPO" --ref main
