@@ -138,3 +138,28 @@ jobs:
           TAGS: ${{ steps.meta.outputs.tags }}
           REF_NAME: ${{ github.ref_name }}
           SHA: ${{ github.sha }}
+
+      - name: Trigger Watchtower update on prod
+        if: success() && github.ref == 'refs/heads/main'
+        continue-on-error: true
+        env:
+          WATCHTOWER_TOKEN: ${{ secrets.WATCHTOWER_HTTP_API_TOKEN }}
+        run: |
+          if [ -z "$WATCHTOWER_TOKEN" ]; then
+            echo "WATCHTOWER_HTTP_API_TOKEN not set — skipping kick. Prod will swap on next hourly Watchtower poll."
+            echo "To enable near-instant deploys, add this secret to the repo (value lives in /opt/ansvar/prod/mcp/watchtower/.env on the prod host)."
+            exit 0
+          fi
+          echo "Kicking Watchtower /v1/update..."
+          HTTP=$(curl -X POST -sS -o /tmp/watchtower-response \
+            -H "Authorization: Bearer $WATCHTOWER_TOKEN" \
+            -w "%{http_code}" \
+            https://watchtower.ansvar.eu/v1/update) || HTTP="000"
+          echo "Response code: $HTTP"
+          head -c 500 /tmp/watchtower-response 2>/dev/null || true
+          echo
+          if [ "$HTTP" = "200" ]; then
+            echo "OK: Watchtower scan triggered — prod should swap container within seconds."
+          else
+            echo "WARN: Watchtower kick returned HTTP $HTTP. Hourly poll will swap eventually."
+          fi
