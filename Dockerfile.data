@@ -1,8 +1,10 @@
 # Cypriot Law MCP — data-only image
 #
-# Produces /database.db (~4.6 MB) with full premium content from
-# cysec.gov.cy + EUR-Lex SPARQL + gdprhub.eu. This is the ONLY place
-# in the build chain that hits external EU servers.
+# Produces /database.db (~2.2 MB) with premium content from
+# cysec.gov.cy (Cyprus-PSI) + EUR-Lex SPARQL (EUR-Lex-Decision-2011-833). This
+# is the ONLY place in the build chain that hits external EU servers.
+# GDPRhub Cyprus DPA decisions (CC-BY-SA-4.0) were dropped 2026-05-03 per
+# the source-licensing decision log (volume too low for SA complexity).
 #
 # Built and pushed by .github/workflows/refresh-data.yml on a weekly
 # schedule (or on workflow_dispatch). The main Dockerfile then pulls
@@ -32,7 +34,7 @@ COPY scripts ./scripts
 RUN npm run build && npm run build:db && npm run build:db:paid
 
 # Heavy step: hits cysec.gov.cy (~30 min), EUR-Lex SPARQL (~10 min),
-# gdprhub.eu (~5 min). ingest-eurlex-cy-nim.ts soft-fails on upstream
+# ingest-eurlex-cy-nim.ts soft-fails on upstream
 # 5xx so a single EU outage does not block the run; the resulting DB
 # may have an empty NIM table that gets backfilled on the next refresh.
 RUN npm run ingest:paid
