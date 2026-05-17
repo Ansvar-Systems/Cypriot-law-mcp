@@ -9,6 +9,7 @@ coverage/
 data/source/
 .claude/
 .serena/
+.worktrees/
 data/database.db-shm
 data/database.db-wal
 *-e
