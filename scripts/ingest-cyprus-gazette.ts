@@ -89,13 +89,21 @@ const BASE_URL = 'https://www.mof.gov.cy';
 //   app=7   ΠΑΡΑΡΤΗΜΑ ΤΡΙΤΟ ΙΙ  Individual Administrative Acts    → annex III (follow-up)
 //   app=8   ΠΑΡΑΡΤΗΜΑ ΤΕΤΑΡΤΟ Ι  Council of Ministers Decisions   → annex IV (follow-up)
 //   app=9   ΠΑΡΑΡΤΗΜΑ ΤΕΤΑΡΤΟ ΙΙ Decisions of House of Reps.      → annex IV (follow-up)
-//   app=10  ΠΑΡΑΡΤΗΜΑ ΠΕΜΠΤΟ Ι  (Annex V)                          → annex V (follow-up)
-// Follow-up apps require a schema migration to support (year, issue_number, annex, part)
-// uniqueness instead of the current (year, issue_number, annex). This MVP targets just
-// app=16 — the highest-value content for a Cypriot law firm doing primary-law research.
+//   app=10  ΠΑΡΑΡΤΗΜΑ ΠΕΜΠΤΟ Ι  (Annex V)                          → annex V
+// Schema (gazette_issues) now uses UNIQUE(year, issue_number, annex, part) so all
+// 10 apps can coexist within the same DB. See build-db-paid.ts schema definition.
 const APP_VIEW_PATH = '/mof/gpo/gazette.nsf/dmlgaz_appsw_gr/dmlgaz_appsw_gr';
-const TARGET_APPS: Array<{ app: number; annex: 'I' | 'II' | 'III' | 'IV' | 'V'; label: string }> = [
-  { app: 16, annex: 'I', label: 'ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ Ι — General Legislation (LAWS)' },
+const TARGET_APPS: Array<{ app: number; annex: 'I' | 'II' | 'III' | 'IV' | 'V'; part: 'I' | 'II' | 'III'; label: string }> = [
+  { app: 16, annex: 'I',   part: 'I',   label: 'ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ Ι — General Legislation (LAWS)' },
+  { app: 2,  annex: 'I',   part: 'II',  label: 'ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ ΙΙ — Budget Laws + Semi-State Org Budgets' },
+  { app: 3,  annex: 'I',   part: 'III', label: 'ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ ΙΙΙ — Ratifying Laws + Agreements + Protocols' },
+  { app: 4,  annex: 'II',  part: 'I',   label: 'ΠΑΡΑΡΤΗΜΑ ΔΕΥΤΕΡΟ Ι — Procedural Rules + House Rules' },
+  { app: 5,  annex: 'II',  part: 'II',  label: 'ΠΑΡΑΡΤΗΜΑ ΔΕΥΤΕΡΟ ΙΙ — Supreme Court Opinions + Decisions' },
+  { app: 6,  annex: 'III', part: 'I',   label: 'ΠΑΡΑΡΤΗΜΑ ΤΡΙΤΟ Ι — Regulatory Administrative Acts' },
+  { app: 7,  annex: 'III', part: 'II',  label: 'ΠΑΡΑΡΤΗΜΑ ΤΡΙΤΟ ΙΙ — Individual Administrative Acts' },
+  { app: 8,  annex: 'IV',  part: 'I',   label: 'ΠΑΡΑΡΤΗΜΑ ΤΕΤΑΡΤΟ Ι — Council of Ministers Decisions' },
+  { app: 9,  annex: 'IV',  part: 'II',  label: 'ΠΑΡΑΡΤΗΜΑ ΤΕΤΑΡΤΟ ΙΙ — House of Representatives Decisions' },
+  { app: 10, annex: 'V',   part: 'I',   label: 'ΠΑΡΑΡΤΗΜΑ ΠΕΜΠΤΟ Ι — Annex V' },
 ];
 const REQUEST_DELAY_MS = 1500;
 const MAX_RETRIES = 3;
@@ -137,6 +145,7 @@ interface IssueMetadata {
   year: number;
   issue_number: number;
   annex: 'I' | 'II' | 'III' | 'IV' | 'V';
+  part: 'I' | 'II' | 'III';
   publication_date: string;
   source_url: string;
   pdf_url: string | null;
@@ -266,7 +275,12 @@ function parseSectionListing(html: string): SectionListingEntry[] {
 // Issue-page parser
 // ─────────────────────────────────────────────────────────────────────────────
 
-function parseIssuePage(html: string, doc_unid: string, annexFromUrl: 'I' | 'II' | 'III' | 'IV' | 'V'): IssueMetadata | null {
+function parseIssuePage(
+  html: string,
+  doc_unid: string,
+  annexFromUrl: 'I' | 'II' | 'III' | 'IV' | 'V',
+  partFromUrl: 'I' | 'II' | 'III',
+): IssueMetadata | null {
   // The issue page has two possible formats depending on which annex/app it
   // belongs to:
   //   - Personnel section (sectional view):  <strong>ΤΜΗΜΑ - Α<br>...</strong>
@@ -303,6 +317,7 @@ function parseIssuePage(html: string, doc_unid: string, annexFromUrl: 'I' | 'II'
     year,
     issue_number: issueNumber,
     annex: annexFromUrl,
+    part: partFromUrl,
     publication_date: isoDate,
     source_url: `${BASE_URL}/mof/gpo/gazette.nsf/All/${doc_unid}?OpenDocument`,
     pdf_url: pdfUrl,
@@ -317,13 +332,13 @@ function parseIssuePage(html: string, doc_unid: string, annexFromUrl: 'I' | 'II'
 
 function upsertIssue(db: Database.Database, meta: IssueMetadata): boolean {
   const sql = `INSERT INTO gazette_issues (
-    year, issue_number, annex, publication_date, source_url,
+    year, issue_number, annex, part, publication_date, source_url,
     pdf_path, source_uri, license_identifier, ingestion_timestamp, source_record_id, provenance_tier, page_count
   ) VALUES (
-    @year, @issue_number, @annex, @publication_date, @source_url,
+    @year, @issue_number, @annex, @part, @publication_date, @source_url,
     @pdf_url, @source_url, @license_identifier, @ingestion_timestamp, @doc_unid, @provenance_tier, @page_count
   )
-  ON CONFLICT(year, issue_number, annex) DO UPDATE SET
+  ON CONFLICT(year, issue_number, annex, part) DO UPDATE SET
     publication_date = excluded.publication_date,
     source_url = excluded.source_url,
     pdf_path = excluded.pdf_path,
@@ -384,13 +399,13 @@ async function main() {
   let totalUpserted = 0;
   const seenUnids = new Set<string>();
 
-  // Iterate each target app (this MVP: just app=16 General Laws).
-  // cp paginates within each app's listing. The `Count=1000` param requests
-  // a wide window per page; cp seems to be year-bucket (cp=12 returned 2026
-  // issues at the time of probe). We iterate cp 1..maxCp until we see two
-  // consecutive empty pages.
+  // Iterate each target app. Cyprus Gazette navigation tree exposes 10 app IDs
+  // (per the dmlgaz_app_gr page), one per (annex × part) cell. Each app's listing
+  // is independent; the `Count=1000` param fetches all current-year entries in
+  // one go for that app. `cp` is a navigation context (not a paginator) — we still
+  // walk cp 1..maxCp defensively, stopping after 2 consecutive empty pages.
   outer: for (const target of TARGET_APPS) {
-    log(`\n=== App ${target.app} — ${target.label} (annex ${target.annex}) ===`);
+    log(`\n=== App ${target.app} — ${target.label} (annex ${target.annex} part ${target.part}) ===`);
     let cp = 1;
     let consecutiveEmpty = 0;
     while (cp <= opts.maxCp) {
@@ -434,21 +449,21 @@ async function main() {
           continue;
         }
 
-        const meta = parseIssuePage(issueHtml, entry.doc_unid, target.annex);
+        const meta = parseIssuePage(issueHtml, entry.doc_unid, target.annex, target.part);
         if (!meta) {
           logError(`Issue ${entry.doc_unid} (#${entry.issue_number}): metadata parse failed`);
           continue;
         }
 
         if (opts.dryRun) {
-          log(`  [dry-run] Issue ${meta.issue_number} (${meta.annex}) ${meta.publication_date} pages=${meta.page_count} pdf=${meta.pdf_url ? 'yes' : 'no'} title="${meta.title.slice(0, 60)}"`);
+          log(`  [dry-run] Issue ${meta.issue_number} (${meta.annex}.${meta.part}) ${meta.publication_date} pages=${meta.page_count} pdf=${meta.pdf_url ? 'yes' : 'no'} title="${meta.title.slice(0, 60)}"`);
         } else if (db) {
           try {
             const changed = upsertIssue(db, meta);
             if (changed) totalUpserted++;
-            log(`  ${changed ? '+' : '='} Issue ${meta.issue_number} (${meta.annex}) ${meta.publication_date} pages=${meta.page_count}`);
+            log(`  ${changed ? '+' : '='} Issue ${meta.issue_number} (${meta.annex}.${meta.part}) ${meta.publication_date} pages=${meta.page_count}`);
           } catch (err) {
-            logError(`Upsert failed for issue ${meta.issue_number}/${meta.annex}/${meta.year}`, err);
+            logError(`Upsert failed for issue ${meta.issue_number}/${meta.annex}.${meta.part}/${meta.year}`, err);
           }
         }
       }
@@ -463,9 +478,9 @@ async function main() {
   log(`Total upserted: ${totalUpserted}`);
 
   if (db) {
-    const counts = db.prepare(`SELECT annex, COUNT(*) as n FROM gazette_issues GROUP BY annex ORDER BY annex`).all() as Array<{ annex: string; n: number }>;
-    log(`Database state after ingestion (gazette_issues by annex):`);
-    for (const row of counts) log(`  Annex ${row.annex}: ${row.n}`);
+    const counts = db.prepare(`SELECT annex, part, COUNT(*) as n FROM gazette_issues GROUP BY annex, part ORDER BY annex, part`).all() as Array<{ annex: string; part: string; n: number }>;
+    log(`Database state after ingestion (gazette_issues by annex.part):`);
+    for (const row of counts) log(`  Annex ${row.annex}.${row.part}: ${row.n}`);
     db.close();
   }
 }

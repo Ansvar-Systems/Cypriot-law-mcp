@@ -157,12 +157,13 @@ CREATE TABLE IF NOT EXISTS gazette_issues (
   year             INTEGER NOT NULL,
   issue_number     INTEGER NOT NULL,
   annex            TEXT    NOT NULL CHECK(annex IN ('I','II','III','IV','V')),
+  part             TEXT    NOT NULL DEFAULT 'I' CHECK(part IN ('I','II','III')),
   publication_date TEXT,
   source_url       TEXT,
   pdf_path         TEXT,
   pdf_sha256       TEXT,
   page_count       INTEGER,
-  UNIQUE(year, issue_number, annex)
+  UNIQUE(year, issue_number, annex, part)
 );
 
 -- Individual legal provisions extracted from gazette issues
