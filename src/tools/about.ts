@@ -51,11 +51,6 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
         url: 'https://www.cysec.gov.cy',
         authority: 'Cyprus Securities and Exchange Commission',
       },
-      {
-        name: 'GDPRhub Cyprus DPA decisions',
-        url: 'https://gdprhub.eu',
-        authority: 'noyb (community-curated mirror of Cyprus DPA decisions)',
-      },
     ],
     freshness: {
       database_built: context.dbBuilt,

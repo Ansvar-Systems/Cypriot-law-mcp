@@ -1,11 +1,15 @@
 /**
  * search_agency_guidance — Full-text search across regulatory agency guidance.
  *
- * Currently indexed agencies (per the staging DB at /data/premium-dbs/cypriot-law/):
- *   - Commissioner for Personal Data Protection (Cyprus DPA) — 33 records via GDPRhub
+ * Currently indexed agencies:
  *   - Cyprus Securities and Exchange Commission (CySEC) — 943 circular metadata
+ *     (Cyprus-PSI, Law 143(I)/2021 transposing EU PSI Directive 2019/1024)
  *
- * Adapter sources are documented in scripts/premium-ingestion/cypriot/sources.yml.
+ * GDPRhub Cyprus DPA decisions (33 records, CC-BY-SA-4.0) were dropped
+ * 2026-05-03 per the source-licensing decision log: volume too low to
+ * justify SA-licensing pipeline complexity for commercial serving.
+ *
+ * Adapter sources are documented in scripts/ingest-*.ts.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
