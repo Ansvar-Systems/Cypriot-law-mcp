@@ -38,7 +38,7 @@
     "premium:cleanup": "node --import tsx scripts/cleanup-huggingface-contamination.ts",
     "ingest:cysec": "node --import tsx scripts/ingest-cysec-circulars.ts",
     "ingest:eurlex-cy": "node --import tsx scripts/ingest-eurlex-cy-nim.ts",
-    "ingest:paid": "npm run ingest:cysec && npm run ingest:eurlex-cy",
+    "ingest:paid": "npm run ingest:cysec && npm run ingest:eurlex-cy && npm run ingest:gazette",
     "dev": "node --import tsx src/index.ts",
     "start": "node dist/index.js",
     "test": "vitest run",
@@ -51,7 +51,8 @@
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build",
     "postinstall": "test -d dist || npm run build || true",
-    "check-updates": "node --import tsx scripts/check-updates.ts"
+    "check-updates": "node --import tsx scripts/check-updates.ts",
+    "ingest:gazette": "node --import tsx scripts/ingest-cyprus-gazette.ts"
   },
   "dependencies": {
     "@ansvar/mcp-sqlite": "^1.0.3",
