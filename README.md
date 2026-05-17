@@ -49,6 +49,18 @@ check the repo root).
 
 Model Context Protocol (MCP) server for Cypriot legal compliance, sourced from primary government and EU portals only.
 
+## Licensing status (2026-05-17 update)
+
+**Cyprus has no statutory public-domain carve-out for state works.** Copyright
+Act 59/1976 Art. 4(c) grants copyright to government-created works rather than
+excluding them — the opposite of the German UrhG §5 / Czech §3 / NL Art. 11 /
+URG Art. 5 model. A `CY-Statutory-PD` licence code is **not** being added to
+the Ansvar catalog. Per ADR-030, this MCP cannot flip to GREEN by relabelling;
+it requires corpus replacement (Path B). See [`DEPRECATION_NOTICE.md`](./DEPRECATION_NOTICE.md)
+for the Path B plan: EUR-Lex Cyprus acquis + Cyprus Parliament primary
+legislation + curia.europa.eu Cyprus rulings, broadly mirroring the
+Norwegian-style 3-MCP split.
+
 ## Out of scope: cylaw.org (CyLaw / KINOP / CyLII)
 
 **This server does not ingest, redistribute, or display content from `cylaw.org`** (the Cyprus Law Portal operated by the Cyprus Bar Association via KINOP / CyLII). CyLaw's terms of service prohibit bulk extraction, indexing, and redistribution of its compilation, and we respect those terms.
